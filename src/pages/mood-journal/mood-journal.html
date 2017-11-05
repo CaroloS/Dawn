@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      your mood calendar
+    </ion-title>
+      <ion-buttons end>
+<!--      <button ion-button (click)="changeMode('month')">M</button>
+      <button ion-button (click)="changeMode('week')">W</button>
+      <button ion-button (click)="changeMode('day')">D</button> !-->
+     <button ion-button icon-only (click)="addEvent()">
+      <ion-icon name="add"></ion-icon>
+     </button>
+   </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding style="background:url(assets/img/EY58ISyRACJE84wNHL7H_dawn.gif) no-repeat center;background-size:cover;" id="page39">
+
+    <button ion-button block (click)="addEvent()" style="background-color:rgba(0,0,0,0.2);" >
+     click to add an entry
+    </button>
+    <h5 style="text-align:center;color:white;">{{ viewTitle}}
+    </h5>
+    <calendar [eventSource]="eventSource"
+      [calendarMode]="calendar.mode"
+      [currentDate]="calendar.currentDate"
+      (onEventSelected)="onEventSelected($event)"
+      (onTitleChanged)="onViewTitleChanged($event)"
+      (onTimeSelected)="onTimeSelected($event)"
+      step="30"
+      class="calendar">
+    </calendar>
+
+
+</ion-content>
