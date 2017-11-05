@@ -25745,10 +25745,6 @@ page-event-modal #submit {
   border-radius: 10px;
 }
 
-page-find-aservice .card-background-page ion-list {
-  color: white;
-}
-
 page-find-aservice * {
   color: white;
 }
