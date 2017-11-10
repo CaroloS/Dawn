@@ -25745,8 +25745,20 @@ page-event-modal #submit {
   border-radius: 10px;
 }
 
-page-find-aservice * {
+page-find-aservice .item {
   color: white;
+}
+
+page-inspirational-videos #inspirationalVideos-list-item20 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border: transparent;
+  color: white;
+}
+
+page-mentalhealthfeelslike p #hyperlink1 {
+  color: #add8e6;
+  text-decoration: none;
 }
 
 page-menu p {
