@@ -25689,6 +25689,30 @@ ion-navbar.toolbar {
   text-transform: lowercase;
 }
 
+page-advice-services #adviceServices-button5 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-advice-services #adviceServices-button6 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-advice-services #adviceServices-button7 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-advice-services #adviceServices-button8 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
 page-event-modal h2 {
   padding-left: 10px;
   font-size: 25px;
@@ -25753,7 +25777,7 @@ page-inspirational-videos #inspirationalVideos-list-item20 {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   border: transparent;
-  color: white;
+  color: "#FDFDFD";
 }
 
 page-mentalhealthfeelslike p #hyperlink1 {
@@ -25768,6 +25792,7 @@ page-menu p {
 
 page-menu #menu-button13 {
   background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
   font-size: 25px;
   height: 150px;
   width: 150px;
@@ -25776,6 +25801,7 @@ page-menu #menu-button13 {
 
 page-menu #menu-button14 {
   background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
   font-size: 25px;
   height: 150px;
   width: 150px;
@@ -25785,6 +25811,7 @@ page-menu #menu-button14 {
 
 page-menu #menu-button15 {
   background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
   font-size: 25px;
   margin-bottom: 20px;
   width: 150px;
@@ -25795,6 +25822,7 @@ page-menu #menu-button15 {
 
 page-menu #menu-button16 {
   background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
   font-size: 25px;
   margin-bottom: 20px;
   width: 150px;
@@ -25809,4 +25837,56 @@ page-mood-journal calendar {
 
 page-mood-journal calendar.currentDate {
   background-color: yellow;
+}
+
+page-nhs-self-help-leaflets {
+  color: "#464646";
+}
+
+page-relax-space #relaxSpace-button9 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-relax-space #relaxSpace-button10 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-relax-space #relaxSpace-button11 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-relax-space #relaxSpace-button12 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-self-help #selfHelp-button1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-self-help #selfHelp-button2 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-self-help #selfHelp-button3 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-self-help #selfHelp-button4 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
 }
