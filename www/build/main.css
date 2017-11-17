@@ -25713,6 +25713,11 @@ page-advice-services #adviceServices-button8 {
   font-size: 25px;
 }
 
+page-carer-support {
+  font-color: #FDFDFD;
+  font-size: 20px;
+}
+
 page-event-modal h2 {
   padding-left: 10px;
   font-size: 25px;
@@ -25777,12 +25782,21 @@ page-inspirational-videos #inspirationalVideos-list-item20 {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   border: transparent;
-  color: "#FDFDFD";
+  font-color: "#FDFDFD";
+}
+
+page-know-your-rights {
+  font-color: "#FDFDFD";
+  font-size: 20px;
 }
 
 page-mentalhealthfeelslike p #hyperlink1 {
   color: #add8e6;
   text-decoration: none;
+}
+
+page-mentalhealthfeelslike h3 {
+  font-color: #FDFDFD;
 }
 
 page-menu p {
@@ -25832,7 +25846,7 @@ page-menu #menu-button16 {
 }
 
 page-mood-journal calendar {
-  color: white;
+  color: "#FDFDFD";
 }
 
 page-mood-journal calendar.currentDate {
@@ -25840,7 +25854,7 @@ page-mood-journal calendar.currentDate {
 }
 
 page-nhs-self-help-leaflets {
-  color: "#464646";
+  font-color: "#464646";
 }
 
 page-relax-space #relaxSpace-button9 {
