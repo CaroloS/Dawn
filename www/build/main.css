@@ -25689,6 +25689,11 @@ ion-navbar.toolbar {
   text-transform: lowercase;
 }
 
+page-abuse #page332 {
+  background: url(assets/img/nLznCUVpTMKmiKs0JxC4_dawn.gif) no-repeat center;
+  background-size: cover;
+}
+
 page-advice-services #adviceServices-button5 {
   background-color: rgba(255, 255, 255, 0.2);
   color: #464646;
@@ -25778,11 +25783,17 @@ page-find-aservice .item {
   color: white;
 }
 
+page-inspirational-videos #page29 {
+  background: url(assets/img/raEceC6SLm58JDwFvGbE_dawn.gif) no-repeat center;
+  background-size: cover;
+}
+
 page-inspirational-videos #inspirationalVideos-list-item20 {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   border: transparent;
   font-color: "#FDFDFD";
+  font-size: 20px;
 }
 
 page-know-your-rights {
@@ -25845,6 +25856,11 @@ page-menu #menu-button16 {
   white-space: normal;
 }
 
+page-mindfulness #mindfulness-markdown6 {
+  color: #464646;
+  font-size: 20px;
+}
+
 page-mood-journal calendar {
   color: "#FDFDFD";
 }
@@ -25903,4 +25919,8 @@ page-self-help #selfHelp-button4 {
   background-color: rgba(255, 255, 255, 0.2);
   color: #464646;
   font-size: 25px;
+}
+
+page-what-is-self-help #whatIsSelfHelp-markdown5 {
+  font-size: 20px;
 }
