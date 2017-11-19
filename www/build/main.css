@@ -25689,6 +25689,10 @@ ion-navbar.toolbar {
   text-transform: lowercase;
 }
 
+page-abuse .scroll-content {
+  background: url(assets/img/dawn_background.gif) no-repeat center center fixed;
+}
+
 page-advice-services #adviceServices-button5 {
   background-color: rgba(255, 255, 255, 0.2);
   color: #464646;
@@ -25865,7 +25869,8 @@ page-mood-journal calendar.currentDate {
 }
 
 page-nhs-self-help-leaflets {
-  font-color: "#464646";
+  color: #464646;
+  font-size: 20px;
 }
 
 page-relax-space #relaxSpace-button9 {
@@ -25917,5 +25922,6 @@ page-self-help #selfHelp-button4 {
 }
 
 page-what-is-self-help #whatIsSelfHelp-markdown5 {
+  color: #464646;
   font-size: 20px;
 }
