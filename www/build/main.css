@@ -25889,6 +25889,50 @@ page-mood-journal calendar.currentDate {
   background-color: yellow;
 }
 
+page-mood-menu #moodbutton1 {
+  background-color: purple;
+  height: 90px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+page-mood-menu #moodbutton2 {
+  background-color: orange;
+  height: 90px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+page-mood-menu #moodbutton3 {
+  background-color: #FFFF00;
+  height: 90px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+page-mood-menu #goodlabel {
+  color: #666600;
+}
+
+page-mood-tracker .ios page-home .scroll-content, page-mood-tracker .md page-home .scroll-content {
+  background-color: #f4f4f4;
+}
+
+page-mood-tracker .ios page-home ion-card-header, page-mood-tracker .md page-home ion-card-header {
+  font-weight: bold;
+}
+
+page-mood-tracker .ios page-home ion-card-content, page-mood-tracker .md page-home ion-card-content {
+  height: 300px;
+}
+
+page-mood-tracker .ios page-home canvas, page-mood-tracker .md page-home canvas {
+  height: 300px;
+}
+
 page-nhs-self-help-leaflets {
   color: #464646;
   font-size: 20px;
