@@ -25722,6 +25722,11 @@ page-carer-support {
   font-size: 20px;
 }
 
+page-carer-support #hyperlink1 {
+  color: white;
+  text-decoration: none;
+}
+
 page-event-modal h2 {
   padding-left: 10px;
   font-size: 25px;
