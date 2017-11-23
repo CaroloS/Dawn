@@ -25718,12 +25718,12 @@ page-advice-services #adviceServices-button8 {
 }
 
 page-carer-support {
-  font-color: #FDFDFD;
+  font-color: #464646;
   font-size: 20px;
 }
 
 page-carer-support #hyperlink1 {
-  color: white;
+  color: #464646;
   text-decoration: none;
 }
 
@@ -25788,12 +25788,12 @@ page-find-aservice .item {
 }
 
 page-find-aservice #hyperlink1 {
-  color: white;
+  color: #464646;
   text-decoration: none;
 }
 
 page-in-acrisis #hyperlink1 {
-  color: white;
+  color: #464646;
   text-decoration: none;
 }
 
@@ -25811,12 +25811,12 @@ page-inspirational-videos #inspirationalVideos-list-item20 {
 }
 
 page-know-your-rights {
-  font-color: "#FFFFFF";
+  font-color: "#464646";
   font-size: 20px;
 }
 
 page-know-your-rights #hyperlink1 {
-  color: white;
+  color: #464646;
   text-decoration: none;
 }
 
