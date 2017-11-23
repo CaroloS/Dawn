@@ -38,6 +38,8 @@ import { SelfHarmPage } from '../pages/self-harm/self-harm';
 import { SocialAnxietyPage } from '../pages/social-anxiety/social-anxiety';
 import { SleepingProblemsPage } from '../pages/sleeping-problems/sleeping-problems';
 import { StressPage } from '../pages/stress/stress';
+import { MoodMenuPage } from '../pages/mood-menu/mood-menu';
+import { MoodTrackerPage } from '../pages/mood-tracker/mood-tracker';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -59,6 +61,8 @@ import { NgCalendarModule  } from 'ionic2-calendar';
     KnowYourRightsPage,
     FindAServicePage,
     MoodJournalPage,
+    MoodMenuPage,
+    MoodTrackerPage,
     RelaxSpacePage,
     ListenPage,
     InspirationalVideosPage,
@@ -96,6 +100,8 @@ import { NgCalendarModule  } from 'ionic2-calendar';
     SelfHelpPage,
     WhatIsSelfHelpPage,
     MindfulnessPage,
+    MoodMenuPage,
+    MoodTrackerPage,
     NhsSelfHelpLeafletsPage,
     AdviceServicesPage,
     InACrisisPage,
