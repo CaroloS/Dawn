@@ -25782,6 +25782,11 @@ page-find-aservice .item {
   color: rgba(0, 0, 0, 0.7);
 }
 
+page-in-acrisis #hyperlink1 {
+  color: white;
+  text-decoration: none;
+}
+
 page-inspirational-videos #page29 {
   background: url(assets/img/raEceC6SLm58JDwFvGbE_dawn.gif) no-repeat center;
   background-size: cover;
