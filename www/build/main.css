@@ -25811,8 +25811,13 @@ page-inspirational-videos #inspirationalVideos-list-item20 {
 }
 
 page-know-your-rights {
-  font-color: "#FDFDFD";
+  font-color: "#FFFFFF";
   font-size: 20px;
+}
+
+page-know-your-rights #hyperlink1 {
+  color: white;
+  text-decoration: none;
 }
 
 page-mentalhealthfeelslike p #hyperlink1 {
@@ -25887,6 +25892,11 @@ page-mood-journal calendar.currentDate {
 page-nhs-self-help-leaflets {
   color: #464646;
   font-size: 20px;
+}
+
+page-nhs-self-help-leaflets #hyperlink1 {
+  color: white;
+  text-decoration: none;
 }
 
 page-relax-space #relaxSpace-button9 {
