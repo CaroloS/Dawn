@@ -25787,6 +25787,11 @@ page-find-aservice .item {
   color: rgba(0, 0, 0, 0.7);
 }
 
+page-find-aservice #hyperlink1 {
+  color: white;
+  text-decoration: none;
+}
+
 page-in-acrisis #hyperlink1 {
   color: white;
   text-decoration: none;
