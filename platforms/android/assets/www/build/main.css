@@ -25689,6 +25689,44 @@ ion-navbar.toolbar {
   text-transform: lowercase;
 }
 
+page-abuse .scroll-content {
+  background: url(assets/img/dawn_background.gif) no-repeat center center fixed;
+}
+
+page-advice-services #adviceServices-button5 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-advice-services #adviceServices-button6 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-advice-services #adviceServices-button7 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-advice-services #adviceServices-button8 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-carer-support {
+  font-color: #464646;
+  font-size: 20px;
+}
+
+page-carer-support #hyperlink1 {
+  color: #464646;
+  text-decoration: none;
+}
+
 page-event-modal h2 {
   padding-left: 10px;
   font-size: 25px;
@@ -25745,21 +25783,61 @@ page-event-modal #submit {
   border-radius: 10px;
 }
 
-page-find-aservice .card-background-page ion-list {
-  color: white;
+page-find-aservice .item {
+  color: rgba(0, 0, 0, 0.7);
 }
 
-page-find-aservice * {
-  color: white;
+page-find-aservice #hyperlink1 {
+  color: #464646;
+  text-decoration: none;
+}
+
+page-in-acrisis #hyperlink1 {
+  color: #464646;
+  text-decoration: none;
+}
+
+page-inspirational-videos #page29 {
+  background: url(assets/img/raEceC6SLm58JDwFvGbE_dawn.gif) no-repeat center;
+  background-size: cover;
+}
+
+page-inspirational-videos #inspirationalVideos-list-item20 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border: transparent;
+  font-color: "#FDFDFD";
+  font-size: 20px;
+}
+
+page-know-your-rights {
+  font-color: "#464646";
+  font-size: 20px;
+}
+
+page-know-your-rights #hyperlink1 {
+  color: #464646;
+  text-decoration: none;
+}
+
+page-mentalhealthfeelslike p #hyperlink1 {
+  color: #add8e6;
+  text-decoration: none;
+}
+
+page-mentalhealthfeelslike h3 {
+  font-color: #FDFDFD;
 }
 
 page-menu p {
   font-size: 30px;
   margin-top: 10px;
+  color: #464646;
 }
 
 page-menu #menu-button13 {
   background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
   font-size: 25px;
   height: 150px;
   width: 150px;
@@ -25768,6 +25846,7 @@ page-menu #menu-button13 {
 
 page-menu #menu-button14 {
   background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
   font-size: 25px;
   height: 150px;
   width: 150px;
@@ -25777,6 +25856,7 @@ page-menu #menu-button14 {
 
 page-menu #menu-button15 {
   background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
   font-size: 25px;
   margin-bottom: 20px;
   width: 150px;
@@ -25787,6 +25867,7 @@ page-menu #menu-button15 {
 
 page-menu #menu-button16 {
   background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
   font-size: 25px;
   margin-bottom: 20px;
   width: 150px;
@@ -25795,10 +25876,134 @@ page-menu #menu-button16 {
   white-space: normal;
 }
 
+page-mindfulness #mindfulness-markdown6 {
+  color: #464646;
+  font-size: 20px;
+}
+
 page-mood-journal calendar {
-  color: white;
+  color: "#FDFDFD";
 }
 
 page-mood-journal calendar.currentDate {
   background-color: yellow;
+}
+
+page-mood-menu #moodbutton1 {
+  background-color: rgba(255, 99, 132, 0.6);
+  height: 90px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+page-mood-menu #moodbutton1:active {
+  height: 110px;
+  width: 100px;
+}
+
+page-mood-menu #moodbutton2 {
+  background-color: rgba(255, 206, 86, 0.5);
+  height: 90px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+page-mood-menu #moodbutton3 {
+  background-color: rgba(163, 202, 123, 0.4);
+  height: 90px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+page-mood-menu #button4 {
+  margin-top: 10px;
+  margin-left: 240px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+page-mood-menu #button5 {
+  margin-top: 80px;
+}
+
+page-mood-tracker .ios page-home .scroll-content, page-mood-tracker .md page-home .scroll-content {
+  background-color: #f4f4f4;
+}
+
+page-mood-tracker .ios page-home ion-card-header, page-mood-tracker .md page-home ion-card-header {
+  font-weight: bold;
+}
+
+page-mood-tracker .ios page-home ion-card-content, page-mood-tracker .md page-home ion-card-content {
+  height: 300px;
+}
+
+page-mood-tracker .ios page-home canvas, page-mood-tracker .md page-home canvas {
+  height: 300px;
+}
+
+page-nhs-self-help-leaflets {
+  color: #464646;
+  font-size: 20px;
+}
+
+page-nhs-self-help-leaflets #hyperlink1 {
+  color: white;
+  text-decoration: none;
+}
+
+page-relax-space #relaxSpace-button9 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-relax-space #relaxSpace-button10 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-relax-space #relaxSpace-button11 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-relax-space #relaxSpace-button12 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-self-help #selfHelp-button1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-self-help #selfHelp-button2 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-self-help #selfHelp-button3 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-self-help #selfHelp-button4 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #464646;
+  font-size: 25px;
+}
+
+page-what-is-self-help #whatIsSelfHelp-markdown5 {
+  color: #464646;
+  font-size: 20px;
 }
