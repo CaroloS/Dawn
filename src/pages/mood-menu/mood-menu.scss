@@ -2,16 +2,22 @@ page-mood-menu {
 
 
   #moodbutton1 {
-    background-color: purple;
+    background-color: rgba(255, 99, 132, 0.6);
     height: 90px;
     width: 80px;
     margin-left: 15px;
     border-radius: 10px;
   }
 
+  #moodbutton1:active {
+    height: 110px;
+    width: 100px;
+  }
+
+
 
   #moodbutton2 {
-  background-color: orange;
+  background-color: rgba(255, 206, 86, 0.5);
   height: 90px;
   width: 80px;
   margin-left: 15px;
@@ -20,14 +26,22 @@ page-mood-menu {
 
 
   #moodbutton3 {
-  background-color: #FFFF00;
+  background-color: rgba(163, 202, 123, 0.4);
   height: 90px;
   width: 80px;
   margin-left: 15px;
   border-radius: 10px;
   }
 
-  #goodlabel {
-  color: #666600;
-  }
+#button4 {
+  margin-top: 10px;
+  margin-left: 240px;
+  background-color: rgba(255,255,255,0.2);
+  color: rgba(0,0,0,0.8);
+}
+
+#button5 {
+  margin-top: 80px;
+}
+
 }

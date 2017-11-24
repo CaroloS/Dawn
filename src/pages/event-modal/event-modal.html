@@ -12,35 +12,6 @@
 <ion-content padding style="background:url(assets/img/dawn_background.gif) no-repeat center;background-size:cover;">
 <h2> how are you feeling today? </h2>
 
-<div id="moodslider">
-<ion-item id="moodslider">
-   <ion-range min="0" max="100" step="3" [(ngModel)]="brightness">
-     <ion-icon large range-left name="ios-rainy-outline"></ion-icon>
-     <ion-icon large range-right name="ios-sunny-outline"></ion-icon>
-   </ion-range>
- </ion-item>
-</div>
-
-<ion-grid no-padding>
-  <ion-row>
-    <ion-col >
-        <button ion-button class="moodbutton" id="moodbutton1">
-          <ion-label>bad</ion-label>
-        </button>
-    </ion-col>
-    <ion-col >
-      <button ion-button id="moodbutton2">
-        <ion-label>ok</ion-label>
-      </button>
-    </ion-col>
-    <ion-col >
-      <button ion-button id="moodbutton3">
-        <ion-label id="goodlabel">good</ion-label>
-      </button>
-    </ion-col>
-  </ion-row>
-  </ion-grid>
-
 
     <ion-item>
       <ion-textarea id="myInput" placeholder="write your jounral entry here"  [(ngModel)]="event.title"></ion-textarea>
