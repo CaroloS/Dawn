@@ -20,6 +20,17 @@
 }
 
 *{
-  font-family: Fredorka One;
-  text-transform: lowercase;
+font-family: Fredorka One;
+text-transform: lowercase;
+font-size: 25px;
+color: #464646;
+white-space: normal !important;
+}
+
+body {
+	padding: 1px;
+	background: "url(assets/img/dawn_background.gif)";
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size: contain;
 }

@@ -25687,44 +25687,101 @@ ion-navbar.toolbar {
 * {
   font-family: Fredorka One;
   text-transform: lowercase;
+  font-size: 25px;
+  color: #464646;
+  white-space: normal !important;
 }
 
-page-abuse .scroll-content {
-  background: url(assets/img/dawn_background.gif) no-repeat center center fixed;
+body {
+  padding: 1px;
+  background: "url(assets/img/dawn_background.gif)";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+page-abuse #abuse-textarea13 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-abuse #abuse-textarea15 {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 page-advice-services #adviceServices-button5 {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
 }
 
 page-advice-services #adviceServices-button6 {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
 }
 
 page-advice-services #adviceServices-button7 {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
 }
 
 page-advice-services #adviceServices-button8 {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
 }
 
-page-carer-support {
-  font-color: #464646;
-  font-size: 20px;
+page-alcohol-and-you #alcoholAndYou-textarea14 {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-page-carer-support #hyperlink1 {
-  color: #464646;
-  text-decoration: none;
+page-alcohol-and-you #alcoholAndYou-textarea16 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-alcohol-and-you #alcoholAndYou-textarea49 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-anxiety #anxiety-textarea17 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-anxiety #anxiety-textarea18 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-bereavement #bereavement-textarea19 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-bereavement #bereavement-textarea20 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-controlling-anger #controllingAnger-textarea21 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-controlling-anger #controllingAnger-textarea22 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-depression-and-low-mood #depressionAndLowMood-textarea23 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-depression-and-low-mood #depressionAndLowMood-textarea24 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-domestic-violence #domesticViolence-form33 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-domestic-violence #domesticViolence-form34 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-eating-disorders #eatingDisorders-form35 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-eating-disorders #eatingDisorders-form36 {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 page-event-modal h2 {
@@ -25798,6 +25855,10 @@ page-in-acrisis #hyperlink1 {
   text-decoration: none;
 }
 
+page-inspirational-videos {
+  white-space: wrap !important;
+}
+
 page-inspirational-videos #page29 {
   background: url(assets/img/raEceC6SLm58JDwFvGbE_dawn.gif) no-repeat center;
   background-size: cover;
@@ -25819,6 +25880,56 @@ page-know-your-rights {
 page-know-your-rights #hyperlink1 {
   color: #464646;
   text-decoration: none;
+}
+
+page-listen #listen-textarea5 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-listen #listen-textarea6 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-listen #listen-textarea7 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-listen #listen-textarea8 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-listen #listen-textarea9 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-listen #listen-textarea10 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-listen #listen-textarea11 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-listen #listen-textarea12 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-listen #listen-textarea13 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-listen #listen-textarea50 {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 page-mentalhealthfeelslike #hyperlink1 {
@@ -25893,42 +26004,62 @@ page-mood-journal calendar.currentDate {
 
 page-mood-menu #moodbutton1 {
   background-color: rgba(255, 99, 132, 0.6);
-  height: 90px;
-  width: 80px;
-  margin-left: 15px;
-  border-radius: 10px;
-}
-
-page-mood-menu #moodbutton1:active {
-  height: 110px;
-  width: 100px;
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+  color: #464646;
 }
 
 page-mood-menu #moodbutton2 {
   background-color: rgba(255, 206, 86, 0.5);
-  height: 90px;
-  width: 80px;
-  margin-left: 15px;
-  border-radius: 10px;
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+  color: #464646;
 }
 
 page-mood-menu #moodbutton3 {
   background-color: rgba(163, 202, 123, 0.4);
-  height: 90px;
-  width: 80px;
-  margin-left: 15px;
-  border-radius: 10px;
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+  color: #464646;
+}
+
+page-mood-menu #moodbutton1:active {
+  background-color: rgba(255, 99, 132, 0.6);
+  height: 80px;
+  width: 100%;
+}
+
+page-mood-menu #moodbutton2:active {
+  background-color: rgba(255, 206, 86, 0.5);
+  height: 80px;
+  width: 100%;
+}
+
+page-mood-menu #moodbutton3:active {
+  background-color: rgba(163, 202, 123, 0.4);
+  height: 80px;
+  width: 100%;
 }
 
 page-mood-menu #button4 {
-  margin-top: 10px;
-  margin-left: 240px;
   background-color: rgba(255, 255, 255, 0.2);
-  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  color: #464646;
 }
 
 page-mood-menu #button5 {
-  margin-top: 80px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 20px;
+  color: #464646;
+}
+
+page-mood-menu #button6 {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 20px;
+  color: #464646;
 }
 
 page-mood-tracker .ios page-home .scroll-content, page-mood-tracker .md page-home .scroll-content {
@@ -26003,6 +26134,14 @@ page-self-help #selfHelp-button4 {
   background-color: rgba(255, 255, 255, 0.2);
   color: #464646;
   font-size: 25px;
+}
+
+page-stress #stress-textarea47 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-stress #stress-textarea48 {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 page-what-is-self-help #whatIsSelfHelp-markdown5 {
