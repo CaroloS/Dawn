@@ -27,7 +27,9 @@ import { StressPage } from '../stress/stress';
 export class InspirationalVideosPage {
 
   constructor(public navCtrl: NavController) {
+  	
   }
+  
   goToAbuse(params){
     if (!params) params = {};
     this.navCtrl.push(AbusePage);

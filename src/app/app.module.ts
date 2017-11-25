@@ -17,6 +17,7 @@ import { MoodJournalPage } from '../pages/mood-journal/mood-journal';
 import { RelaxSpacePage } from '../pages/relax-space/relax-space';
 import { ListenPage } from '../pages/listen/listen';
 import { InspirationalVideosPage } from '../pages/inspirational-videos/inspirational-videos';
+import { VideoView } from '../pages/inspirational-videos-view/inspirational-videos-view';
 import { PositiveVisualisationPage } from '../pages/positive-visualisation/positive-visualisation';
 import { MentalhealthfeelslikePage } from '../pages/mentalhealthfeelslike/mentalhealthfeelslike';
 import { AbusePage } from '../pages/abuse/abuse';
@@ -66,6 +67,7 @@ import { NgCalendarModule  } from 'ionic2-calendar';
     RelaxSpacePage,
     ListenPage,
     InspirationalVideosPage,
+	VideoView,
     PositiveVisualisationPage,
     MentalhealthfeelslikePage,
     AbusePage,
@@ -112,6 +114,7 @@ import { NgCalendarModule  } from 'ionic2-calendar';
     RelaxSpacePage,
     ListenPage,
     InspirationalVideosPage,
+	VideoView, 
     PositiveVisualisationPage,
     MentalhealthfeelslikePage,
     AbusePage,

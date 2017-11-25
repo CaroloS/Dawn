@@ -25710,6 +25710,14 @@ ion-content {
   border-radius: 16px;
 }
 
+.action-button.item-block {
+  border: none !important;
+}
+
+.action-button.item-block .item-inner {
+  border: none !important;
+}
+
 .action-button:not(:last-child) {
   margin-bottom: 15px;
 }
@@ -25862,21 +25870,16 @@ page-hearing-voices-and-disturbing-beliefs #hearingVoicesAndDisturbingBeliefs-te
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-page-inspirational-videos {
-  white-space: wrap !important;
+page-inspirational-videos .video-item :not(:last-child) {
+  margin-bottom: 10px;
 }
 
-page-inspirational-videos #page29 {
-  background: url(assets/img/raEceC6SLm58JDwFvGbE_dawn.gif) no-repeat center;
-  background-size: cover;
-}
-
-page-inspirational-videos #inspirationalVideos-list-item20 {
+page-abuse #abuse-textarea13 {
   background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  border: transparent;
-  font-color: "#FDFDFD";
-  font-size: 20px;
+}
+
+page-abuse #abuse-textarea15 {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 page-know-your-rights {
