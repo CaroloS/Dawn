@@ -25768,11 +25768,11 @@ page-depression-and-low-mood #depressionAndLowMood-textarea24 {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-page-domestic-violence #domesticViolence-form33 {
+page-domestic-violence #domesticViolence-textarea25 {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-page-domestic-violence #domesticViolence-form34 {
+page-domestic-violence #domesticViolence-textarea26 {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -25848,6 +25848,30 @@ page-find-aservice #hyperlink1 {
   color: #464646;
   text-decoration: none;
   font-size: 16px;
+}
+
+page-food-for-thought #foodForThought-textarea29 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-food-for-thought #foodForThought-textarea30 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-health-anxiety #healthAnxiety-form62 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-health-anxiety #healthAnxiety-form63 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-hearing-voices-and-disturbing-beliefs #hearingVoicesAndDisturbingBeliefs-textarea31 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-hearing-voices-and-disturbing-beliefs #hearingVoicesAndDisturbingBeliefs-textarea32 {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 page-in-acrisis #hyperlink1 {
@@ -26088,6 +26112,38 @@ page-nhs-self-help-leaflets #hyperlink1 {
   text-decoration: none;
 }
 
+page-obsessions-and-compulsions #obsessionsAndCompulsions-form41 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-obsessions-and-compulsions #obsessionsAndCompulsions-form42 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-panic #panic-textarea35 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-panic #panic-textarea36 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-post-traumatic-stress #postTraumaticStress-textarea37 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-post-traumatic-stress #postTraumaticStress-textarea38 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-postnatal-depression #postnatalDepression-form47 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-postnatal-depression #postnatalDepression-form48 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 page-relax-space #relaxSpace-button9 {
   background-color: rgba(255, 255, 255, 0.2);
   color: #464646;
@@ -26112,6 +26168,14 @@ page-relax-space #relaxSpace-button12 {
   font-size: 25px;
 }
 
+page-self-harm #selfHarm-textarea41 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-self-harm #selfHarm-textarea42 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 page-self-help #selfHelp-button1 {
   background-color: rgba(255, 255, 255, 0.2);
   color: #464646;
@@ -26134,6 +26198,22 @@ page-self-help #selfHelp-button4 {
   background-color: rgba(255, 255, 255, 0.2);
   color: #464646;
   font-size: 25px;
+}
+
+page-sleeping-problems #sleepingProblems-textarea45 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-sleeping-problems #sleepingProblems-textarea46 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-social-anxiety #socialAnxiety-textarea43 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-social-anxiety #socialAnxiety-textarea44 {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 page-stress #stress-textarea47 {
