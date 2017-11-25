@@ -25692,7 +25692,7 @@ ion-navbar.toolbar {
   white-space: normal !important;
 }
 
-body {
+ion-content {
   padding: 1px;
   background: "url(assets/img/dawn_background.gif)";
   background-repeat: no-repeat;
@@ -25872,11 +25872,6 @@ page-hearing-voices-and-disturbing-beliefs #hearingVoicesAndDisturbingBeliefs-te
 
 page-hearing-voices-and-disturbing-beliefs #hearingVoicesAndDisturbingBeliefs-textarea32 {
   background-color: rgba(255, 255, 255, 0.2);
-}
-
-page-in-acrisis #hyperlink1 {
-  color: #464646;
-  text-decoration: none;
 }
 
 page-inspirational-videos {
