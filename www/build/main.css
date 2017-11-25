@@ -25790,6 +25790,7 @@ page-find-aservice .item {
 page-find-aservice #hyperlink1 {
   color: #464646;
   text-decoration: none;
+  font-size: 16px;
 }
 
 page-in-acrisis #hyperlink1 {
@@ -25820,13 +25821,14 @@ page-know-your-rights #hyperlink1 {
   text-decoration: none;
 }
 
-page-mentalhealthfeelslike p #hyperlink1 {
-  color: #add8e6;
+page-mentalhealthfeelslike #hyperlink1 {
+  color: #464646;
   text-decoration: none;
 }
 
-page-mentalhealthfeelslike h3 {
-  font-color: #FDFDFD;
+page-mentalhealthfeelslike #Mentalhealthfeelslike-markdown9 {
+  color: #464646;
+  font-size: 20px;
 }
 
 page-menu p {
@@ -25951,7 +25953,7 @@ page-nhs-self-help-leaflets {
 }
 
 page-nhs-self-help-leaflets #hyperlink1 {
-  color: white;
+  color: #464646;
   text-decoration: none;
 }
 
