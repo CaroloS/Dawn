@@ -1,8 +1,5 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      your mood calendar
-    </ion-title>
       <ion-buttons end>
 <!--      <button ion-button (click)="changeMode('month')">M</button>
       <button ion-button (click)="changeMode('week')">W</button>
@@ -15,11 +12,11 @@
 </ion-header>
 <ion-content padding style="background:url(assets/img/dawn_background.gif) no-repeat center;background-size:cover;" id="page39">
 
-    <button ion-button block (click)="addEvent()" style="background-color:rgba(255,255,255,0.2);" >
+    <button ion-button block (click)="addEvent()" class="action-button" >
      click to add an entry
     </button>
-    <h5 style="text-align:center;color:#FDFDFD;">{{ viewTitle}}
-    </h5>
+    <p style="text-align:center">{{ viewTitle}}
+	</p>
     <calendar [eventSource]="eventSource"
       [calendarMode]="calendar.mode"
       [currentDate]="calendar.currentDate"

@@ -5,24 +5,23 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>mood menu</ion-title>
   </ion-navbar>
 </ion-header>
-<ion-content padding style="background:url(assets/img/dawn_background.gif) no-repeat center;background-size:cover;">
+<ion-content padding>
 <h2> how are you feeling today? </h2>
   <ion-grid no-padding>
     <ion-row>
-      <ion-col >
+      <ion-col>
           <button ion-button class="moodbutton" id="moodbutton1" on-click="badSelected()">
             <ion-label>bad</ion-label>
           </button>
       </ion-col>
-      <ion-col >
+      <ion-col>
         <button ion-button id="moodbutton2" on-click="okSelected()">
           <ion-label>ok</ion-label>
         </button>
       </ion-col>
-      <ion-col >
+      <ion-col>
         <button ion-button id="moodbutton3" on-click="goodSelected()">
           <ion-label id="goodlabel">good</ion-label>
         </button>
@@ -30,6 +29,8 @@
     </ion-row>
     </ion-grid>
 <!--   <button ion-button round id="button4">Submit</button> -->
-<button ion-button id="button5" on-click="goToMoodJournal()">write a mood journal entry</button>
-<button ion-button id="button6" on-click="goToMoodTracker()">view your mood tracker</button>
+<div id="moodJournalButtons">
+<button ion-button id="button5" class="action-button" on-click="goToMoodJournal()">write a mood journal entry</button>
+<button ion-button id="button6" class="action-button" on-click="goToMoodTracker()">view your mood tracker</button>
+</div>
 </ion-content>

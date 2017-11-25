@@ -14,11 +14,13 @@ color: #464646; }
 #moodbutton2:active { background-color: rgba(255, 206, 86, 0.5); height: 80px; width: 100%; }
 
 #moodbutton3:active { background-color: rgba(163, 202, 123, 0.4); height: 80px; width: 100%; } 
- 
-#button4 { background-color: rgba(255,255,255,0.2); font-size: 20px; color: #464646; }
 
-#button5 { background-color: rgba(255,255,255,0.2); font-size: 20px; color: #464646; }
+#goodlabel {
+	overflow: visible;
+}
 
-#button6 { background-color: rgba(255,255,255,0.2); font-size: 20px; color: #464646; }
+#moodJournalButtons {
+	margin-top: 50px;
+}
 
 }

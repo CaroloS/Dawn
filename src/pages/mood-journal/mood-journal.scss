@@ -2,10 +2,17 @@ page-mood-journal {
 
 calendar {
   color: "#FDFDFD";
+  .monthview-datetable {
+	  th * {
+		  white-space: nowrap !important;
+	  }
+  }
+  
 }
 
 calendar.currentDate {
   background-color: yellow;
 }
+
 
 }

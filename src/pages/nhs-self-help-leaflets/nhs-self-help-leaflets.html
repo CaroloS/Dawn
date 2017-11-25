@@ -1,8 +1,5 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      nhs self help leaflets
-    </ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content padding style="background:url(assets/img/dawn_background.gif) no-repeat center;background-size:cover;" id="page44">
@@ -14,13 +11,11 @@
       nhs easy-read self help leaflets
     </p>
     <p style="color:#464646;">
-    <a class="item" href="#" onclick="cordova.InAppBrowser.open('https://www.penninecare.nhs.uk/resources/self-help-leaflets/', '_blank', 'location=yes'); return false;" id="hyperlink1">
+    <a class="item" href="#" (click)="openWithInAppBrowser('https://www.penninecare.nhs.uk/resources/self-help-leaflets/')" id="hyperlink1">
         for more information, audio clips and british sign language self help guides click here
       </a>
     </p>
-
   </div>
-
       <ion-grid>
         <ion-row>
           <ion-col col-6>

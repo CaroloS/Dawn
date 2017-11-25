@@ -29,7 +29,7 @@ export class NhsSelfHelpLeafletsPage {
   constructor(private theInAppBrowser: InAppBrowser) {
   }
 
-  public openWithCordovaBrowser(url : string, ){
+  openWithCordovaBrowser(url : string ){
     let target = "_self";
     this.theInAppBrowser.create(url,target,this.options);
 }
