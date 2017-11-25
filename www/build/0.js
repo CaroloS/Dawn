@@ -74,7 +74,7 @@ var MoodChartPage = (function () {
 }());
 MoodChartPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-mood-chart',template:/*ion-inline-start:"/Users/carolinesmith/GC02_2017_Team18/src/pages/mood-chart/mood-chart.html"*/'<!--\n  Generated template for the MoodChartPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>mood_chart</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/carolinesmith/GC02_2017_Team18/src/pages/mood-chart/mood-chart.html"*/,
+        selector: 'page-mood-chart',template:/*ion-inline-start:"/Users/dev/GC02_2017_Team18/src/pages/mood-chart/mood-chart.html"*/'<!--\n  Generated template for the MoodChartPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>mood_chart</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/dev/GC02_2017_Team18/src/pages/mood-chart/mood-chart.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
 ], MoodChartPage);
