@@ -31,8 +31,8 @@ export class FindAServicePage {
   constructor(private theInAppBrowser: InAppBrowser) {
   }
 
-  public openWithCordovaBrowser(url : string, ){
-    let target = "_self";
+  public openWithInAppBrowser(url : string, ){
+    let target = "_blank";
     this.theInAppBrowser.create(url,target,this.options);
   }
 

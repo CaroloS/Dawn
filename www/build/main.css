@@ -25722,14 +25722,6 @@ ion-content {
   margin-bottom: 15px;
 }
 
-page-abuse #abuse-textarea13 {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-page-abuse #abuse-textarea15 {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
 page-alcohol-and-you #alcoholAndYou-textarea14 {
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -25872,14 +25864,6 @@ page-hearing-voices-and-disturbing-beliefs #hearingVoicesAndDisturbingBeliefs-te
 
 page-inspirational-videos .video-item :not(:last-child) {
   margin-bottom: 10px;
-}
-
-page-abuse #abuse-textarea13 {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-page-abuse #abuse-textarea15 {
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 page-know-your-rights {
@@ -26071,14 +26055,6 @@ page-sleeping-problems #sleepingProblems-textarea45 {
 }
 
 page-sleeping-problems #sleepingProblems-textarea46 {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-page-social-anxiety #socialAnxiety-textarea43 {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-page-social-anxiety #socialAnxiety-textarea44 {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
