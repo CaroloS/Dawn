@@ -23,7 +23,7 @@ Cordova and Ionic CLI - to install both of these, run the following command:
 $ sudo npm install cordova ionic -g
 ```
 
-Install NPM Dependencies
+Install NPM Dependencies: /n
 Once you clone this repository, run this command on your terminal to install all needed dependencies:
 
 ```bash
@@ -37,7 +37,7 @@ Run this command on your terminal to install all needed puglins:
 $ cordova prepare
 ```
 
-##Launching the App:
+### Launching the App:
 After installing the needed dependencies you're ready to launch the app using either of the following commands:
 
 ```bash
@@ -59,7 +59,6 @@ Substitute ios for android if not on a Mac.
 ### Contributors
 Aisha Ahmed
 ucabat1, 
-
 Jason Deakin
 j4sond3ak1n, 
 Caroline Smith
