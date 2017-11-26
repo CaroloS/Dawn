@@ -25703,6 +25703,16 @@ ion-content {
   src: url("../assets/fonts/Fredorka One");
 }
 
+.service-title {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: none;
+}
+
+.service-information {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  color: none;
+}
+
 .video-title {
   background-color: rgba(255, 255, 255, 0.2) !important;
 }
