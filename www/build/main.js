@@ -543,11 +543,11 @@ var map = {
 		1
 	],
 	"../pages/mood-chart/mood-chart.module": [
-		490,
+		491,
 		0
 	],
 	"../pages/mood-menu/mood-menu.module": [
-		491,
+		490,
 		3
 	],
 	"../pages/mood-tracker/mood-tracker.module": [
@@ -1660,8 +1660,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
                 links: [
                     { loadChildren: '../pages/event-modal/event-modal.module#EventModalPageModule', name: 'EventModalPage', segment: 'event-modal', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/mood-chart/mood-chart.module#MoodChartPageModule', name: 'MoodChartPage', segment: 'mood-chart', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/mood-menu/mood-menu.module#MoodMenuPageModule', name: 'MoodMenuPage', segment: 'mood-menu', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/mood-chart/mood-chart.module#MoodChartPageModule', name: 'MoodChartPage', segment: 'mood-chart', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/mood-tracker/mood-tracker.module#MoodTrackerPageModule', name: 'MoodTrackerPage', segment: 'mood-tracker', priority: 'low', defaultHistory: [] }
                 ]
             })

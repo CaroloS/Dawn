@@ -25722,6 +25722,12 @@ ion-content {
   color: #464646;
   font-size: 25px;
   border-radius: 16px;
+  height: 90px;
+}
+
+.action-button .block-item :not(:last-child) {
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .action-button.item-block {
