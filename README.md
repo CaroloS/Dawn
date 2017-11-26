@@ -5,7 +5,7 @@ A hybrid mobile mental health application designed for North Tyneside Clinical C
 ### Demo
 To view a demo of this application on your phone:
 
-Download Ionic View on your phone and use the code      to view.
+Download Ionic View and use the code xxxxxx  to view.
 
 ### Setup
 Requirements to use this project:
@@ -23,7 +23,7 @@ Cordova and Ionic CLI - to install both of these, run the following command:
 $ sudo npm install cordova ionic -g
 ```
 
-Install NPM Dependencies: /n
+Install NPM Dependencies: 
 Once you clone this repository, run this command on your terminal to install all needed dependencies:
 
 ```bash
@@ -58,8 +58,8 @@ Substitute ios for android if not on a Mac.
 
 ### Contributors
 Aisha Ahmed
-ucabat1, 
+(ucabat1), 
 Jason Deakin
-j4sond3ak1n, 
+(j4sond3ak1n), 
 Caroline Smith
-carolinesmith123
+(carolinesmith123)
