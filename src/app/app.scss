@@ -41,7 +41,8 @@ ion-content {
     color: #464646;
     font-size: 25px;
 	border-radius:16px;
-	height: 90px;
+	min-height: 90px;
+	width: 100%;
 	.block-item {
 		:not(:last-child)
 		{

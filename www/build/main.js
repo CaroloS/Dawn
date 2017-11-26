@@ -1,12 +1,12 @@
 webpackJsonp([4],{
 
-/***/ 130:
+/***/ 129:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InACrisisPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -56,13 +56,13 @@ InACrisisPage = __decorate([
 
 /***/ }),
 
-/***/ 131:
+/***/ 130:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CarerSupportPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -112,13 +112,13 @@ CarerSupportPage = __decorate([
 
 /***/ }),
 
-/***/ 132:
+/***/ 131:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return KnowYourRightsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -168,13 +168,13 @@ KnowYourRightsPage = __decorate([
 
 /***/ }),
 
-/***/ 133:
+/***/ 132:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FindAServicePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -217,7 +217,7 @@ var FindAServicePage = (function () {
 }());
 FindAServicePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-find-aservice',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/find-aservice/find-aservice.html"*/'<ion-header style="color:black;">\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page38" >\n  <ion-list no-lines id="findAService-list60">\n  <ion-item class="service-title">\n    bipolar disorder\n  </ion-item>\n    <ion-item class="service-information">\n        <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.bipolaruk.org/Pages/Category/support-groups\')" id="hyperlink1">\n                bipolar uk nt support group\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    carers\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.carersuk.org/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                carers uk\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://carers-network.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                carers network\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    dementia and elderly care\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.ageuk.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                age uk\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.alzheimers.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                alzheimer’s society\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    general\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.changing-lives.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                changing lives\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.mentalhealth.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                mental health foundation\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.mentalhealthconcern.org/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                mental health concern\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.time-to-change.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                time to change\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    get active\n    </ion-item>\n  	<ion-item class="service-information">\n        <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.walkingforhealth.org.uk/walkfinder/linskill-healthy-walks-community-interest-company\')" id="hyperlink1">\n                linskill centre healthy walks\n            </a>\n    </ion-item>\n    <ion-item class="service-information">\n    know your rights\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://independentadvocacy.org/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                independent advocacy\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.internationalsos.com/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                isos\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    learn a skill\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.key-enterprises.com/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                key enterprises\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://northtynesideartstudio.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                north tyneside art studio\n            </a> \n    </ion-item>\n    <ion-item class="service-title">\n    learning disability\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.ldne.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                ld: north east\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.mencap.org.uk/?gclid=CjwKCAiA6K_QBRA8EiwASvtjZSGa1shvRZd2oqMyx93UKoPcNn34mEFx9CbP6pHcerpdWhEkbXTekRoCgGQQAvD_BwE\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                mencap north tyneside\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.newprospects.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                new prospects\n            </a> \n    </ion-item>\n    <ion-item class="service-title">\n    meet people\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.cameonorthtyneside.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                cameo (come and meet each other)\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n        <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.northumbria.nhs.uk/our-services/mental-health-services/north-tyneside-talking-therapies\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                  northumberland tyne and wear nhs foundation trust\n              </a>\n      </ion-item>\n    <ion-item class="service-title">\n    national services\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.ntw.nhs.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                northumberland tyne and wear nhs foundation trust\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.northumbria.nhs.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                northumbria healthcare nhs foundation trust\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.gov.uk/government/organisations/public-health-england\')" id="hyperlink1">\n                 public health england\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://mhne.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                 mental health north east\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.socialprescribing.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                 social prescribing\n            </a> \n    </ion-item>\n    <ion-item class="service-title">\n    substance misuse\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.talktofrank.com/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                 talk to frank\n            </a> \n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/find-aservice/find-aservice.html"*/
+        selector: 'page-find-aservice',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/find-aservice/find-aservice.html"*/'<ion-header style="color:black;">\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page38" >\n  <ion-list no-lines id="findAService-list60">\n  <ion-item class="service-title">\n    bipolar disorder\n  </ion-item>\n    <ion-item class="service-information">\n        <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.bipolaruk.org/Pages/Category/support-groups\')" id="hyperlink1">\n                bipolar uk nt support group\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    carers\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.carersuk.org/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                carers uk\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://carers-network.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                carers network\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    dementia and elderly care\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.ageuk.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                age uk\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.alzheimers.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                alzheimer’s society\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    general\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.changing-lives.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                changing lives\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.mentalhealth.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                mental health foundation\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.mentalhealthconcern.org/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                mental health concern\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.time-to-change.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                time to change\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    get active\n    </ion-item>\n  	<ion-item class="service-information">\n        <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.walkingforhealth.org.uk/walkfinder/linskill-healthy-walks-community-interest-company\')" id="hyperlink1">\n                linskill centre healthy walks\n            </a>\n    </ion-item>\n    <ion-item class="service-information">\n    know your rights\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://independentadvocacy.org/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                independent advocacy\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.internationalsos.com/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                isos\n            </a>\n    </ion-item>\n    <ion-item class="service-title">\n    learn a skill\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.key-enterprises.com/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                key enterprises\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://northtynesideartstudio.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                north tyneside art studio\n            </a> \n    </ion-item>\n    <ion-item class="service-title">\n    learning disability\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.ldne.org.uk/\', \'_blank\', \'location=yes\')" id="hyperlink1">\n                ld: north east\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.mencap.org.uk/?gclid=CjwKCAiA6K_QBRA8EiwASvtjZSGa1shvRZd2oqMyx93UKoPcNn34mEFx9CbP6pHcerpdWhEkbXTekRoCgGQQAvD_BwE\')" id="hyperlink1">\n                mencap north tyneside\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.newprospects.org.uk/\')" id="hyperlink1">\n                new prospects\n            </a> \n    </ion-item>\n    <ion-item class="service-title">\n    meet people\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.cameonorthtyneside.org.uk/\')" id="hyperlink1">\n                cameo (come and meet each other)\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n        <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.northumbria.nhs.uk/our-services/mental-health-services/north-tyneside-talking-therapies\')" id="hyperlink1">\n                  northumberland tyne and wear nhs foundation trust\n              </a>\n      </ion-item>\n    <ion-item class="service-title">\n    national services\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.ntw.nhs.uk/\')" id="hyperlink1">\n                northumberland tyne and wear nhs foundation trust\n            </a>\n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.northumbria.nhs.uk/\')" id="hyperlink1">\n                northumbria healthcare nhs foundation trust\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.gov.uk/government/organisations/public-health-england\')" id="hyperlink1">\n                 public health england\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://mhne.org.uk/\')" id="hyperlink1">\n                 mental health north east\n            </a> \n    </ion-item>\n  	<ion-item class="service-information">\n      <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.socialprescribing.org.uk/\')" id="hyperlink1">\n                 social prescribing\n            </a> \n    </ion-item>\n    <ion-item class="service-title">\n    substance misuse\n    </ion-item>\n  	<ion-item class="service-information">\n       <a class="item" href="#" (click)="openWithInAppBrowser(\'http://www.talktofrank.com/\')" id="hyperlink1">\n                 talk to frank\n            </a> \n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/find-aservice/find-aservice.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__["a" /* InAppBrowser */]])
 ], FindAServicePage);
@@ -226,7 +226,7 @@ FindAServicePage = __decorate([
 
 /***/ }),
 
-/***/ 134:
+/***/ 133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -261,7 +261,7 @@ WhatIsSelfHelpPage = __decorate([
 
 /***/ }),
 
-/***/ 135:
+/***/ 134:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -296,13 +296,13 @@ MindfulnessPage = __decorate([
 
 /***/ }),
 
-/***/ 136:
+/***/ 135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NhsSelfHelpLeafletsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -351,12 +351,180 @@ var NhsSelfHelpLeafletsPage = (function () {
 }());
 NhsSelfHelpLeafletsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-nhs-self-help-leaflets',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/nhs-self-help-leaflets/nhs-self-help-leaflets.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page44">\n  <h3 style="color:#464646;" id="nhsSelfHelpLeaflets-heading2">\n    A-Z\n  </h3>\n  <div id="nhsSelfHelpLeaflets-markdown8" class="show-list-numbers-and-dots">\n    <p style="color:#464646;">\n      nhs easy-read self help leaflets\n    </p>\n    <p>\n    <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.penninecare.nhs.uk/resources/self-help-leaflets/\')" id="hyperlink1">\n        for more information, audio clips and british sign language self help guides click here\n      </a>\n    </p>\n  </div>\n      <ion-grid>\n        <ion-row>\n          <ion-col col-6>\n      <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Abuse.pdf\');" id="hyperlink1">\n        <img src="assets/img/Abuse.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n  <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Alcohol%20and%20You.pdf\');" id="hyperlink1">\n        <img src="assets/img/Alcoholandyou.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n<div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n      <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Anxiety.pdf\');" id="hyperlink1">\n        <img src="assets/img/Anxiety.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n  <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Bereavement.pdf\', \'location=yes\')" id="hyperlink1">\n        <img src="assets/img/Bereavement.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n \n <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n      <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Controlling%20Anger.pdf\')" id="hyperlink1">\n        <img src="assets/img/Controllinganger.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Depression%20and%20Low%20Mood.pdf\')" id="hyperlink1">\n        <img src="assets/img/Depressionandlowmood.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n \n <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Domestic%20Violence.pdf\')" id="hyperlink1">\n        <img src="assets/img/Domesticviolence.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n   <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Eating%20Disorders.pdf\')" id="hyperlink1"><img src="assets/img/Eatingdisorders.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n     <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Food%20for%20thought.pdf\')" id="hyperlink1">\n        <img src="assets/img/foodforthought.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n  <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Health%20Anxiety.pdf\')" id="hyperlink1">\n        <img src="assets/img/Healthanxiety.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Hearing%20Voices.pdf\')" id="hyperlink1">\n        <img src="assets/img/Hearingvoices.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Obsessions%20and%20Compulsions.pdf\')" id="hyperlink1">\n        <img src="assets/img/OCD.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Panic.pdf\')" id="hyperlink1">\n        <img src="assets/img/Panic.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Post%20traumatic%20Stress.pdf\')" id="hyperlink1">\n        <img src="assets/img/PTSD.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Postnatal%20Depression.pdf\')" id="hyperlink1">\n        <img src="assets/img/Postnataldepression.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Self%20Harm.pdf\')" id="hyperlink1">\n        <img src="assets/img/Selfharm.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Shyness%20and%20Social%20Anxiety.pdf\')" id="hyperlink1">\n        <img src="assets/img/Socialanxiety.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Sleeping%20Problems.pdf\')" id="hyperlink1">\n        <img src="assets/img/Sleepingproblems.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n   <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Stress.pdf\')" id="hyperlink1">\n        <img src="assets/img/Stress.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n</ion-col>\n</ion-row>\n  </ion-grid>'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/nhs-self-help-leaflets/nhs-self-help-leaflets.html"*/
+        selector: 'page-nhs-self-help-leaflets',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/nhs-self-help-leaflets/nhs-self-help-leaflets.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page44">\n  <h3 style="color:#464646;" id="nhsSelfHelpLeaflets-heading2">\n    nhs easy-read self help leaflets a-z\n  </h3>\n  <div id="nhsSelfHelpLeaflets-markdown8" class="show-list-numbers-and-dots">\n    <p>\n    <a class="item" href="#" (click)="openWithInAppBrowser(\'https://www.penninecare.nhs.uk/resources/self-help-leaflets/\')" id="hyperlink1">\n        click here for more information, audio clips and british sign language self help guides\n      </a>\n    </p>\n  </div>\n      <ion-grid>\n        <ion-row>\n          <ion-col col-6>\n      <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Abuse.pdf\');" id="hyperlink1">\n        <img src="assets/img/Abuse.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n  <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Alcohol%20and%20You.pdf\');" id="hyperlink1">\n        <img src="assets/img/Alcoholandyou.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n<div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n      <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Anxiety.pdf\');" id="hyperlink1">\n        <img src="assets/img/Anxiety.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n  <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Bereavement.pdf\', \'location=yes\')" id="hyperlink1">\n        <img src="assets/img/Bereavement.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n \n <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n      <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Controlling%20Anger.pdf\')" id="hyperlink1">\n        <img src="assets/img/Controllinganger.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Depression%20and%20Low%20Mood.pdf\')" id="hyperlink1">\n        <img src="assets/img/Depressionandlowmood.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n \n <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Domestic%20Violence.pdf\')" id="hyperlink1">\n        <img src="assets/img/Domesticviolence.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n   <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Eating%20Disorders.pdf\')" id="hyperlink1"><img src="assets/img/Eatingdisorders.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n     <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Food%20for%20thought.pdf\')" id="hyperlink1">\n        <img src="assets/img/foodforthought.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n  <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Health%20Anxiety.pdf\')" id="hyperlink1">\n        <img src="assets/img/Healthanxiety.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Hearing%20Voices.pdf\')" id="hyperlink1">\n        <img src="assets/img/Hearingvoices.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Obsessions%20and%20Compulsions.pdf\')" id="hyperlink1">\n        <img src="assets/img/OCD.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Panic.pdf\')" id="hyperlink1">\n        <img src="assets/img/Panic.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Post%20traumatic%20Stress.pdf\')" id="hyperlink1">\n        <img src="assets/img/PTSD.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Postnatal%20Depression.pdf\')" id="hyperlink1">\n        <img src="assets/img/Postnataldepression.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Self%20Harm.pdf\')" id="hyperlink1">\n        <img src="assets/img/Selfharm.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n  <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Shyness%20and%20Social%20Anxiety.pdf\')" id="hyperlink1">\n        <img src="assets/img/Socialanxiety.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Sleeping%20Problems.pdf\')" id="hyperlink1">\n        <img src="assets/img/Sleepingproblems.jpeg" />\n      </ion-thumbnail>\n</ion-col>\n</ion-row>\n  </ion-grid>\n\n   <div class="spacer" style="height:10px;" id="nhsSelfHelpLeaflets-spacer28"></div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-6>\n       <ion-thumbnail (click)="openWithInAppBrowser(\'http://www.selfhelpguides.ntw.nhs.uk/penninecare/leaflets/selfhelp/Stress.pdf\')" id="hyperlink1">\n        <img src="assets/img/Stress.jpeg" />\n      </ion-thumbnail>\n    </ion-col>\n  <ion-col col-6>\n</ion-col>\n</ion-row>\n  </ion-grid>'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/nhs-self-help-leaflets/nhs-self-help-leaflets.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__["a" /* InAppBrowser */]])
 ], NhsSelfHelpLeafletsPage);
 
 //# sourceMappingURL=nhs-self-help-leaflets.js.map
+
+/***/ }),
+
+/***/ 136:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InspirationalVideosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__abuse_abuse__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alcohol_and_you_alcohol_and_you__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__anxiety_anxiety__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__bereavement_bereavement__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__controlling_anger_controlling_anger__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__domestic_violence_domestic_violence__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__eating_disorders_eating_disorders__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__food_for_thought_food_for_thought__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__health_anxiety_health_anxiety__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__panic_panic__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__postnatal_depression_postnatal_depression__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__self_harm_self_harm__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__social_anxiety_social_anxiety__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sleeping_problems_sleeping_problems__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stress_stress__ = __webpack_require__(77);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var InspirationalVideosPage = (function () {
+    function InspirationalVideosPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    InspirationalVideosPage.prototype.goToAbuse = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__abuse_abuse__["a" /* AbusePage */]);
+    };
+    InspirationalVideosPage.prototype.goToAlcoholAndYou = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__alcohol_and_you_alcohol_and_you__["a" /* AlcoholAndYouPage */]);
+    };
+    InspirationalVideosPage.prototype.goToAnxiety = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__anxiety_anxiety__["a" /* AnxietyPage */]);
+    };
+    InspirationalVideosPage.prototype.goToBereavement = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__bereavement_bereavement__["a" /* BereavementPage */]);
+    };
+    InspirationalVideosPage.prototype.goToControllingAnger = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__controlling_anger_controlling_anger__["a" /* ControllingAngerPage */]);
+    };
+    InspirationalVideosPage.prototype.goToDepressionAndLowMood = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__depression_and_low_mood_depression_and_low_mood__["a" /* DepressionAndLowMoodPage */]);
+    };
+    InspirationalVideosPage.prototype.goToDomesticViolence = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__domestic_violence_domestic_violence__["a" /* DomesticViolencePage */]);
+    };
+    InspirationalVideosPage.prototype.goToEatingDisorders = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__eating_disorders_eating_disorders__["a" /* EatingDisordersPage */]);
+    };
+    InspirationalVideosPage.prototype.goToFoodForThought = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__food_for_thought_food_for_thought__["a" /* FoodForThoughtPage */]);
+    };
+    InspirationalVideosPage.prototype.goToHealthAnxiety = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_11__health_anxiety_health_anxiety__["a" /* HealthAnxietyPage */]);
+    };
+    InspirationalVideosPage.prototype.goToHearingVoicesAndDisturbingBeliefs = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__["a" /* HearingVoicesAndDisturbingBeliefsPage */]);
+    };
+    InspirationalVideosPage.prototype.goToObsessionsAndCompulsions = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_13__obsessions_and_compulsions_obsessions_and_compulsions__["a" /* ObsessionsAndCompulsionsPage */]);
+    };
+    InspirationalVideosPage.prototype.goToPanic = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_14__panic_panic__["a" /* PanicPage */]);
+    };
+    InspirationalVideosPage.prototype.goToPostTraumaticStress = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_15__post_traumatic_stress_post_traumatic_stress__["a" /* PostTraumaticStressPage */]);
+    };
+    InspirationalVideosPage.prototype.goToPostnatalDepression = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_16__postnatal_depression_postnatal_depression__["a" /* PostnatalDepressionPage */]);
+    };
+    InspirationalVideosPage.prototype.goToSelfHarm = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_17__self_harm_self_harm__["a" /* SelfHarmPage */]);
+    };
+    InspirationalVideosPage.prototype.goToSocialAnxiety = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_18__social_anxiety_social_anxiety__["a" /* SocialAnxietyPage */]);
+    };
+    InspirationalVideosPage.prototype.goToSleepingProblems = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_19__sleeping_problems_sleeping_problems__["a" /* SleepingProblemsPage */]);
+    };
+    InspirationalVideosPage.prototype.goToStress = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_20__stress_stress__["a" /* StressPage */]);
+    };
+    return InspirationalVideosPage;
+}());
+InspirationalVideosPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-inspirational-videos',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/inspirational-videos/inspirational-videos.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page29">\n  <h3 id="inspirationalVideos-heading1">\n    a-z\n  </h3>\n  <ion-list id="inspirationalVideos-list5">\n    <ion-item on-click="goToAbuse()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      abuse\n    </ion-item>\n    <ion-item color="none" on-click="goToAlcoholAndYou()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      alcohol and you\n    </ion-item>\n    <ion-item color="none" on-click="goToAnxiety()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      anxiety\n    </ion-item>\n    <ion-item color="none" on-click="goToBereavement()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      bereavement\n    </ion-item>\n    <ion-item color="none" on-click="goToControllingAnger()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      controlling anger\n    </ion-item>\n    <ion-item color="none" on-click="goToDepressionAndLowMood()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      depression and low mood\n    </ion-item>\n    <ion-item color="none" on-click="goToDomesticViolence()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      domestic violence\n    </ion-item>\n    <ion-item color="none" on-click="goToEatingDisorders()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      eating disorders\n    </ion-item>\n    <ion-item color="none" on-click="goToFoodForThought()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      food for thought\n    </ion-item>\n    <ion-item color="none" on-click="goToHealthAnxiety()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      health anxiety\n    </ion-item>\n    <ion-item color="none" on-click="goToHearingVoicesAndDisturbingBeliefs()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      hearing voices and disturbing beliefs\n    </ion-item>\n    <ion-item color="none" on-click="goToObsessionsAndCompulsions()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      obsessions and compulsions\n    </ion-item>\n    <ion-item color="none" on-click="goToPanic()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      panic\n    </ion-item>\n    <ion-item color="none" on-click="goToPostTraumaticStress()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      post traumatic stress\n    </ion-item>\n    <ion-item color="none" on-click="goToPostnatalDepression()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      postnatal depression\n    </ion-item>\n    <ion-item color="none" on-click="goToSelfHarm()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      self harm\n    </ion-item>\n    <ion-item color="none" on-click="goToSocialAnxiety()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      social anxiety\n    </ion-item>\n    <ion-item color="none" on-click="goToSleepingProblems()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      sleeping problems\n    </ion-item>\n    <ion-item color="none" on-click="goToStress()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      stress\n    </ion-item>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/inspirational-videos/inspirational-videos.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
+], InspirationalVideosPage);
+
+//# sourceMappingURL=inspirational-videos.js.map
 
 /***/ }),
 
@@ -436,7 +604,7 @@ var MoodMenuPage = (function () {
 }());
 MoodMenuPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-mood-menu',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-menu/mood-menu.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n<h2> how are you feeling today? </h2>\n  <ion-grid no-padding>\n    <ion-row>\n      <ion-col>\n          <button ion-button class="moodbutton" id="moodbutton1" on-click="badSelected()">\n            <ion-label>bad</ion-label>\n          </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button id="moodbutton2" on-click="okSelected()">\n          <ion-label>ok</ion-label>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button id="moodbutton3" on-click="goodSelected()">\n          <ion-label id="goodlabel">good</ion-label>\n        </button>\n      </ion-col>\n    </ion-row>\n    </ion-grid>\n<!--   <button ion-button round id="button4">Submit</button> -->\n<div id="moodJournalButtons">\n<button ion-button id="button5" class="action-button" on-click="goToMoodJournal()">write a mood journal entry</button>\n<button ion-button id="button6" class="action-button" on-click="goToMoodTracker()">view your mood tracker</button>\n</div>\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-menu/mood-menu.html"*/,
+        selector: 'page-mood-menu',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-menu/mood-menu.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n<h2> how are you feeling today? </h2>\n  <ion-grid no-padding>\n    <ion-row>\n      <ion-col>\n          <button ion-button class="moodbutton" id="moodbutton1" on-click="badSelected()">\n            <ion-label>bad</ion-label>\n          </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button id="moodbutton2" on-click="okSelected()">\n          <ion-label>ok</ion-label>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button id="moodbutton3" on-click="goodSelected()">\n          <ion-label id="goodlabel">good</ion-label>\n        </button>\n      </ion-col>\n    </ion-row>\n    </ion-grid>\n<!--   <button ion-button round id="button4">Submit</button> -->\n<div padding-right id="moodJournalButtons">\n<button ion-button id="button5" class="action-button" on-click="goToMoodJournal()">write a mood journal entry</button>\n<button ion-button id="button6" class="action-button" on-click="goToMoodTracker()">view your mood tracker</button>\n</div>\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-menu/mood-menu.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
 ], MoodMenuPage);
@@ -452,7 +620,7 @@ MoodMenuPage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MoodTrackerPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js__ = __webpack_require__(415);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_chart_js__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -510,9 +678,10 @@ MoodTrackerPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-mood-tracker',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-tracker/mood-tracker.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n<!--\n    <ion-card id="doughnut">\n      <ion-card-header>\n        my Mood\n      </ion-card-header>\n      <ion-card-content style="height:300px;">\n   -->\n        <h2>my mood</h2>\n        <canvas #doughnutCanvas style="height:300px;"></canvas>\n<!--\n      </ion-card-content>\n    </ion-card>\n   -->\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-tracker/mood-tracker.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object])
 ], MoodTrackerPage);
 
+var _a;
 //# sourceMappingURL=mood-tracker.js.map
 
 /***/ }),
@@ -539,7 +708,7 @@ webpackEmptyAsyncContext.id = 146;
 
 var map = {
 	"../pages/event-modal/event-modal.module": [
-		489,
+		490,
 		1
 	],
 	"../pages/mood-chart/mood-chart.module": [
@@ -547,11 +716,11 @@ var map = {
 		0
 	],
 	"../pages/mood-menu/mood-menu.module": [
-		490,
+		492,
 		3
 	],
 	"../pages/mood-tracker/mood-tracker.module": [
-		492,
+		493,
 		2
 	]
 };
@@ -688,34 +857,34 @@ MoodJournalPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__advice_services_advice_services__ = __webpack_require__(355);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__in_acrisis_in_acrisis__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__carer_support_carer_support__ = __webpack_require__(131);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__know_your_rights_know_your_rights__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__find_aservice_find_aservice__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__in_acrisis_in_acrisis__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__carer_support_carer_support__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__know_your_rights_know_your_rights__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__find_aservice_find_aservice__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__self_help_self_help__ = __webpack_require__(356);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__what_is_self_help_what_is_self_help__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__mindfulness_mindfulness__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__nhs_self_help_leaflets_nhs_self_help_leaflets__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__inspirational_videos_inspirational_videos__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__abuse_abuse__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__alcohol_and_you_alcohol_and_you__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__anxiety_anxiety__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bereavement_bereavement__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__controlling_anger_controlling_anger__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__domestic_violence_domestic_violence__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__eating_disorders_eating_disorders__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__food_for_thought_food_for_thought__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__health_anxiety_health_anxiety__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__panic_panic__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__postnatal_depression_postnatal_depression__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__self_harm_self_harm__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__social_anxiety_social_anxiety__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__sleeping_problems_sleeping_problems__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__stress_stress__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__what_is_self_help_what_is_self_help__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__mindfulness_mindfulness__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__nhs_self_help_leaflets_nhs_self_help_leaflets__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__inspirational_videos_inspirational_videos__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__abuse_abuse__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__alcohol_and_you_alcohol_and_you__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__anxiety_anxiety__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bereavement_bereavement__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__controlling_anger_controlling_anger__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__domestic_violence_domestic_violence__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__eating_disorders_eating_disorders__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__food_for_thought_food_for_thought__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__health_anxiety_health_anxiety__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__panic_panic__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__postnatal_depression_postnatal_depression__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__self_harm_self_harm__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__social_anxiety_social_anxiety__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__sleeping_problems_sleeping_problems__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__stress_stress__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__relax_space_relax_space__ = __webpack_require__(357);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__mood_menu_mood_menu__ = __webpack_require__(137);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -939,10 +1108,10 @@ MenuPage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdviceServicesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__in_acrisis_in_acrisis__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__carer_support_carer_support__ = __webpack_require__(131);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__know_your_rights_know_your_rights__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__find_aservice_find_aservice__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__in_acrisis_in_acrisis__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__carer_support_carer_support__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__know_your_rights_know_your_rights__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__find_aservice_find_aservice__ = __webpack_require__(132);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1002,29 +1171,29 @@ AdviceServicesPage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelfHelpPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__what_is_self_help_what_is_self_help__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mindfulness_mindfulness__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nhs_self_help_leaflets_nhs_self_help_leaflets__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__inspirational_videos_inspirational_videos__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__abuse_abuse__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__alcohol_and_you_alcohol_and_you__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__anxiety_anxiety__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__bereavement_bereavement__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__controlling_anger_controlling_anger__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__domestic_violence_domestic_violence__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__eating_disorders_eating_disorders__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__food_for_thought_food_for_thought__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__health_anxiety_health_anxiety__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__panic_panic__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__postnatal_depression_postnatal_depression__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__self_harm_self_harm__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__social_anxiety_social_anxiety__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__sleeping_problems_sleeping_problems__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stress_stress__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__what_is_self_help_what_is_self_help__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mindfulness_mindfulness__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nhs_self_help_leaflets_nhs_self_help_leaflets__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__inspirational_videos_inspirational_videos__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__abuse_abuse__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__alcohol_and_you_alcohol_and_you__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__anxiety_anxiety__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__bereavement_bereavement__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__controlling_anger_controlling_anger__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__domestic_violence_domestic_violence__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__eating_disorders_eating_disorders__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__food_for_thought_food_for_thought__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__health_anxiety_health_anxiety__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__panic_panic__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__postnatal_depression_postnatal_depression__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__self_harm_self_harm__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__social_anxiety_social_anxiety__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__sleeping_problems_sleeping_problems__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stress_stress__ = __webpack_require__(77);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1199,28 +1368,9 @@ SelfHelpPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listen_listen__ = __webpack_require__(358);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__inspirational_videos_inspirational_videos__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__abuse_abuse__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__alcohol_and_you_alcohol_and_you__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__anxiety_anxiety__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__bereavement_bereavement__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__controlling_anger_controlling_anger__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__domestic_violence_domestic_violence__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__eating_disorders_eating_disorders__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__food_for_thought_food_for_thought__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__health_anxiety_health_anxiety__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__panic_panic__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__postnatal_depression_postnatal_depression__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__self_harm_self_harm__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__social_anxiety_social_anxiety__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__sleeping_problems_sleeping_problems__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__stress_stress__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__positive_visualisation_positive_visualisation__ = __webpack_require__(359);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__mentalhealthfeelslike_mentalhealthfeelslike__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__motivational_quotes_motivational_quotes__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__positive_visualisation_positive_visualisation__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mentalhealthfeelslike_mentalhealthfeelslike__ = __webpack_require__(361);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1236,149 +1386,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var RelaxSpacePage = (function () {
     function RelaxSpacePage(navCtrl) {
         this.navCtrl = navCtrl;
     }
-    RelaxSpacePage.prototype.goToListen = function (params) {
-        if (!params)
-            params = {};
+    RelaxSpacePage.prototype.goToListen = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__listen_listen__["a" /* ListenPage */]);
     };
-    RelaxSpacePage.prototype.goToInspirationalVideos = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__inspirational_videos_inspirational_videos__["a" /* InspirationalVideosPage */]);
+    RelaxSpacePage.prototype.goToMotivationalQuotes = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__motivational_quotes_motivational_quotes__["a" /* MotivationalQuotesPage */]);
     };
-    RelaxSpacePage.prototype.goToAbuse = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__abuse_abuse__["a" /* AbusePage */]);
+    RelaxSpacePage.prototype.goToPositiveVisualisation = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__positive_visualisation_positive_visualisation__["a" /* PositiveVisualisationPage */]);
     };
-    RelaxSpacePage.prototype.goToAlcoholAndYou = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__alcohol_and_you_alcohol_and_you__["a" /* AlcoholAndYouPage */]);
-    };
-    RelaxSpacePage.prototype.goToAnxiety = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__anxiety_anxiety__["a" /* AnxietyPage */]);
-    };
-    RelaxSpacePage.prototype.goToBereavement = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__bereavement_bereavement__["a" /* BereavementPage */]);
-    };
-    RelaxSpacePage.prototype.goToControllingAnger = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__controlling_anger_controlling_anger__["a" /* ControllingAngerPage */]);
-    };
-    RelaxSpacePage.prototype.goToDepressionAndLowMood = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__depression_and_low_mood_depression_and_low_mood__["a" /* DepressionAndLowMoodPage */]);
-    };
-    RelaxSpacePage.prototype.goToDomesticViolence = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__domestic_violence_domestic_violence__["a" /* DomesticViolencePage */]);
-    };
-    RelaxSpacePage.prototype.goToEatingDisorders = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_11__eating_disorders_eating_disorders__["a" /* EatingDisordersPage */]);
-    };
-    RelaxSpacePage.prototype.goToFoodForThought = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__food_for_thought_food_for_thought__["a" /* FoodForThoughtPage */]);
-    };
-    RelaxSpacePage.prototype.goToHealthAnxiety = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_13__health_anxiety_health_anxiety__["a" /* HealthAnxietyPage */]);
-    };
-    RelaxSpacePage.prototype.goToHearingVoicesAndDisturbingBeliefs = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_14__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__["a" /* HearingVoicesAndDisturbingBeliefsPage */]);
-    };
-    RelaxSpacePage.prototype.goToObsessionsAndCompulsions = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_15__obsessions_and_compulsions_obsessions_and_compulsions__["a" /* ObsessionsAndCompulsionsPage */]);
-    };
-    RelaxSpacePage.prototype.goToPanic = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_16__panic_panic__["a" /* PanicPage */]);
-    };
-    RelaxSpacePage.prototype.goToPostTraumaticStress = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_17__post_traumatic_stress_post_traumatic_stress__["a" /* PostTraumaticStressPage */]);
-    };
-    RelaxSpacePage.prototype.goToPostnatalDepression = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_18__postnatal_depression_postnatal_depression__["a" /* PostnatalDepressionPage */]);
-    };
-    RelaxSpacePage.prototype.goToSelfHarm = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_19__self_harm_self_harm__["a" /* SelfHarmPage */]);
-    };
-    RelaxSpacePage.prototype.goToSocialAnxiety = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_20__social_anxiety_social_anxiety__["a" /* SocialAnxietyPage */]);
-    };
-    RelaxSpacePage.prototype.goToSleepingProblems = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_21__sleeping_problems_sleeping_problems__["a" /* SleepingProblemsPage */]);
-    };
-    RelaxSpacePage.prototype.goToStress = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_22__stress_stress__["a" /* StressPage */]);
-    };
-    RelaxSpacePage.prototype.goToPositiveVisualisation = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_23__positive_visualisation_positive_visualisation__["a" /* PositiveVisualisationPage */]);
-    };
-    RelaxSpacePage.prototype.goToMentalhealthfeelslike = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_24__mentalhealthfeelslike_mentalhealthfeelslike__["a" /* MentalhealthfeelslikePage */]);
+    RelaxSpacePage.prototype.goToMentalhealthfeelslike = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__mentalhealthfeelslike_mentalhealthfeelslike__["a" /* MentalhealthfeelslikePage */]);
     };
     return RelaxSpacePage;
 }());
 RelaxSpacePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-relax-space',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/relax-space/relax-space.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page40">\n  <button id="relaxSpace-button9" class="action-button" ion-button color="light" block on-click="goToListen()">\n    listen\n  </button>\n  <button id="relaxSpace-button10" class="action-button" ion-button color="light" block on-click="goToInspirationalVideos()">\n    inspirational videos\n  </button>\n  <button id="relaxSpace-button11" class="action-button" ion-button color="light" block on-click="goToPositiveVisualisation()">\n    positive visualisation\n  </button>\n  <button id="relaxSpace-button12" class="action-button" ion-button color="light" block on-click="goToMentalhealthfeelslike()">\n    #mentalhealthfeelslike\n  </button>\n</ion-content>\n\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/relax-space/relax-space.html"*/
+        selector: 'page-relax-space',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/relax-space/relax-space.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page40">\n  <button id="relaxSpace-button9" class="action-button" ion-button color="light" block on-click="goToListen()">\n    listen\n  </button>\n  <button id="relaxSpace-button10" class="action-button" ion-button color="light" block on-click="goToMotivationalQuotes()">\n    motivational quotes\n  </button>\n  <button id="relaxSpace-button11" class="action-button" ion-button color="light" block on-click="goToPositiveVisualisation()">\n    positive visualisation\n  </button>\n  <button id="relaxSpace-button12" class="action-button" ion-button color="light" block on-click="goToMentalhealthfeelslike()">\n    #mentalhealthfeelslike\n  </button>\n</ion-content>\n\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/relax-space/relax-space.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
 ], RelaxSpacePage);
@@ -1426,6 +1454,64 @@ ListenPage = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MotivationalQuotesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__ = __webpack_require__(31);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var MotivationalQuotesPage = (function () {
+    /*constructor(public navCtrl: NavController) {
+    }*/
+    function MotivationalQuotesPage(theInAppBrowser) {
+        this.theInAppBrowser = theInAppBrowser;
+        this.options = {
+            location: 'yes',
+            hidden: 'no',
+            clearcache: 'yes',
+            clearsessioncache: 'yes',
+            zoom: 'yes',
+            hardwareback: 'yes',
+            mediaPlaybackRequiresUserAction: 'no',
+            shouldPauseOnSuspend: 'no',
+            closebuttoncaption: 'Close',
+            disallowoverscroll: 'no',
+            toolbar: 'yes',
+            enableViewportScale: 'no',
+            allowInlineMediaPlayback: 'no',
+            presentationstyle: 'pagesheet',
+            fullscreen: 'yes',
+        };
+    }
+    MotivationalQuotesPage.prototype.openWithInAppBrowser = function (url) {
+        var target = "_blank";
+        this.theInAppBrowser.create(url, target, this.options);
+    };
+    return MotivationalQuotesPage;
+}());
+MotivationalQuotesPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-motivational-quotes',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/motivational-quotes/motivational-quotes.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page29">\n<p>this page includes Great quotes can be inspirational and motivational. You can use quotes to help guide your decisions in life, work and love. Here are 50 of the best inspirational quotes to motivate you</p>\n       <a class="first-item" href="#" (click)="openWithInAppBrowser(\'https://www.entrepreneur.com/article/247213\')" id="hyperlink1">\n                click here for more motivational quotes\n            </a>\n  <ion-list id="inspirationalVideos-list5">\n    <ion-item class="video-item action-button">\n	Nothing is impossible, the word itself says “I’m possible”! —Audrey Hepburn\n    </ion-item>\n    <ion-item class="video-item action-button">\n	I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. —Maya Angelou\n    </ion-item>\n    <ion-item class="video-item action-button">\n	Whether you think you can or you think you can’t, you’re right. —Henry Ford\n    </ion-item>\n    <ion-item class="video-item action-button">\n	Perfection is not attainable, but if we chase perfection we can catch excellence. —Vince Lombardi\n    </ion-item>\n    <ion-item class="video-item action-button">\n	Life is 10% what happens to me and 90% of how I react to it. —Charles Swindoll\n    </ion-item>\n    <ion-item class="video-item action-button">\n	If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough. —Oprah Winfrey\n    </ion-item>\n    <ion-item class="video-item action-button">\n	Remember no one can make you feel inferior without your consent. —Eleanor Roosevelt\n    </ion-item>\n    <ion-item class="video-item action-button">\n	I can’t change the direction of the wind, but I can adjust my sails to always reach my destination. —Jimmy Dean\n    </ion-item>\n	<ion-item class="video-item action-button">\n	Believe you can and you’re halfway there. —Theodore Roosevelt\n	</ion-item>\n	<ion-item class="video-item action-button">\n	To handle yourself, use your head; to handle others, use your heart. —Eleanor Roosevelt\n	</ion-item>\n	<ion-item class="video-item action-button">\n	Too many of us are not living our dreams because we are living our fears. —Les Brown\n	</ion-item>\n	<ion-item class="video-item action-button">\n	Do or do not. There is no try. —Yoda\n	</ion-item>\n	<ion-item class="video-item action-button">\n	Whatever the mind of man can conceive and believe, it can achieve. —Napoleon Hill\n	</ion-item>\n	<ion-item class="video-item action-button">\n	Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover. —Mark Twain\n	</ion-item>\n	<ion-item class="video-item action-button">\n	I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed. —Michael Jordan\n	</ion-item>\n	<ion-item class="video-item action-button">\n	Strive not to be a success, but rather to be of value. —Albert Einstein\n	</ion-item>\n	<ion-item class="video-item action-button">\n	I am not a product of my circumstances. I am a product of my decisions. —Stephen Covey\n	</ion-item>\n	<ion-item class="video-item action-button">\n	I am not a product of my circumstances. I am a product of my decisions. —Stephen Covey\n	</ion-item>\n	<ion-item class="video-item action-button">\n	When everything seems to be going against you, remember that the airplane takes off against the wind, not with it. —Henry Ford\n	</ion-item>\n	<ion-item class="video-item action-button">\n	The most common way people give up their power is by thinking they don’t have any. —Alice Walker\n	</ion-item>\n	<ion-item class="video-item action-button">\n	The most difficult thing is the decision to act, the rest is merely tenacity. —Amelia Earhart\n	</ion-item>\n	<ion-item class="video-item action-button">\n	It is during our darkest moments that we must focus to see the light. —Aristotle Onassis\n	</ion-item>\n	<ion-item class="video-item action-button">\n	Don’t judge each day by the harvest you reap but by the seeds that you plant. —Robert Louis Stevenson\n	</ion-item>\n	<ion-item class="video-item action-button">\n	The only way to do great work is to love what you do. —Steve Jobs\n	</ion-item>\n	<ion-item class="video-item action-button">\n	Change your thoughts and you change your world. —Norman Vincent Peale\n	</ion-item>\n	<ion-item class="video-item action-button">\n	The question isn’t who is going to let me; it’s who is going to stop me. —Ayn Rand\n	</ion-item>\n	<ion-item class="video-item action-button">\n	If you hear a voice within you say "you cannot paint," then by all means paint and that voice will be silenced. —Vincent Van Gogh\n	</ion-item>\n	<ion-item class="video-item action-button">\n	Build your own dreams, or someone else will hire you to build theirs. —Farrah Gray\n	</ion-item>\n	<ion-item class="video-item action-button">\n	Remember that not getting what you want is sometimes a wonderful stroke of luck. —Dalai Lama\n	</ion-item>\n	<ion-item class="video-item action-button">\n	You can’t use up creativity. The more you use, the more you have. —Maya Angelou\n	</ion-item>\n	<ion-item class="video-item action-button">\n	I have learned over the years that when one’s mind is made up, this diminishes fear. —Rosa Parks\n	</ion-item>\n  </ion-list>\n</ion-content>\n\n\n\n\n\n\n\n\n\n\n\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/motivational-quotes/motivational-quotes.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_in_app_browser__["a" /* InAppBrowser */]])
+], MotivationalQuotesPage);
+
+//# sourceMappingURL=motivational-quotes.js.map
+
+/***/ }),
+
+/***/ 360:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PositiveVisualisationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
@@ -1457,7 +1543,7 @@ PositiveVisualisationPage = __decorate([
 
 /***/ }),
 
-/***/ 360:
+/***/ 361:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1492,13 +1578,13 @@ MentalhealthfeelslikePage = __decorate([
 
 /***/ }),
 
-/***/ 361:
+/***/ 362:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(362);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(363);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(381);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1506,62 +1592,64 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 380:
+/***/ 381:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(478);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_menu_menu__ = __webpack_require__(354);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_self_help_self_help__ = __webpack_require__(356);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_what_is_self_help_what_is_self_help__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_mindfulness_mindfulness__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_nhs_self_help_leaflets_nhs_self_help_leaflets__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_what_is_self_help_what_is_self_help__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_mindfulness_mindfulness__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_nhs_self_help_leaflets_nhs_self_help_leaflets__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_advice_services_advice_services__ = __webpack_require__(355);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_in_acrisis_in_acrisis__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_carer_support_carer_support__ = __webpack_require__(131);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_know_your_rights_know_your_rights__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_find_aservice_find_aservice__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_in_acrisis_in_acrisis__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_carer_support_carer_support__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_know_your_rights_know_your_rights__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_find_aservice_find_aservice__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_mood_journal_mood_journal__ = __webpack_require__(312);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_relax_space_relax_space__ = __webpack_require__(357);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_listen_listen__ = __webpack_require__(358);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_inspirational_videos_inspirational_videos__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_positive_visualisation_positive_visualisation__ = __webpack_require__(359);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_mentalhealthfeelslike_mentalhealthfeelslike__ = __webpack_require__(360);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_abuse_abuse__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_alcohol_and_you_alcohol_and_you__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_anxiety_anxiety__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_bereavement_bereavement__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_controlling_anger_controlling_anger__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_domestic_violence_domestic_violence__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_eating_disorders_eating_disorders__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_food_for_thought_food_for_thought__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_health_anxiety_health_anxiety__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_panic_panic__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_postnatal_depression_postnatal_depression__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_self_harm_self_harm__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_social_anxiety_social_anxiety__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_sleeping_problems_sleeping_problems__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_stress_stress__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_inspirational_videos_inspirational_videos__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_positive_visualisation_positive_visualisation__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_mentalhealthfeelslike_mentalhealthfeelslike__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_abuse_abuse__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_alcohol_and_you_alcohol_and_you__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_anxiety_anxiety__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_bereavement_bereavement__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_controlling_anger_controlling_anger__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_domestic_violence_domestic_violence__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_eating_disorders_eating_disorders__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_food_for_thought_food_for_thought__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_health_anxiety_health_anxiety__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_panic_panic__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_postnatal_depression_postnatal_depression__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_self_harm_self_harm__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_social_anxiety_social_anxiety__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_sleeping_problems_sleeping_problems__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_stress_stress__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_mood_menu_mood_menu__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_mood_tracker_mood_tracker__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__ionic_native_status_bar__ = __webpack_require__(352);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__ionic_native_splash_screen__ = __webpack_require__(353);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44_ionic2_calendar__ = __webpack_require__(478);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__pages_motivational_quotes_motivational_quotes__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__ionic_native_status_bar__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__ionic_native_splash_screen__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45_ionic2_calendar__ = __webpack_require__(479);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1652,16 +1740,17 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_36__pages_self_harm_self_harm__["a" /* SelfHarmPage */],
             __WEBPACK_IMPORTED_MODULE_37__pages_social_anxiety_social_anxiety__["a" /* SocialAnxietyPage */],
             __WEBPACK_IMPORTED_MODULE_38__pages_sleeping_problems_sleeping_problems__["a" /* SleepingProblemsPage */],
-            __WEBPACK_IMPORTED_MODULE_39__pages_stress_stress__["a" /* StressPage */]
+            __WEBPACK_IMPORTED_MODULE_39__pages_stress_stress__["a" /* StressPage */],
+            __WEBPACK_IMPORTED_MODULE_42__pages_motivational_quotes_motivational_quotes__["a" /* MotivationalQuotesPage */]
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_44_ionic2_calendar__["a" /* NgCalendarModule */],
+            __WEBPACK_IMPORTED_MODULE_45_ionic2_calendar__["a" /* NgCalendarModule */],
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
                 links: [
                     { loadChildren: '../pages/event-modal/event-modal.module#EventModalPageModule', name: 'EventModalPage', segment: 'event-modal', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/mood-menu/mood-menu.module#MoodMenuPageModule', name: 'MoodMenuPage', segment: 'mood-menu', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/mood-chart/mood-chart.module#MoodChartPageModule', name: 'MoodChartPage', segment: 'mood-chart', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/mood-menu/mood-menu.module#MoodMenuPageModule', name: 'MoodMenuPage', segment: 'mood-menu', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/mood-tracker/mood-tracker.module#MoodTrackerPageModule', name: 'MoodTrackerPage', segment: 'mood-tracker', priority: 'low', defaultHistory: [] }
                 ]
             })
@@ -1705,11 +1794,12 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_36__pages_self_harm_self_harm__["a" /* SelfHarmPage */],
             __WEBPACK_IMPORTED_MODULE_37__pages_social_anxiety_social_anxiety__["a" /* SocialAnxietyPage */],
             __WEBPACK_IMPORTED_MODULE_38__pages_sleeping_problems_sleeping_problems__["a" /* SleepingProblemsPage */],
-            __WEBPACK_IMPORTED_MODULE_39__pages_stress_stress__["a" /* StressPage */]
+            __WEBPACK_IMPORTED_MODULE_39__pages_stress_stress__["a" /* StressPage */],
+            __WEBPACK_IMPORTED_MODULE_42__pages_motivational_quotes_motivational_quotes__["a" /* MotivationalQuotesPage */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_42__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_43__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_43__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_44__ionic_native_splash_screen__["a" /* SplashScreen */],
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */],
             { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicErrorHandler */] }
         ]
@@ -1720,7 +1810,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 413:
+/***/ 414:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -1975,11 +2065,11 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 413;
+webpackContext.id = 414;
 
 /***/ }),
 
-/***/ 477:
+/***/ 478:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2025,7 +2115,14 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 48:
+/***/ 483:
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 59:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2060,14 +2157,7 @@ AbusePage = __decorate([
 
 /***/ }),
 
-/***/ 482:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 49:
+/***/ 60:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2102,7 +2192,7 @@ AlcoholAndYouPage = __decorate([
 
 /***/ }),
 
-/***/ 50:
+/***/ 61:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2137,7 +2227,7 @@ AnxietyPage = __decorate([
 
 /***/ }),
 
-/***/ 51:
+/***/ 62:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2172,7 +2262,7 @@ BereavementPage = __decorate([
 
 /***/ }),
 
-/***/ 52:
+/***/ 63:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2207,7 +2297,7 @@ ControllingAngerPage = __decorate([
 
 /***/ }),
 
-/***/ 53:
+/***/ 64:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2242,7 +2332,7 @@ DepressionAndLowMoodPage = __decorate([
 
 /***/ }),
 
-/***/ 54:
+/***/ 65:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2277,7 +2367,7 @@ DomesticViolencePage = __decorate([
 
 /***/ }),
 
-/***/ 55:
+/***/ 66:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2312,7 +2402,7 @@ EatingDisordersPage = __decorate([
 
 /***/ }),
 
-/***/ 56:
+/***/ 67:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2347,7 +2437,7 @@ FoodForThoughtPage = __decorate([
 
 /***/ }),
 
-/***/ 57:
+/***/ 68:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2382,7 +2472,7 @@ HealthAnxietyPage = __decorate([
 
 /***/ }),
 
-/***/ 58:
+/***/ 69:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2417,7 +2507,7 @@ HearingVoicesAndDisturbingBeliefsPage = __decorate([
 
 /***/ }),
 
-/***/ 59:
+/***/ 70:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2452,7 +2542,7 @@ ObsessionsAndCompulsionsPage = __decorate([
 
 /***/ }),
 
-/***/ 60:
+/***/ 71:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2487,7 +2577,7 @@ PanicPage = __decorate([
 
 /***/ }),
 
-/***/ 61:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2522,7 +2612,7 @@ PostTraumaticStressPage = __decorate([
 
 /***/ }),
 
-/***/ 62:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2557,7 +2647,7 @@ PostnatalDepressionPage = __decorate([
 
 /***/ }),
 
-/***/ 63:
+/***/ 74:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2592,7 +2682,7 @@ SelfHarmPage = __decorate([
 
 /***/ }),
 
-/***/ 64:
+/***/ 75:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2627,7 +2717,7 @@ SocialAnxietyPage = __decorate([
 
 /***/ }),
 
-/***/ 65:
+/***/ 76:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2662,7 +2752,7 @@ SleepingProblemsPage = __decorate([
 
 /***/ }),
 
-/***/ 66:
+/***/ 77:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2695,175 +2785,7 @@ StressPage = __decorate([
 
 //# sourceMappingURL=stress.js.map
 
-/***/ }),
-
-/***/ 78:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InspirationalVideosPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__abuse_abuse__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alcohol_and_you_alcohol_and_you__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__anxiety_anxiety__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__bereavement_bereavement__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__controlling_anger_controlling_anger__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__domestic_violence_domestic_violence__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__eating_disorders_eating_disorders__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__food_for_thought_food_for_thought__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__health_anxiety_health_anxiety__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__panic_panic__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__postnatal_depression_postnatal_depression__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__self_harm_self_harm__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__social_anxiety_social_anxiety__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sleeping_problems_sleeping_problems__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stress_stress__ = __webpack_require__(66);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var InspirationalVideosPage = (function () {
-    function InspirationalVideosPage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    InspirationalVideosPage.prototype.goToAbuse = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__abuse_abuse__["a" /* AbusePage */]);
-    };
-    InspirationalVideosPage.prototype.goToAlcoholAndYou = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__alcohol_and_you_alcohol_and_you__["a" /* AlcoholAndYouPage */]);
-    };
-    InspirationalVideosPage.prototype.goToAnxiety = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__anxiety_anxiety__["a" /* AnxietyPage */]);
-    };
-    InspirationalVideosPage.prototype.goToBereavement = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__bereavement_bereavement__["a" /* BereavementPage */]);
-    };
-    InspirationalVideosPage.prototype.goToControllingAnger = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__controlling_anger_controlling_anger__["a" /* ControllingAngerPage */]);
-    };
-    InspirationalVideosPage.prototype.goToDepressionAndLowMood = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__depression_and_low_mood_depression_and_low_mood__["a" /* DepressionAndLowMoodPage */]);
-    };
-    InspirationalVideosPage.prototype.goToDomesticViolence = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__domestic_violence_domestic_violence__["a" /* DomesticViolencePage */]);
-    };
-    InspirationalVideosPage.prototype.goToEatingDisorders = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__eating_disorders_eating_disorders__["a" /* EatingDisordersPage */]);
-    };
-    InspirationalVideosPage.prototype.goToFoodForThought = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__food_for_thought_food_for_thought__["a" /* FoodForThoughtPage */]);
-    };
-    InspirationalVideosPage.prototype.goToHealthAnxiety = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_11__health_anxiety_health_anxiety__["a" /* HealthAnxietyPage */]);
-    };
-    InspirationalVideosPage.prototype.goToHearingVoicesAndDisturbingBeliefs = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__["a" /* HearingVoicesAndDisturbingBeliefsPage */]);
-    };
-    InspirationalVideosPage.prototype.goToObsessionsAndCompulsions = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_13__obsessions_and_compulsions_obsessions_and_compulsions__["a" /* ObsessionsAndCompulsionsPage */]);
-    };
-    InspirationalVideosPage.prototype.goToPanic = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_14__panic_panic__["a" /* PanicPage */]);
-    };
-    InspirationalVideosPage.prototype.goToPostTraumaticStress = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_15__post_traumatic_stress_post_traumatic_stress__["a" /* PostTraumaticStressPage */]);
-    };
-    InspirationalVideosPage.prototype.goToPostnatalDepression = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_16__postnatal_depression_postnatal_depression__["a" /* PostnatalDepressionPage */]);
-    };
-    InspirationalVideosPage.prototype.goToSelfHarm = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_17__self_harm_self_harm__["a" /* SelfHarmPage */]);
-    };
-    InspirationalVideosPage.prototype.goToSocialAnxiety = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_18__social_anxiety_social_anxiety__["a" /* SocialAnxietyPage */]);
-    };
-    InspirationalVideosPage.prototype.goToSleepingProblems = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_19__sleeping_problems_sleeping_problems__["a" /* SleepingProblemsPage */]);
-    };
-    InspirationalVideosPage.prototype.goToStress = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_20__stress_stress__["a" /* StressPage */]);
-    };
-    return InspirationalVideosPage;
-}());
-InspirationalVideosPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-inspirational-videos',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/inspirational-videos/inspirational-videos.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page29">\n  <h3 id="inspirationalVideos-heading1">\n    a-z\n  </h3>\n  <ion-list id="inspirationalVideos-list5">\n    <ion-item on-click="goToAbuse()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      abuse\n    </ion-item>\n    <ion-item color="none" on-click="goToAlcoholAndYou()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      alcohol and you\n    </ion-item>\n    <ion-item color="none" on-click="goToAnxiety()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      anxiety\n    </ion-item>\n    <ion-item color="none" on-click="goToBereavement()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      bereavement\n    </ion-item>\n    <ion-item color="none" on-click="goToControllingAnger()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      controlling anger\n    </ion-item>\n    <ion-item color="none" on-click="goToDepressionAndLowMood()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      depression and low mood\n    </ion-item>\n    <ion-item color="none" on-click="goToDomesticViolence()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      domestic violence\n    </ion-item>\n    <ion-item color="none" on-click="goToEatingDisorders()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      eating disorders\n    </ion-item>\n    <ion-item color="none" on-click="goToFoodForThought()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      food for thought\n    </ion-item>\n    <ion-item color="none" on-click="goToHealthAnxiety()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      health anxiety\n    </ion-item>\n    <ion-item color="none" on-click="goToHearingVoicesAndDisturbingBeliefs()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      hearing voices and disturbing beliefs\n    </ion-item>\n    <ion-item color="none" on-click="goToObsessionsAndCompulsions()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      obsessions and compulsions\n    </ion-item>\n    <ion-item color="none" on-click="goToPanic()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      panic\n    </ion-item>\n    <ion-item color="none" on-click="goToPostTraumaticStress()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      post traumatic stress\n    </ion-item>\n    <ion-item color="none" on-click="goToPostnatalDepression()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      postnatal depression\n    </ion-item>\n    <ion-item color="none" on-click="goToSelfHarm()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      self harm\n    </ion-item>\n    <ion-item color="none" on-click="goToSocialAnxiety()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      social anxiety\n    </ion-item>\n    <ion-item color="none" on-click="goToSleepingProblems()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      sleeping problems\n    </ion-item>\n    <ion-item color="none" on-click="goToStress()" id="inspirationalVideos-list-item20" class="video-item action-button">\n      <ion-icon name="videocam" item-left></ion-icon>\n      stress\n    </ion-item>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/inspirational-videos/inspirational-videos.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
-], InspirationalVideosPage);
-
-//# sourceMappingURL=inspirational-videos.js.map
-
 /***/ })
 
-},[361]);
+},[362]);
 //# sourceMappingURL=main.js.map

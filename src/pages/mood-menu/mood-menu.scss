@@ -20,7 +20,10 @@ color: #464646; }
 }
 
 #moodJournalButtons {
-	margin-top: 50px;
+	position: absolute;
+	top: 50%;
+	margin-top: -97.5px;
+	box-sizing: border-box;
 }
 
 }

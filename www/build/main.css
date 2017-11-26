@@ -25722,7 +25722,8 @@ ion-content {
   color: #464646;
   font-size: 25px;
   border-radius: 16px;
-  height: 90px;
+  min-height: 90px;
+  width: 100%;
 }
 
 .action-button .block-item :not(:last-child) {
@@ -25925,7 +25926,11 @@ page-mood-menu #goodlabel {
 }
 
 page-mood-menu #moodJournalButtons {
-  margin-top: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -97.5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 page-mood-tracker .ios page-home .scroll-content, page-mood-tracker .md page-home .scroll-content {
@@ -25942,6 +25947,11 @@ page-mood-tracker .ios page-home ion-card-content, page-mood-tracker .md page-ho
 
 page-mood-tracker .ios page-home canvas, page-mood-tracker .md page-home canvas {
   height: 300px;
+}
+
+page-motivational-quotes .first-item {
+  margin-bottom: 40px;
+  display: block;
 }
 
 page-nhs-self-help-leaflets {

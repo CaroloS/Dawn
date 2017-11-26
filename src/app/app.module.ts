@@ -40,6 +40,7 @@ import { SleepingProblemsPage } from '../pages/sleeping-problems/sleeping-proble
 import { StressPage } from '../pages/stress/stress';
 import { MoodMenuPage } from '../pages/mood-menu/mood-menu';
 import { MoodTrackerPage } from '../pages/mood-tracker/mood-tracker';
+import { MotivationalQuotesPage } from '../pages/motivational-quotes/motivational-quotes';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -86,7 +87,8 @@ import { NgCalendarModule  } from 'ionic2-calendar';
     SelfHarmPage,
     SocialAnxietyPage,
     SleepingProblemsPage,
-    StressPage
+    StressPage,
+	MotivationalQuotesPage
   ],
   imports: [
     NgCalendarModule,
@@ -132,7 +134,8 @@ import { NgCalendarModule  } from 'ionic2-calendar';
     SelfHarmPage,
     SocialAnxietyPage,
     SleepingProblemsPage,
-    StressPage
+    StressPage,
+	MotivationalQuotesPage
   ],
   providers: [
     StatusBar,
