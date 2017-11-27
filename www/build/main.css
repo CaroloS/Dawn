@@ -25933,20 +25933,8 @@ page-mood-menu #moodJournalButtons {
   box-sizing: border-box;
 }
 
-page-mood-tracker .ios page-home .scroll-content, page-mood-tracker .md page-home .scroll-content {
-  background-color: #f4f4f4;
-}
-
-page-mood-tracker .ios page-home ion-card-header, page-mood-tracker .md page-home ion-card-header {
-  font-weight: bold;
-}
-
-page-mood-tracker .ios page-home ion-card-content, page-mood-tracker .md page-home ion-card-content {
-  height: 300px;
-}
-
-page-mood-tracker .ios page-home canvas, page-mood-tracker .md page-home canvas {
-  height: 300px;
+page-mood-tracker canvas {
+  height: 500px;
 }
 
 page-motivational-quotes .first-item {

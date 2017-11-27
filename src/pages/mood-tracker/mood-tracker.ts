@@ -41,7 +41,7 @@ export class MoodTrackerPage {
                     ],
                     hoverBackgroundColor: [
                         "#FF6384",
-                        "#36A2EB",
+                        "#3CB371",
                         "#FFCE56",
 
                     ]

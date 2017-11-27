@@ -1,28 +1,8 @@
 page-mood-tracker {
 
 
-
-  .ios, .md {
-
-      page-home {
-
-          .scroll-content {
-              background-color: map-get($colors, light);
-          }
-
-          ion-card-header {
-              font-weight: bold;
-          }
-
-          ion-card-content {
-            height: 300px;
-          }
-
           canvas {
-            height: 300px;
+            height: 500px;
           }
 
-      }
-
-  }
 }
