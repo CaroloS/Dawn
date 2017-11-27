@@ -1,121 +1,102 @@
-import { Component } from '@angular/core';
-import { NavController, ModalController, AlertController } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {NavController, ModalController, AlertController} from 'ionic-angular';
 import * as moment from 'moment';
-import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
+import {DatabaseProvider} from "../../providers/database/database";
 
 
 @Component({
-  selector: 'page-mood-journal',
-  templateUrl: 'mood-journal.html'
+    selector: 'page-mood-journal',
+    templateUrl: 'mood-journal.html'
 })
 export class MoodJournalPage {
-  eventSource = [];
-  viewTitle: string;
-  selectedDay = new Date();
+    eventSource = [];
 
-  isToday:boolean;
-   calendar = {
-       mode: 'month',
-       currentDate: new Date(),
-       dateFormatter: {
-           formatMonthViewDay: function(date:Date) {
-               return date.getDate().toString();
-           },
-           formatMonthViewDayHeader: function(date:Date) {
-               return 'MonMH';
-           },
-           formatMonthViewTitle: function(date:Date) {
-               return 'testMT';
-           },
-           formatWeekViewDayHeader: function(date:Date) {
-               return 'MonWH';
-           },
-           formatWeekViewTitle: function(date:Date) {
-               return 'testWT';
-           },
-           formatWeekViewHourColumn: function(date:Date) {
-               return 'testWH';
-           },
-           formatDayViewHourColumn: function(date:Date) {
-               return 'testDH';
-           },
-           formatDayViewTitle: function(date:Date) {
-               return 'testDT';
-           }
-       }
-   };
+    viewTitle: string;
+    selectedDay = new Date();
+
+    isToday: boolean;
+    calendar = {
+        mode: 'month',
+        currentDate: new Date(),
+        dateFormatter: {
+            formatMonthViewDay: function (date: Date) {
+                return date.getDate().toString();
+            },
+            formatMonthViewDayHeader: function (date: Date) {
+                return 'MonMH';
+            },
+            formatMonthViewTitle: function (date: Date) {
+                return 'testMT';
+            },
+            formatWeekViewDayHeader: function (date: Date) {
+                return 'MonWH';
+            },
+            formatWeekViewTitle: function (date: Date) {
+                return 'testWT';
+            },
+            formatWeekViewHourColumn: function (date: Date) {
+                return 'testWH';
+            },
+            formatDayViewHourColumn: function (date: Date) {
+                return 'testDH';
+            },
+            formatDayViewTitle: function (date: Date) {
+                return 'testDT';
+            }
+        }
+    };
 
 
-  constructor(public navCtrl: NavController, private modalCtrl: ModalController, private alertCtrl: AlertController, private sqlite: SQLite) {
-  	this.eventSource = [];
-   }
-   
-  	getEntries(date) { 
-		this.sqlite.create({
-		  name: 'data.db',
-		  location: 'default'
-		})
-		  .then((db: SQLiteObject) => {
-			  let date_from = date;
-			  let date_to = moment(date).endOf('day').toDate();
-		    db.executeSql(`SELECT * FROM mood_journal_entries WHERE date_from >= '${date_from}' AND date_until =< '${date_to}' ORDER BY date_from ASC`, {}, {success: (results) => {
-			  console.log('Databse yo!')
-			  console.log(JSON.stringify(results));
-			  this.eventSource = results;
-		    }})
-		      .catch(e => console.log(e));
-		  })
-		  .catch(e => console.log(e));
-	 }
-	 
-	 ionicViewDidLoad() {
-		 this.getEntries(moment().startOf('day').toDate()) 
-	 }
-	 
-  addEvent() {
-    let modal = this.modalCtrl.create('EventModalPage', {selectedDay: this.selectedDay});
-    modal.present();
-    modal.onDidDismiss(data => {
-      if (data) {
-        let eventData = data;
+    constructor(public navCtrl: NavController, private modalCtrl: ModalController, private alertCtrl: AlertController, private databaseprovider: DatabaseProvider) {
+    }
 
-        eventData.startTime = new Date(data.startTime);
-        eventData.endTime = new Date(data.endTime);
-
-        let events = this.eventSource;
-        events.push(eventData);
-        setTimeout(() => {
-          this.eventSource = events;
+    ngOnInit() {
+        this.databaseprovider.connection().executeSql('SELECT * FROM mood_journal_entries',[]).then(results =>  {
+            for(var i = 0; i < results.rows.length; i ++){
+                const {id, entry, date_from, date_until, all_day, mood} = results.rows.item(i);
+                this.eventSource.push({title: entry, startTime: date_from, endTime: date_until});
+            }
+            console.log(JSON.stringify(this.eventSource))
         });
-      }
-    });
-  }
+    }
 
-  onViewTitleChanged(title) {
-    this.viewTitle = title;
-  }
+    addEvent() {
+        let modal = this.modalCtrl.create('EventModalPage', {selectedDay: this.selectedDay});
+        modal.present();
+        modal.onDidDismiss(data => {
+            if (data) {
+                let eventData = data;
 
-  onEventSelected(event) {
-    let start = moment(event.startTime).format('LLLL');
-    let end = moment(event.endTime).format('LLLL');
+                eventData.startTime = new Date(data.startTime);
+                eventData.endTime = new Date(data.endTime);
 
-    let alert = this.alertCtrl.create({
-      title: '' + event.title,
-      subTitle: 'From: ' + start + '<br>To: ' + end,
-      buttons: ['OK']
-    })
-    alert.present();
-  }
+                let events = this.eventSource;
+                events.push(eventData);
+                setTimeout(() => {
+                    this.eventSource = events;
+                });
+            }
+        });
+    }
 
-  onTimeSelected(ev) {
-    this.selectedDay = ev.selectedTime;
-	this.getEntries(ev.selectedTime);
-  }
+    onViewTitleChanged(title) {
+        this.viewTitle = title;
+    }
 
-  changeMode(mode) {
-      this.calendar.mode = mode;
-  }
+    onEventSelected(event) {
+        let start = moment(event.startTime).format('LLLL');
+        let end = moment(event.endTime).format('LLLL');
 
+        let alert = this.alertCtrl.create({
+            title: '' + event.title,
+            subTitle: 'From: ' + start + '<br>To: ' + end,
+            buttons: ['OK']
+        })
+        alert.present();
+    }
 
+    onTimeSelected(ev) {
+        this.selectedDay = ev.selectedTime;
+    }
 
 }
