@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 491:
+/***/ 492:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EventModalPageModule", function() { return EventModalPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_modal__ = __webpack_require__(495);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_modal__ = __webpack_require__(496);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ EventModalPageModule = __decorate([
 
 /***/ }),
 
-/***/ 495:
+/***/ 496:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47,7 +47,7 @@ EventModalPageModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_database_database__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_database_database__ = __webpack_require__(80);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -68,8 +68,8 @@ var EventModalPage = (function () {
         this.viewCtrl = viewCtrl;
         this.databaseprovider = databaseprovider;
         this.event = {
-            startTime: __WEBPACK_IMPORTED_MODULE_2_moment___default()().toDate(),
-            endTime: __WEBPACK_IMPORTED_MODULE_2_moment___default()().toDate(),
+            startTime: __WEBPACK_IMPORTED_MODULE_2_moment___default()().format(),
+            endTime: __WEBPACK_IMPORTED_MODULE_2_moment___default()().format(),
             allDay: false,
             mood: 'bad',
             title: ''

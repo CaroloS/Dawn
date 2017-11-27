@@ -3,7 +3,6 @@ import {NavController, ModalController, AlertController} from 'ionic-angular';
 import * as moment from 'moment';
 import {DatabaseProvider} from "../../providers/database/database";
 
-
 @Component({
     selector: 'page-mood-journal',
     templateUrl: 'mood-journal.html'
@@ -51,31 +50,34 @@ export class MoodJournalPage {
     }
 
     ngOnInit() {
-        this.databaseprovider.connection().executeSql('SELECT * FROM mood_journal_entries',[]).then(results =>  {
-            for(var i = 0; i < results.rows.length; i ++){
-                const {id, entry, date_from, date_until, all_day, mood} = results.rows.item(i);
-                this.eventSource.push({title: entry, startTime: date_from, endTime: date_until});
-            }
-            console.log(JSON.stringify(this.eventSource))
-        });
+        this.getData()
     }
 
+    getData() {
+        let events = [];
+        this.databaseprovider.connection().executeSql('SELECT * FROM mood_journal_entries',[]).then(results =>  {
+            if(results.rows.length > 0) {
+                for (var i = 0; i < results.rows.length; i++) {
+                    const {entry, date_from, date_until} = results.rows.item(i);
+                    events.push({
+                        title: entry,
+                        startTime: new Date(date_from),
+                        endTime: new Date(date_until),
+                        allDay: false
+                    });
+                }
+                console.log(JSON.stringify(events))
+            }
+            this.eventSource = [];
+            setTimeout(()=>this.eventSource = events);
+        });
+    }
+    
     addEvent() {
         let modal = this.modalCtrl.create('EventModalPage', {selectedDay: this.selectedDay});
         modal.present();
         modal.onDidDismiss(data => {
-            if (data) {
-                let eventData = data;
-
-                eventData.startTime = new Date(data.startTime);
-                eventData.endTime = new Date(data.endTime);
-
-                let events = this.eventSource;
-                events.push(eventData);
-                setTimeout(() => {
-                    this.eventSource = events;
-                });
-            }
+            this.getData()
         });
     }
 

@@ -11,8 +11,8 @@ import {DatabaseProvider} from "../../providers/database/database";
 export class EventModalPage {
 
     event = {
-        startTime: moment().toDate(),
-        endTime: moment().toDate(),
+        startTime: moment().format(),
+        endTime: moment().format(),
         allDay: false,
         mood: 'bad',
         title: ''
