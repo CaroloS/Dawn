@@ -4,13 +4,7 @@ import { RelaxSpacePage } from '../relax-space/relax-space';
 import { MoodTrackerPage } from '../mood-tracker/mood-tracker';
 import { MoodJournalPage } from '../mood-journal/mood-journal';
 import { AlertController } from 'ionic-angular';
-
-/**
- * Generated class for the MoodMenuPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 
 @IonicPage()
 @Component({
@@ -19,7 +13,7 @@ import { AlertController } from 'ionic-angular';
 })
 export class MoodMenuPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private sqlite: SQLite) {
   }
 
 
@@ -54,17 +48,29 @@ goodSelected(event) {
 }
 
 
-  goToMoodJournal(params){
-    if (!params) params = {};
+  goToMoodJournal(){
     this.navCtrl.push(MoodJournalPage);
   }
-  goToMoodTracker(params){
-    if (!params) params = {};
+  goToMoodTracker(){
     this.navCtrl.push(MoodTrackerPage);
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MoodMenuPage');
+	this.sqlite.create({
+	  name: 'data.db',
+	  location: 'default'
+	})
+	  .then((db: SQLiteObject) => {
+
+
+	    db.executeSql('CREATE TABLE IF NOT EXISTS mood_journal_entries (id INTEGER PRIMARY KEY, date_from DATETIME, date_until DATETIME, all_day BOOL, mood VARCHAR(4), entry TEXT);', {})
+	      .then(() => console.log('Executed SQL'))
+	      .catch(e => console.log(e));
+
+
+	  })
+	  .catch(e => console.log(e));
   }
 
 }

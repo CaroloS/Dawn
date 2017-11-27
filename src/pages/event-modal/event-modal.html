@@ -14,10 +14,18 @@
 
 
     <ion-item>
-      <ion-textarea id="myInput" placeholder="write your jounral entry here"  [(ngModel)]="event.title"></ion-textarea>
+      <ion-textarea id="myInput" placeholder="write your journal entry here"  [(ngModel)]="event.title"></ion-textarea>
     <!--  <ion-input type="text" placeholder="Title" [(ngModel)]="event.title"></ion-input> -->
     </ion-item>
-
+   
+	<ion-item>
+ 	 <ion-label>mood</ion-label>
+ 	 	<ion-select [(ngModel)]="mood">
+ 	   <ion-option value="bad">bad</ion-option>
+  	  <ion-option value="ok">ok</ion-option>
+	  <ion-option value="good">good</ion-option>
+  	</ion-select>
+	</ion-item>
 
 <ion-list>
     <ion-item>

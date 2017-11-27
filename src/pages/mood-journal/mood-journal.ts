@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, ModalController, AlertController } from 'ionic-angular';
 import * as moment from 'moment';
+import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 
 
 @Component({
@@ -45,8 +46,32 @@ export class MoodJournalPage {
    };
 
 
-  constructor(public navCtrl: NavController, private modalCtrl: ModalController, private alertCtrl: AlertController) { }
-
+  constructor(public navCtrl: NavController, private modalCtrl: ModalController, private alertCtrl: AlertController, private sqlite: SQLite) {
+  	this.eventSource = [];
+   }
+   
+  	getEntries(date) { 
+		this.sqlite.create({
+		  name: 'data.db',
+		  location: 'default'
+		})
+		  .then((db: SQLiteObject) => {
+			  let date_from = date;
+			  let date_to = moment(date).endOf('day').toDate();
+		    db.executeSql(`SELECT * FROM mood_journal_entries WHERE date_from >= '${date_from}' AND date_until =< '${date_to}' ORDER BY date_from ASC`, {}, {success: (results) => {
+			  console.log('Databse yo!')
+			  console.log(JSON.stringify(results));
+			  this.eventSource = results;
+		    }})
+		      .catch(e => console.log(e));
+		  })
+		  .catch(e => console.log(e));
+	 }
+	 
+	 ionicViewDidLoad() {
+		 this.getEntries(moment().startOf('day').toDate()) 
+	 }
+	 
   addEvent() {
     let modal = this.modalCtrl.create('EventModalPage', {selectedDay: this.selectedDay});
     modal.present();
@@ -59,7 +84,6 @@ export class MoodJournalPage {
 
         let events = this.eventSource;
         events.push(eventData);
-        this.eventSource = [];
         setTimeout(() => {
           this.eventSource = events;
         });
@@ -85,6 +109,7 @@ export class MoodJournalPage {
 
   onTimeSelected(ev) {
     this.selectedDay = ev.selectedTime;
+	this.getEntries(ev.selectedTime);
   }
 
   changeMode(mode) {

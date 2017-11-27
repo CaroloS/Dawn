@@ -47,7 +47,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { NgCalendarModule  } from 'ionic2-calendar';
-
+import { SQLite } from '@ionic-native/sqlite';
 @NgModule({
   declarations: [
     MyApp,
@@ -141,7 +141,8 @@ import { NgCalendarModule  } from 'ionic2-calendar';
     StatusBar,
     SplashScreen,
     InAppBrowser,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+	SQLite
   ]
 })
 export class AppModule {}

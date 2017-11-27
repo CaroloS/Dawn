@@ -25679,52 +25679,68 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+* {
+  font-family: Fredorka One;
+  text-transform: lowercase;
+  font-size: 25px;
+  color: #464646;
+  white-space: normal !important;
+}
+
+ion-navbar {
+  padding-top: 50px;
+}
+
+ion-content {
+  background: url("../assets/img/dawn_background.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @font-face {
   font-family: Fredorka One;
   src: url("../assets/fonts/Fredorka One");
 }
 
-* {
-  font-family: Fredorka One;
-  text-transform: lowercase;
+.service-title {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: none;
 }
 
-page-abuse .scroll-content {
-  background: url(assets/img/dawn_background.gif) no-repeat center center fixed;
+.service-information {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  color: none;
 }
 
-page-advice-services #adviceServices-button5 {
-  background-color: rgba(255, 255, 255, 0.2);
+.video-title {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.action-button {
+  background-color: rgba(255, 255, 255, 0.2) !important;
   color: #464646;
   font-size: 25px;
+  border-radius: 16px;
+  min-height: 90px;
+  width: 100%;
 }
 
-page-advice-services #adviceServices-button6 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
+.action-button .block-item :not(:last-child) {
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
-page-advice-services #adviceServices-button7 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
+.action-button.item-block {
+  border: none !important;
 }
 
-page-advice-services #adviceServices-button8 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
+.action-button.item-block .item-inner {
+  border: none !important;
 }
 
-page-carer-support {
-  font-color: #464646;
-  font-size: 20px;
-}
-
-page-carer-support #hyperlink1 {
-  color: #464646;
-  text-decoration: none;
+.action-button:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 page-event-modal h2 {
@@ -25783,32 +25799,16 @@ page-event-modal #submit {
   border-radius: 10px;
 }
 
-page-find-aservice .item {
-  color: rgba(0, 0, 0, 0.7);
-}
-
-page-find-aservice #hyperlink1 {
-  color: #464646;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-page-in-acrisis #hyperlink1 {
-  color: #464646;
-  text-decoration: none;
-}
-
-page-inspirational-videos #page29 {
-  background: url(assets/img/raEceC6SLm58JDwFvGbE_dawn.gif) no-repeat center;
-  background-size: cover;
-}
-
-page-inspirational-videos #inspirationalVideos-list-item20 {
+page-food-for-thought #foodForThought-textarea29 {
   background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  border: transparent;
-  font-color: "#FDFDFD";
-  font-size: 20px;
+}
+
+page-food-for-thought #foodForThought-textarea30 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+page-inspirational-videos .video-item :not(:last-child) {
+  margin-bottom: 10px;
 }
 
 page-know-your-rights {
@@ -25821,14 +25821,15 @@ page-know-your-rights #hyperlink1 {
   text-decoration: none;
 }
 
-page-mentalhealthfeelslike #hyperlink1 {
-  color: #464646;
-  text-decoration: none;
+page-listen .video-title {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-page-mentalhealthfeelslike #Mentalhealthfeelslike-markdown9 {
-  color: #464646;
-  font-size: 20px;
+page-listen .video {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%;
 }
 
 page-menu p {
@@ -25839,43 +25840,26 @@ page-menu p {
 
 page-menu #menu-button13 {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
   height: 150px;
   width: 150px;
-  margin-bottom: 20px;
 }
 
 page-menu #menu-button14 {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
   height: 150px;
   width: 150px;
-  margin-bottom: 20px;
-  white-space: normal;
 }
 
 page-menu #menu-button15 {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-  margin-bottom: 20px;
   width: 150px;
   height: 150px;
-  margin-bottom: 20px;
-  white-space: normal;
 }
 
 page-menu #menu-button16 {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-  margin-bottom: 20px;
   width: 150px;
   height: 150px;
-  margin-bottom: 20px;
-  white-space: normal;
 }
 
 page-mindfulness #mindfulness-markdown6 {
@@ -25887,48 +25871,66 @@ page-mood-journal calendar {
   color: "#FDFDFD";
 }
 
+page-mood-journal calendar .monthview-datetable th * {
+  white-space: nowrap !important;
+}
+
 page-mood-journal calendar.currentDate {
   background-color: yellow;
 }
 
 page-mood-menu #moodbutton1 {
   background-color: rgba(255, 99, 132, 0.6);
-  height: 90px;
-  width: 80px;
-  margin-left: 15px;
-  border-radius: 10px;
-}
-
-page-mood-menu #moodbutton1:active {
-  height: 110px;
-  width: 100px;
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+  color: #464646;
 }
 
 page-mood-menu #moodbutton2 {
   background-color: rgba(255, 206, 86, 0.5);
-  height: 90px;
-  width: 80px;
-  margin-left: 15px;
-  border-radius: 10px;
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+  color: #464646;
 }
 
 page-mood-menu #moodbutton3 {
   background-color: rgba(163, 202, 123, 0.4);
-  height: 90px;
-  width: 80px;
-  margin-left: 15px;
-  border-radius: 10px;
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+  color: #464646;
 }
 
-page-mood-menu #button4 {
-  margin-top: 10px;
-  margin-left: 240px;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: rgba(0, 0, 0, 0.8);
+page-mood-menu #moodbutton1:active {
+  background-color: rgba(255, 99, 132, 0.6);
+  height: 80px;
+  width: 100%;
 }
 
-page-mood-menu #button5 {
-  margin-top: 80px;
+page-mood-menu #moodbutton2:active {
+  background-color: rgba(255, 206, 86, 0.5);
+  height: 80px;
+  width: 100%;
+}
+
+page-mood-menu #moodbutton3:active {
+  background-color: rgba(163, 202, 123, 0.4);
+  height: 80px;
+  width: 100%;
+}
+
+page-mood-menu #goodlabel {
+  overflow: visible;
+}
+
+page-mood-menu #moodJournalButtons {
+  position: absolute;
+  top: 50%;
+  margin-top: -97.5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 page-mood-tracker .ios page-home .scroll-content, page-mood-tracker .md page-home .scroll-content {
@@ -25947,6 +25949,11 @@ page-mood-tracker .ios page-home canvas, page-mood-tracker .md page-home canvas 
   height: 300px;
 }
 
+page-motivational-quotes .first-item {
+  margin-bottom: 40px;
+  display: block;
+}
+
 page-nhs-self-help-leaflets {
   color: #464646;
   font-size: 20px;
@@ -25955,57 +25962,4 @@ page-nhs-self-help-leaflets {
 page-nhs-self-help-leaflets #hyperlink1 {
   color: #464646;
   text-decoration: none;
-}
-
-page-relax-space #relaxSpace-button9 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-}
-
-page-relax-space #relaxSpace-button10 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-}
-
-page-relax-space #relaxSpace-button11 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-}
-
-page-relax-space #relaxSpace-button12 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-}
-
-page-self-help #selfHelp-button1 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-}
-
-page-self-help #selfHelp-button2 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-}
-
-page-self-help #selfHelp-button3 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-}
-
-page-self-help #selfHelp-button4 {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #464646;
-  font-size: 25px;
-}
-
-page-what-is-self-help #whatIsSelfHelp-markdown5 {
-  color: #464646;
-  font-size: 20px;
 }

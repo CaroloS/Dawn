@@ -367,25 +367,25 @@ NhsSelfHelpLeafletsPage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InspirationalVideosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__abuse_abuse__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alcohol_and_you_alcohol_and_you__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__anxiety_anxiety__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__bereavement_bereavement__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__controlling_anger_controlling_anger__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__domestic_violence_domestic_violence__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__eating_disorders_eating_disorders__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__food_for_thought_food_for_thought__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__health_anxiety_health_anxiety__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__panic_panic__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__postnatal_depression_postnatal_depression__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__self_harm_self_harm__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__social_anxiety_social_anxiety__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sleeping_problems_sleeping_problems__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stress_stress__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__abuse_abuse__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alcohol_and_you_alcohol_and_you__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__anxiety_anxiety__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__bereavement_bereavement__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__controlling_anger_controlling_anger__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__domestic_violence_domestic_violence__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__eating_disorders_eating_disorders__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__food_for_thought_food_for_thought__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__health_anxiety_health_anxiety__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__panic_panic__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__postnatal_depression_postnatal_depression__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__self_harm_self_harm__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__social_anxiety_social_anxiety__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sleeping_problems_sleeping_problems__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stress_stress__ = __webpack_require__(78);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -528,15 +528,16 @@ InspirationalVideosPage = __decorate([
 
 /***/ }),
 
-/***/ 137:
+/***/ 138:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MoodMenuPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mood_tracker_mood_tracker__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mood_journal_mood_journal__ = __webpack_require__(312);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mood_tracker_mood_tracker__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mood_journal_mood_journal__ = __webpack_require__(313);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_sqlite__ = __webpack_require__(137);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -551,17 +552,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-/**
- * Generated class for the MoodMenuPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 var MoodMenuPage = (function () {
-    function MoodMenuPage(navCtrl, navParams, alertCtrl) {
+    function MoodMenuPage(navCtrl, navParams, alertCtrl, sqlite) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.alertCtrl = alertCtrl;
+        this.sqlite = sqlite;
     }
     MoodMenuPage.prototype.badSelected = function (event) {
         var alert = this.alertCtrl.create({
@@ -587,18 +584,24 @@ var MoodMenuPage = (function () {
         });
         alert.present();
     };
-    MoodMenuPage.prototype.goToMoodJournal = function (params) {
-        if (!params)
-            params = {};
+    MoodMenuPage.prototype.goToMoodJournal = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__mood_journal_mood_journal__["a" /* MoodJournalPage */]);
     };
-    MoodMenuPage.prototype.goToMoodTracker = function (params) {
-        if (!params)
-            params = {};
+    MoodMenuPage.prototype.goToMoodTracker = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__mood_tracker_mood_tracker__["a" /* MoodTrackerPage */]);
     };
     MoodMenuPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad MoodMenuPage');
+        this.sqlite.create({
+            name: 'data.db',
+            location: 'default'
+        })
+            .then(function (db) {
+            db.executeSql('CREATE TABLE IF NOT EXISTS mood_journal_entries (id INTEGER PRIMARY KEY, date_from DATETIME, date_until DATETIME, all_day BOOL, mood VARCHAR(4), entry TEXT);', {})
+                .then(function () { return console.log('Executed SQL'); })
+                .catch(function (e) { return console.log(e); });
+        })
+            .catch(function (e) { return console.log(e); });
     };
     return MoodMenuPage;
 }());
@@ -606,21 +609,21 @@ MoodMenuPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-mood-menu',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-menu/mood-menu.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n<h2> how are you feeling today? </h2>\n  <ion-grid no-padding>\n    <ion-row>\n      <ion-col>\n          <button ion-button class="moodbutton" id="moodbutton1" on-click="badSelected()">\n            <ion-label>bad</ion-label>\n          </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button id="moodbutton2" on-click="okSelected()">\n          <ion-label>ok</ion-label>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button id="moodbutton3" on-click="goodSelected()">\n          <ion-label id="goodlabel">good</ion-label>\n        </button>\n      </ion-col>\n    </ion-row>\n    </ion-grid>\n<!--   <button ion-button round id="button4">Submit</button> -->\n<div padding-right id="moodJournalButtons">\n<button ion-button id="button5" class="action-button" on-click="goToMoodJournal()">write a mood journal entry</button>\n<button ion-button id="button6" class="action-button" on-click="goToMoodTracker()">view your mood tracker</button>\n</div>\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-menu/mood-menu.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_sqlite__["a" /* SQLite */]])
 ], MoodMenuPage);
 
 //# sourceMappingURL=mood-menu.js.map
 
 /***/ }),
 
-/***/ 138:
+/***/ 139:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MoodTrackerPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js__ = __webpack_require__(415);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js__ = __webpack_require__(416);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_chart_js__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -678,15 +681,14 @@ MoodTrackerPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-mood-tracker',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-tracker/mood-tracker.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n<!--\n    <ion-card id="doughnut">\n      <ion-card-header>\n        my Mood\n      </ion-card-header>\n      <ion-card-content style="height:300px;">\n   -->\n        <h2>my mood</h2>\n        <canvas #doughnutCanvas style="height:300px;"></canvas>\n<!--\n      </ion-card-content>\n    </ion-card>\n   -->\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-tracker/mood-tracker.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
 ], MoodTrackerPage);
 
-var _a;
 //# sourceMappingURL=mood-tracker.js.map
 
 /***/ }),
 
-/***/ 146:
+/***/ 147:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -699,28 +701,28 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 146;
+webpackEmptyAsyncContext.id = 147;
 
 /***/ }),
 
-/***/ 188:
+/***/ 189:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/event-modal/event-modal.module": [
-		490,
+		491,
 		1
 	],
 	"../pages/mood-chart/mood-chart.module": [
-		491,
+		492,
 		0
 	],
 	"../pages/mood-menu/mood-menu.module": [
-		492,
+		493,
 		3
 	],
 	"../pages/mood-tracker/mood-tracker.module": [
-		493,
+		494,
 		2
 	]
 };
@@ -735,12 +737,12 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 188;
+webpackAsyncContext.id = 189;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 312:
+/***/ 313:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -749,6 +751,7 @@ module.exports = webpackAsyncContext;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_moment__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_sqlite__ = __webpack_require__(137);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -761,11 +764,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var MoodJournalPage = (function () {
-    function MoodJournalPage(navCtrl, modalCtrl, alertCtrl) {
+    function MoodJournalPage(navCtrl, modalCtrl, alertCtrl, sqlite) {
         this.navCtrl = navCtrl;
         this.modalCtrl = modalCtrl;
         this.alertCtrl = alertCtrl;
+        this.sqlite = sqlite;
         this.eventSource = [];
         this.selectedDay = new Date();
         this.calendar = {
@@ -798,7 +803,29 @@ var MoodJournalPage = (function () {
                 }
             }
         };
+        this.eventSource = [];
     }
+    MoodJournalPage.prototype.getEntries = function (date) {
+        var _this = this;
+        this.sqlite.create({
+            name: 'data.db',
+            location: 'default'
+        })
+            .then(function (db) {
+            var date_from = date;
+            var date_to = __WEBPACK_IMPORTED_MODULE_2_moment__(date).endOf('day').toDate();
+            db.executeSql("SELECT * FROM mood_journal_entries WHERE date_from >= '" + date_from + "' AND date_until =< '" + date_to + "' ORDER BY date_from ASC", {}, { success: function (results) {
+                    console.log('Databse yo!');
+                    console.log(JSON.stringify(results));
+                    _this.eventSource = results;
+                } })
+                .catch(function (e) { return console.log(e); });
+        })
+            .catch(function (e) { return console.log(e); });
+    };
+    MoodJournalPage.prototype.ionicViewDidLoad = function () {
+        this.getEntries(__WEBPACK_IMPORTED_MODULE_2_moment__().startOf('day').toDate());
+    };
     MoodJournalPage.prototype.addEvent = function () {
         var _this = this;
         var modal = this.modalCtrl.create('EventModalPage', { selectedDay: this.selectedDay });
@@ -810,7 +837,6 @@ var MoodJournalPage = (function () {
                 eventData.endTime = new Date(data.endTime);
                 var events_1 = _this.eventSource;
                 events_1.push(eventData);
-                _this.eventSource = [];
                 setTimeout(function () {
                     _this.eventSource = events_1;
                 });
@@ -832,6 +858,7 @@ var MoodJournalPage = (function () {
     };
     MoodJournalPage.prototype.onTimeSelected = function (ev) {
         this.selectedDay = ev.selectedTime;
+        this.getEntries(ev.selectedTime);
     };
     MoodJournalPage.prototype.changeMode = function (mode) {
         this.calendar.mode = mode;
@@ -842,51 +869,52 @@ MoodJournalPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-mood-journal',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-journal/mood-journal.html"*/'<ion-header>\n  <ion-navbar>\n      <ion-buttons end>\n     <button ion-button icon-only (click)="addEvent()">\n      <ion-icon name="add"></ion-icon>\n     </button>\n   </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page39">\n\n    <button ion-button block (click)="addEvent()" class="action-button" >\n     click to add an entry\n    </button>\n    <p style="text-align:center">{{ viewTitle}}\n	</p>\n    <calendar [eventSource]="eventSource"\n      [calendarMode]="calendar.mode"\n      [currentDate]="calendar.currentDate"\n      (onEventSelected)="onEventSelected($event)"\n      (onTitleChanged)="onViewTitleChanged($event)"\n      (onTimeSelected)="onTimeSelected($event)"\n      step="30"\n      class="calendar">\n    </calendar>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-journal/mood-journal.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_sqlite__["a" /* SQLite */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_sqlite__["a" /* SQLite */]) === "function" && _d || Object])
 ], MoodJournalPage);
 
+var _a, _b, _c, _d;
 //# sourceMappingURL=mood-journal.js.map
 
 /***/ }),
 
-/***/ 354:
+/***/ 355:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__advice_services_advice_services__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__advice_services_advice_services__ = __webpack_require__(356);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__in_acrisis_in_acrisis__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__carer_support_carer_support__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__know_your_rights_know_your_rights__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__find_aservice_find_aservice__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__self_help_self_help__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__self_help_self_help__ = __webpack_require__(357);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__what_is_self_help_what_is_self_help__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__mindfulness_mindfulness__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__nhs_self_help_leaflets_nhs_self_help_leaflets__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__inspirational_videos_inspirational_videos__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__abuse_abuse__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__alcohol_and_you_alcohol_and_you__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__anxiety_anxiety__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bereavement_bereavement__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__controlling_anger_controlling_anger__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__domestic_violence_domestic_violence__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__eating_disorders_eating_disorders__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__food_for_thought_food_for_thought__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__health_anxiety_health_anxiety__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__panic_panic__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__postnatal_depression_postnatal_depression__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__self_harm_self_harm__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__social_anxiety_social_anxiety__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__sleeping_problems_sleeping_problems__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__stress_stress__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__relax_space_relax_space__ = __webpack_require__(357);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__mood_menu_mood_menu__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__abuse_abuse__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__alcohol_and_you_alcohol_and_you__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__anxiety_anxiety__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bereavement_bereavement__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__controlling_anger_controlling_anger__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__domestic_violence_domestic_violence__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__eating_disorders_eating_disorders__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__food_for_thought_food_for_thought__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__health_anxiety_health_anxiety__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__panic_panic__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__postnatal_depression_postnatal_depression__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__self_harm_self_harm__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__social_anxiety_social_anxiety__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__sleeping_problems_sleeping_problems__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__stress_stress__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__relax_space_relax_space__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__mood_menu_mood_menu__ = __webpack_require__(138);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1101,7 +1129,7 @@ MenuPage = __decorate([
 
 /***/ }),
 
-/***/ 355:
+/***/ 356:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1164,7 +1192,7 @@ AdviceServicesPage = __decorate([
 
 /***/ }),
 
-/***/ 356:
+/***/ 357:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1175,25 +1203,25 @@ AdviceServicesPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mindfulness_mindfulness__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nhs_self_help_leaflets_nhs_self_help_leaflets__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__inspirational_videos_inspirational_videos__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__abuse_abuse__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__alcohol_and_you_alcohol_and_you__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__anxiety_anxiety__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__bereavement_bereavement__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__controlling_anger_controlling_anger__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__domestic_violence_domestic_violence__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__eating_disorders_eating_disorders__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__food_for_thought_food_for_thought__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__health_anxiety_health_anxiety__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__panic_panic__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__postnatal_depression_postnatal_depression__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__self_harm_self_harm__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__social_anxiety_social_anxiety__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__sleeping_problems_sleeping_problems__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stress_stress__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__abuse_abuse__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__alcohol_and_you_alcohol_and_you__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__anxiety_anxiety__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__bereavement_bereavement__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__controlling_anger_controlling_anger__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__domestic_violence_domestic_violence__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__eating_disorders_eating_disorders__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__food_for_thought_food_for_thought__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__health_anxiety_health_anxiety__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__panic_panic__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__postnatal_depression_postnatal_depression__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__self_harm_self_harm__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__social_anxiety_social_anxiety__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__sleeping_problems_sleeping_problems__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stress_stress__ = __webpack_require__(78);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1360,17 +1388,17 @@ SelfHelpPage = __decorate([
 
 /***/ }),
 
-/***/ 357:
+/***/ 358:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RelaxSpacePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listen_listen__ = __webpack_require__(358);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__motivational_quotes_motivational_quotes__ = __webpack_require__(359);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__positive_visualisation_positive_visualisation__ = __webpack_require__(360);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mentalhealthfeelslike_mentalhealthfeelslike__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listen_listen__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__motivational_quotes_motivational_quotes__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__positive_visualisation_positive_visualisation__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mentalhealthfeelslike_mentalhealthfeelslike__ = __webpack_require__(362);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1415,7 +1443,7 @@ RelaxSpacePage = __decorate([
 
 /***/ }),
 
-/***/ 358:
+/***/ 359:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1450,7 +1478,7 @@ ListenPage = __decorate([
 
 /***/ }),
 
-/***/ 359:
+/***/ 360:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1508,7 +1536,7 @@ MotivationalQuotesPage = __decorate([
 
 /***/ }),
 
-/***/ 360:
+/***/ 361:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1543,7 +1571,7 @@ PositiveVisualisationPage = __decorate([
 
 /***/ }),
 
-/***/ 361:
+/***/ 362:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1578,13 +1606,13 @@ MentalhealthfeelslikePage = __decorate([
 
 /***/ }),
 
-/***/ 362:
+/***/ 363:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(363);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(381);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(364);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(382);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1592,7 +1620,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 381:
+/***/ 382:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1601,54 +1629,56 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(478);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_menu_menu__ = __webpack_require__(354);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_self_help_self_help__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(479);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_menu_menu__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_self_help_self_help__ = __webpack_require__(357);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_what_is_self_help_what_is_self_help__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_mindfulness_mindfulness__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_nhs_self_help_leaflets_nhs_self_help_leaflets__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_advice_services_advice_services__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_advice_services_advice_services__ = __webpack_require__(356);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_in_acrisis_in_acrisis__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_carer_support_carer_support__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_know_your_rights_know_your_rights__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_find_aservice_find_aservice__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_mood_journal_mood_journal__ = __webpack_require__(312);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_relax_space_relax_space__ = __webpack_require__(357);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_listen_listen__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_mood_journal_mood_journal__ = __webpack_require__(313);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_relax_space_relax_space__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_listen_listen__ = __webpack_require__(359);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_inspirational_videos_inspirational_videos__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_positive_visualisation_positive_visualisation__ = __webpack_require__(360);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_mentalhealthfeelslike_mentalhealthfeelslike__ = __webpack_require__(361);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_abuse_abuse__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_alcohol_and_you_alcohol_and_you__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_anxiety_anxiety__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_bereavement_bereavement__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_controlling_anger_controlling_anger__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_domestic_violence_domestic_violence__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_eating_disorders_eating_disorders__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_food_for_thought_food_for_thought__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_health_anxiety_health_anxiety__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_panic_panic__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_postnatal_depression_postnatal_depression__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_self_harm_self_harm__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_social_anxiety_social_anxiety__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_sleeping_problems_sleeping_problems__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_stress_stress__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_mood_menu_mood_menu__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_mood_tracker_mood_tracker__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__pages_motivational_quotes_motivational_quotes__ = __webpack_require__(359);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__ionic_native_status_bar__ = __webpack_require__(352);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__ionic_native_splash_screen__ = __webpack_require__(353);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45_ionic2_calendar__ = __webpack_require__(479);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_positive_visualisation_positive_visualisation__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_mentalhealthfeelslike_mentalhealthfeelslike__ = __webpack_require__(362);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_abuse_abuse__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_alcohol_and_you_alcohol_and_you__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_anxiety_anxiety__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_bereavement_bereavement__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_controlling_anger_controlling_anger__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_depression_and_low_mood_depression_and_low_mood__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_domestic_violence_domestic_violence__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_eating_disorders_eating_disorders__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_food_for_thought_food_for_thought__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_hearing_voices_and_disturbing_beliefs_hearing_voices_and_disturbing_beliefs__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_health_anxiety_health_anxiety__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_obsessions_and_compulsions_obsessions_and_compulsions__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_panic_panic__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_post_traumatic_stress_post_traumatic_stress__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_postnatal_depression_postnatal_depression__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_self_harm_self_harm__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_social_anxiety_social_anxiety__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_sleeping_problems_sleeping_problems__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_stress_stress__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_mood_menu_mood_menu__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_mood_tracker_mood_tracker__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__pages_motivational_quotes_motivational_quotes__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__ionic_native_status_bar__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__ionic_native_splash_screen__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45_ionic2_calendar__ = __webpack_require__(480);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__ionic_native_sqlite__ = __webpack_require__(137);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1801,7 +1831,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_43__ionic_native_status_bar__["a" /* StatusBar */],
             __WEBPACK_IMPORTED_MODULE_44__ionic_native_splash_screen__["a" /* SplashScreen */],
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */],
-            { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicErrorHandler */] }
+            { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicErrorHandler */] },
+            __WEBPACK_IMPORTED_MODULE_46__ionic_native_sqlite__["a" /* SQLite */]
         ]
     })
 ], AppModule);
@@ -1810,246 +1841,246 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 414:
+/***/ 415:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./af": 189,
-	"./af.js": 189,
-	"./ar": 190,
-	"./ar-dz": 191,
-	"./ar-dz.js": 191,
-	"./ar-kw": 192,
-	"./ar-kw.js": 192,
-	"./ar-ly": 193,
-	"./ar-ly.js": 193,
-	"./ar-ma": 194,
-	"./ar-ma.js": 194,
-	"./ar-sa": 195,
-	"./ar-sa.js": 195,
-	"./ar-tn": 196,
-	"./ar-tn.js": 196,
-	"./ar.js": 190,
-	"./az": 197,
-	"./az.js": 197,
-	"./be": 198,
-	"./be.js": 198,
-	"./bg": 199,
-	"./bg.js": 199,
-	"./bm": 200,
-	"./bm.js": 200,
-	"./bn": 201,
-	"./bn.js": 201,
-	"./bo": 202,
-	"./bo.js": 202,
-	"./br": 203,
-	"./br.js": 203,
-	"./bs": 204,
-	"./bs.js": 204,
-	"./ca": 205,
-	"./ca.js": 205,
-	"./cs": 206,
-	"./cs.js": 206,
-	"./cv": 207,
-	"./cv.js": 207,
-	"./cy": 208,
-	"./cy.js": 208,
-	"./da": 209,
-	"./da.js": 209,
-	"./de": 210,
-	"./de-at": 211,
-	"./de-at.js": 211,
-	"./de-ch": 212,
-	"./de-ch.js": 212,
-	"./de.js": 210,
-	"./dv": 213,
-	"./dv.js": 213,
-	"./el": 214,
-	"./el.js": 214,
-	"./en-au": 215,
-	"./en-au.js": 215,
-	"./en-ca": 216,
-	"./en-ca.js": 216,
-	"./en-gb": 217,
-	"./en-gb.js": 217,
-	"./en-ie": 218,
-	"./en-ie.js": 218,
-	"./en-nz": 219,
-	"./en-nz.js": 219,
-	"./eo": 220,
-	"./eo.js": 220,
-	"./es": 221,
-	"./es-do": 222,
-	"./es-do.js": 222,
-	"./es-us": 223,
-	"./es-us.js": 223,
-	"./es.js": 221,
-	"./et": 224,
-	"./et.js": 224,
-	"./eu": 225,
-	"./eu.js": 225,
-	"./fa": 226,
-	"./fa.js": 226,
-	"./fi": 227,
-	"./fi.js": 227,
-	"./fo": 228,
-	"./fo.js": 228,
-	"./fr": 229,
-	"./fr-ca": 230,
-	"./fr-ca.js": 230,
-	"./fr-ch": 231,
-	"./fr-ch.js": 231,
-	"./fr.js": 229,
-	"./fy": 232,
-	"./fy.js": 232,
-	"./gd": 233,
-	"./gd.js": 233,
-	"./gl": 234,
-	"./gl.js": 234,
-	"./gom-latn": 235,
-	"./gom-latn.js": 235,
-	"./gu": 236,
-	"./gu.js": 236,
-	"./he": 237,
-	"./he.js": 237,
-	"./hi": 238,
-	"./hi.js": 238,
-	"./hr": 239,
-	"./hr.js": 239,
-	"./hu": 240,
-	"./hu.js": 240,
-	"./hy-am": 241,
-	"./hy-am.js": 241,
-	"./id": 242,
-	"./id.js": 242,
-	"./is": 243,
-	"./is.js": 243,
-	"./it": 244,
-	"./it.js": 244,
-	"./ja": 245,
-	"./ja.js": 245,
-	"./jv": 246,
-	"./jv.js": 246,
-	"./ka": 247,
-	"./ka.js": 247,
-	"./kk": 248,
-	"./kk.js": 248,
-	"./km": 249,
-	"./km.js": 249,
-	"./kn": 250,
-	"./kn.js": 250,
-	"./ko": 251,
-	"./ko.js": 251,
-	"./ky": 252,
-	"./ky.js": 252,
-	"./lb": 253,
-	"./lb.js": 253,
-	"./lo": 254,
-	"./lo.js": 254,
-	"./lt": 255,
-	"./lt.js": 255,
-	"./lv": 256,
-	"./lv.js": 256,
-	"./me": 257,
-	"./me.js": 257,
-	"./mi": 258,
-	"./mi.js": 258,
-	"./mk": 259,
-	"./mk.js": 259,
-	"./ml": 260,
-	"./ml.js": 260,
-	"./mr": 261,
-	"./mr.js": 261,
-	"./ms": 262,
-	"./ms-my": 263,
-	"./ms-my.js": 263,
-	"./ms.js": 262,
-	"./my": 264,
-	"./my.js": 264,
-	"./nb": 265,
-	"./nb.js": 265,
-	"./ne": 266,
-	"./ne.js": 266,
-	"./nl": 267,
-	"./nl-be": 268,
-	"./nl-be.js": 268,
-	"./nl.js": 267,
-	"./nn": 269,
-	"./nn.js": 269,
-	"./pa-in": 270,
-	"./pa-in.js": 270,
-	"./pl": 271,
-	"./pl.js": 271,
-	"./pt": 272,
-	"./pt-br": 273,
-	"./pt-br.js": 273,
-	"./pt.js": 272,
-	"./ro": 274,
-	"./ro.js": 274,
-	"./ru": 275,
-	"./ru.js": 275,
-	"./sd": 276,
-	"./sd.js": 276,
-	"./se": 277,
-	"./se.js": 277,
-	"./si": 278,
-	"./si.js": 278,
-	"./sk": 279,
-	"./sk.js": 279,
-	"./sl": 280,
-	"./sl.js": 280,
-	"./sq": 281,
-	"./sq.js": 281,
-	"./sr": 282,
-	"./sr-cyrl": 283,
-	"./sr-cyrl.js": 283,
-	"./sr.js": 282,
-	"./ss": 284,
-	"./ss.js": 284,
-	"./sv": 285,
-	"./sv.js": 285,
-	"./sw": 286,
-	"./sw.js": 286,
-	"./ta": 287,
-	"./ta.js": 287,
-	"./te": 288,
-	"./te.js": 288,
-	"./tet": 289,
-	"./tet.js": 289,
-	"./th": 290,
-	"./th.js": 290,
-	"./tl-ph": 291,
-	"./tl-ph.js": 291,
-	"./tlh": 292,
-	"./tlh.js": 292,
-	"./tr": 293,
-	"./tr.js": 293,
-	"./tzl": 294,
-	"./tzl.js": 294,
-	"./tzm": 295,
-	"./tzm-latn": 296,
-	"./tzm-latn.js": 296,
-	"./tzm.js": 295,
-	"./uk": 297,
-	"./uk.js": 297,
-	"./ur": 298,
-	"./ur.js": 298,
-	"./uz": 299,
-	"./uz-latn": 300,
-	"./uz-latn.js": 300,
-	"./uz.js": 299,
-	"./vi": 301,
-	"./vi.js": 301,
-	"./x-pseudo": 302,
-	"./x-pseudo.js": 302,
-	"./yo": 303,
-	"./yo.js": 303,
-	"./zh-cn": 304,
-	"./zh-cn.js": 304,
-	"./zh-hk": 305,
-	"./zh-hk.js": 305,
-	"./zh-tw": 306,
-	"./zh-tw.js": 306
+	"./af": 190,
+	"./af.js": 190,
+	"./ar": 191,
+	"./ar-dz": 192,
+	"./ar-dz.js": 192,
+	"./ar-kw": 193,
+	"./ar-kw.js": 193,
+	"./ar-ly": 194,
+	"./ar-ly.js": 194,
+	"./ar-ma": 195,
+	"./ar-ma.js": 195,
+	"./ar-sa": 196,
+	"./ar-sa.js": 196,
+	"./ar-tn": 197,
+	"./ar-tn.js": 197,
+	"./ar.js": 191,
+	"./az": 198,
+	"./az.js": 198,
+	"./be": 199,
+	"./be.js": 199,
+	"./bg": 200,
+	"./bg.js": 200,
+	"./bm": 201,
+	"./bm.js": 201,
+	"./bn": 202,
+	"./bn.js": 202,
+	"./bo": 203,
+	"./bo.js": 203,
+	"./br": 204,
+	"./br.js": 204,
+	"./bs": 205,
+	"./bs.js": 205,
+	"./ca": 206,
+	"./ca.js": 206,
+	"./cs": 207,
+	"./cs.js": 207,
+	"./cv": 208,
+	"./cv.js": 208,
+	"./cy": 209,
+	"./cy.js": 209,
+	"./da": 210,
+	"./da.js": 210,
+	"./de": 211,
+	"./de-at": 212,
+	"./de-at.js": 212,
+	"./de-ch": 213,
+	"./de-ch.js": 213,
+	"./de.js": 211,
+	"./dv": 214,
+	"./dv.js": 214,
+	"./el": 215,
+	"./el.js": 215,
+	"./en-au": 216,
+	"./en-au.js": 216,
+	"./en-ca": 217,
+	"./en-ca.js": 217,
+	"./en-gb": 218,
+	"./en-gb.js": 218,
+	"./en-ie": 219,
+	"./en-ie.js": 219,
+	"./en-nz": 220,
+	"./en-nz.js": 220,
+	"./eo": 221,
+	"./eo.js": 221,
+	"./es": 222,
+	"./es-do": 223,
+	"./es-do.js": 223,
+	"./es-us": 224,
+	"./es-us.js": 224,
+	"./es.js": 222,
+	"./et": 225,
+	"./et.js": 225,
+	"./eu": 226,
+	"./eu.js": 226,
+	"./fa": 227,
+	"./fa.js": 227,
+	"./fi": 228,
+	"./fi.js": 228,
+	"./fo": 229,
+	"./fo.js": 229,
+	"./fr": 230,
+	"./fr-ca": 231,
+	"./fr-ca.js": 231,
+	"./fr-ch": 232,
+	"./fr-ch.js": 232,
+	"./fr.js": 230,
+	"./fy": 233,
+	"./fy.js": 233,
+	"./gd": 234,
+	"./gd.js": 234,
+	"./gl": 235,
+	"./gl.js": 235,
+	"./gom-latn": 236,
+	"./gom-latn.js": 236,
+	"./gu": 237,
+	"./gu.js": 237,
+	"./he": 238,
+	"./he.js": 238,
+	"./hi": 239,
+	"./hi.js": 239,
+	"./hr": 240,
+	"./hr.js": 240,
+	"./hu": 241,
+	"./hu.js": 241,
+	"./hy-am": 242,
+	"./hy-am.js": 242,
+	"./id": 243,
+	"./id.js": 243,
+	"./is": 244,
+	"./is.js": 244,
+	"./it": 245,
+	"./it.js": 245,
+	"./ja": 246,
+	"./ja.js": 246,
+	"./jv": 247,
+	"./jv.js": 247,
+	"./ka": 248,
+	"./ka.js": 248,
+	"./kk": 249,
+	"./kk.js": 249,
+	"./km": 250,
+	"./km.js": 250,
+	"./kn": 251,
+	"./kn.js": 251,
+	"./ko": 252,
+	"./ko.js": 252,
+	"./ky": 253,
+	"./ky.js": 253,
+	"./lb": 254,
+	"./lb.js": 254,
+	"./lo": 255,
+	"./lo.js": 255,
+	"./lt": 256,
+	"./lt.js": 256,
+	"./lv": 257,
+	"./lv.js": 257,
+	"./me": 258,
+	"./me.js": 258,
+	"./mi": 259,
+	"./mi.js": 259,
+	"./mk": 260,
+	"./mk.js": 260,
+	"./ml": 261,
+	"./ml.js": 261,
+	"./mr": 262,
+	"./mr.js": 262,
+	"./ms": 263,
+	"./ms-my": 264,
+	"./ms-my.js": 264,
+	"./ms.js": 263,
+	"./my": 265,
+	"./my.js": 265,
+	"./nb": 266,
+	"./nb.js": 266,
+	"./ne": 267,
+	"./ne.js": 267,
+	"./nl": 268,
+	"./nl-be": 269,
+	"./nl-be.js": 269,
+	"./nl.js": 268,
+	"./nn": 270,
+	"./nn.js": 270,
+	"./pa-in": 271,
+	"./pa-in.js": 271,
+	"./pl": 272,
+	"./pl.js": 272,
+	"./pt": 273,
+	"./pt-br": 274,
+	"./pt-br.js": 274,
+	"./pt.js": 273,
+	"./ro": 275,
+	"./ro.js": 275,
+	"./ru": 276,
+	"./ru.js": 276,
+	"./sd": 277,
+	"./sd.js": 277,
+	"./se": 278,
+	"./se.js": 278,
+	"./si": 279,
+	"./si.js": 279,
+	"./sk": 280,
+	"./sk.js": 280,
+	"./sl": 281,
+	"./sl.js": 281,
+	"./sq": 282,
+	"./sq.js": 282,
+	"./sr": 283,
+	"./sr-cyrl": 284,
+	"./sr-cyrl.js": 284,
+	"./sr.js": 283,
+	"./ss": 285,
+	"./ss.js": 285,
+	"./sv": 286,
+	"./sv.js": 286,
+	"./sw": 287,
+	"./sw.js": 287,
+	"./ta": 288,
+	"./ta.js": 288,
+	"./te": 289,
+	"./te.js": 289,
+	"./tet": 290,
+	"./tet.js": 290,
+	"./th": 291,
+	"./th.js": 291,
+	"./tl-ph": 292,
+	"./tl-ph.js": 292,
+	"./tlh": 293,
+	"./tlh.js": 293,
+	"./tr": 294,
+	"./tr.js": 294,
+	"./tzl": 295,
+	"./tzl.js": 295,
+	"./tzm": 296,
+	"./tzm-latn": 297,
+	"./tzm-latn.js": 297,
+	"./tzm.js": 296,
+	"./uk": 298,
+	"./uk.js": 298,
+	"./ur": 299,
+	"./ur.js": 299,
+	"./uz": 300,
+	"./uz-latn": 301,
+	"./uz-latn.js": 301,
+	"./uz.js": 300,
+	"./vi": 302,
+	"./vi.js": 302,
+	"./x-pseudo": 303,
+	"./x-pseudo.js": 303,
+	"./yo": 304,
+	"./yo.js": 304,
+	"./zh-cn": 305,
+	"./zh-cn.js": 305,
+	"./zh-hk": 306,
+	"./zh-hk.js": 306,
+	"./zh-tw": 307,
+	"./zh-tw.js": 307
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -2065,20 +2096,20 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 414;
+webpackContext.id = 415;
 
 /***/ }),
 
-/***/ 478:
+/***/ 479:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(352);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(353);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_menu_menu__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_menu_menu__ = __webpack_require__(355);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2115,14 +2146,14 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 483:
+/***/ 484:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 59:
+/***/ 60:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2157,7 +2188,7 @@ AbusePage = __decorate([
 
 /***/ }),
 
-/***/ 60:
+/***/ 61:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2192,7 +2223,7 @@ AlcoholAndYouPage = __decorate([
 
 /***/ }),
 
-/***/ 61:
+/***/ 62:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2227,7 +2258,7 @@ AnxietyPage = __decorate([
 
 /***/ }),
 
-/***/ 62:
+/***/ 63:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2262,7 +2293,7 @@ BereavementPage = __decorate([
 
 /***/ }),
 
-/***/ 63:
+/***/ 64:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2297,7 +2328,7 @@ ControllingAngerPage = __decorate([
 
 /***/ }),
 
-/***/ 64:
+/***/ 65:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2332,7 +2363,7 @@ DepressionAndLowMoodPage = __decorate([
 
 /***/ }),
 
-/***/ 65:
+/***/ 66:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2367,7 +2398,7 @@ DomesticViolencePage = __decorate([
 
 /***/ }),
 
-/***/ 66:
+/***/ 67:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2402,7 +2433,7 @@ EatingDisordersPage = __decorate([
 
 /***/ }),
 
-/***/ 67:
+/***/ 68:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2437,7 +2468,7 @@ FoodForThoughtPage = __decorate([
 
 /***/ }),
 
-/***/ 68:
+/***/ 69:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2472,7 +2503,7 @@ HealthAnxietyPage = __decorate([
 
 /***/ }),
 
-/***/ 69:
+/***/ 70:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2507,7 +2538,7 @@ HearingVoicesAndDisturbingBeliefsPage = __decorate([
 
 /***/ }),
 
-/***/ 70:
+/***/ 71:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2542,7 +2573,7 @@ ObsessionsAndCompulsionsPage = __decorate([
 
 /***/ }),
 
-/***/ 71:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2577,7 +2608,7 @@ PanicPage = __decorate([
 
 /***/ }),
 
-/***/ 72:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2612,7 +2643,7 @@ PostTraumaticStressPage = __decorate([
 
 /***/ }),
 
-/***/ 73:
+/***/ 74:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2647,7 +2678,7 @@ PostnatalDepressionPage = __decorate([
 
 /***/ }),
 
-/***/ 74:
+/***/ 75:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2682,7 +2713,7 @@ SelfHarmPage = __decorate([
 
 /***/ }),
 
-/***/ 75:
+/***/ 76:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2717,7 +2748,7 @@ SocialAnxietyPage = __decorate([
 
 /***/ }),
 
-/***/ 76:
+/***/ 77:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2752,7 +2783,7 @@ SleepingProblemsPage = __decorate([
 
 /***/ }),
 
-/***/ 77:
+/***/ 78:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2787,5 +2818,5 @@ StressPage = __decorate([
 
 /***/ })
 
-},[362]);
+},[363]);
 //# sourceMappingURL=main.js.map
