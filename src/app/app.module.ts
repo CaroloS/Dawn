@@ -38,8 +38,6 @@ import {SelfHarmPage} from '../pages/self-harm/self-harm';
 import {SocialAnxietyPage} from '../pages/social-anxiety/social-anxiety';
 import {SleepingProblemsPage} from '../pages/sleeping-problems/sleeping-problems';
 import {StressPage} from '../pages/stress/stress';
-import {MoodMenuPage} from '../pages/mood-menu/mood-menu';
-import {MoodTrackerPage} from '../pages/mood-tracker/mood-tracker';
 import {MotivationalQuotesPage} from '../pages/motivational-quotes/motivational-quotes';
 
 
@@ -64,8 +62,6 @@ import {DatabaseProvider} from "../providers/database/database";
         KnowYourRightsPage,
         FindAServicePage,
         MoodJournalPage,
-        MoodMenuPage,
-        MoodTrackerPage,
         RelaxSpacePage,
         ListenPage,
         InspirationalVideosPage,
@@ -104,8 +100,6 @@ import {DatabaseProvider} from "../providers/database/database";
         SelfHelpPage,
         WhatIsSelfHelpPage,
         MindfulnessPage,
-        MoodMenuPage,
-        MoodTrackerPage,
         NhsSelfHelpLeafletsPage,
         AdviceServicesPage,
         InACrisisPage,

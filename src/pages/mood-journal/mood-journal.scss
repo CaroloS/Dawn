@@ -14,5 +14,32 @@ calendar.currentDate {
   background-color: yellow;
 }
 
+  .event-detail-container {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    min-height: auto;
+    * {
+      background: none;
+      color: #464646;
+      border: none;
+    }
+    border-radius:16px;
+    min-height: 90px;
+    width: 100%;
+    .block-item {
+      :not(:last-child)
+      {
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    }
+    &.item-block {
+      border: none !important;
+      .item-inner {
+        border: none !important;
+      }
+    }
+  }
+
 
 }

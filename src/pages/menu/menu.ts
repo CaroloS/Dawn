@@ -31,7 +31,6 @@ import { SleepingProblemsPage } from '../sleeping-problems/sleeping-problems';
 import { StressPage } from '../stress/stress';
 import { MoodJournalPage } from '../mood-journal/mood-journal';
 import { RelaxSpacePage } from '../relax-space/relax-space';
-import { MoodMenuPage } from '../mood-menu/mood-menu';
 
 
 @Component({
@@ -131,7 +130,7 @@ export class MenuPage {
     this.navCtrl.push(StressPage);
   }goToMoodJournal(params){
     if (!params) params = {};
-    this.navCtrl.push(MoodMenuPage);
+    this.navCtrl.push(MoodJournalPage);
   }goToRelaxSpace(params){
     if (!params) params = {};
     this.navCtrl.push(RelaxSpacePage);

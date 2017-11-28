@@ -25743,62 +25743,6 @@ ion-content {
   margin-bottom: 15px;
 }
 
-page-event-modal h2 {
-  padding-left: 10px;
-  font-size: 25px;
-  margin-top: 10px;
-  color: white;
-}
-
-page-event-modal #moodslider {
-  background: -webkit-gradient(linear, left top, right top, from(purple), color-stop(33%, purple), color-stop(33%, orange), color-stop(66%, orange), color-stop(66%, yellow), to(yellow));
-  background: linear-gradient(to right, purple 0%, purple 33%, orange 33%, orange 66%, yellow 66%, yellow 100%);
-  height: 60px;
-}
-
-page-event-modal #moodbutton1 {
-  background-color: purple;
-  height: 90px;
-  width: 80px;
-  margin-left: 15px;
-  border-radius: 10px;
-}
-
-page-event-modal #moodbutton2 {
-  background-color: orange;
-  height: 90px;
-  width: 80px;
-  margin-left: 15px;
-  border-radius: 10px;
-}
-
-page-event-modal #moodbutton3 {
-  background-color: #FFFF00;
-  height: 90px;
-  width: 80px;
-  margin-left: 15px;
-  border-radius: 10px;
-}
-
-page-event-modal #goodlabel {
-  color: #666600;
-}
-
-page-event-modal #myInput {
-  height: 250px;
-}
-
-page-event-modal #endtime {
-  border-color: transparent;
-}
-
-page-event-modal #submit {
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 350px;
-  color: white;
-  border-radius: 10px;
-}
-
 page-food-for-thought #foodForThought-textarea29 {
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -25879,62 +25823,62 @@ page-mood-journal calendar.currentDate {
   background-color: yellow;
 }
 
-page-mood-menu #moodbutton1 {
-  background-color: rgba(255, 99, 132, 0.6);
-  height: 70px;
+page-mood-journal .event-detail-container {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  min-height: auto;
+  border-radius: 16px;
+  min-height: 90px;
   width: 100%;
-  font-size: 20px;
+}
+
+page-mood-journal .event-detail-container * {
+  background: none;
+  color: #464646;
+  border: none;
+}
+
+page-mood-journal .event-detail-container .block-item :not(:last-child) {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+page-mood-journal .event-detail-container.item-block {
+  border: none !important;
+}
+
+page-mood-journal .event-detail-container.item-block .item-inner {
+  border: none !important;
+}
+
+page-event-modal h2 {
+  padding-left: 10px;
+  font-size: 25px;
+  margin-top: 10px;
   color: #464646;
 }
 
-page-mood-menu #moodbutton2 {
-  background-color: rgba(255, 206, 86, 0.5);
-  height: 70px;
-  width: 100%;
-  font-size: 20px;
-  color: #464646;
+page-event-modal #goodlabel {
+  color: #666600;
 }
 
-page-mood-menu #moodbutton3 {
-  background-color: rgba(163, 202, 123, 0.4);
-  height: 70px;
-  width: 100%;
-  font-size: 20px;
-  color: #464646;
+page-event-modal #myInput {
+  height: 250px;
 }
 
-page-mood-menu #moodbutton1:active {
-  background-color: rgba(255, 99, 132, 0.6);
-  height: 80px;
-  width: 100%;
+page-event-modal #endtime {
+  border-color: transparent;
 }
 
-page-mood-menu #moodbutton2:active {
-  background-color: rgba(255, 206, 86, 0.5);
-  height: 80px;
-  width: 100%;
+page-event-modal #submit {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 350px;
+  color: white;
+  border-radius: 10px;
 }
 
-page-mood-menu #moodbutton3:active {
-  background-color: rgba(163, 202, 123, 0.4);
-  height: 80px;
-  width: 100%;
-}
-
-page-mood-menu #goodlabel {
-  overflow: visible;
-}
-
-page-mood-menu #moodJournalButtons {
-  position: absolute;
-  top: 50%;
-  margin-top: -97.5px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-page-mood-tracker canvas {
-  height: 500px;
+page-event-modal .option-bad {
+  color: red !important;
 }
 
 page-motivational-quotes .first-item {
