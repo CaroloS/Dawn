@@ -26,10 +26,10 @@ export class CarerSupportPage {
 };
   constructor(private theInAppBrowser: InAppBrowser) {
   }
-  
+
   public openWithInAppBrowser(url : string){
       let target = "_blank";
       this.theInAppBrowser.create(url,target,this.options);
   }
-  
+
 }
