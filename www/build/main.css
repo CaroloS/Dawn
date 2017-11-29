@@ -25782,28 +25782,10 @@ page-menu p {
   color: #464646;
 }
 
-page-menu #menu-button13 {
+page-menu .menu-button {
   background-color: rgba(255, 255, 255, 0.2);
   height: 150px;
   width: 150px;
-}
-
-page-menu #menu-button14 {
-  background-color: rgba(255, 255, 255, 0.2);
-  height: 150px;
-  width: 150px;
-}
-
-page-menu #menu-button15 {
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 150px;
-  height: 150px;
-}
-
-page-menu #menu-button16 {
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 150px;
-  height: 150px;
 }
 
 page-mindfulness #mindfulness-markdown6 {
@@ -25826,7 +25808,7 @@ page-mood-journal calendar.currentDate {
 page-mood-journal .event-detail-container {
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.2) !important;
-  min-height: auto;
+  min-height: unset !important;
   border-radius: 16px;
   min-height: 90px;
   width: 100%;

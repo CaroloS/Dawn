@@ -861,7 +861,7 @@ var MenuPage = (function () {
 }());
 MenuPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-menu',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/menu/menu.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page1">\n  <form id="menu-form1">\n    <div id="menu-markdown1" class="show-list-numbers-and-dots">\n      <p style="color:#464646;">\n        hey, how are you?\n      </p>\n	  <div></div>\n	  <p>\n		dawn is here to help ...\n	  </p>\n    </div>\n  </form>\n<ion-grid>\n  <ion-row>\n    <ion-col col-6>\n  <button ion-button  id="menu-button13" class="action-button" on-click="goToSelfHelp()">\n    self help\n  </button>\n</ion-col>\n<ion-col col-6>\n  <button id="menu-button14" ion-button class="action-button" on-click="goToAdviceServices()">\n    advice & services\n  </button>\n</ion-col>\n</ion-row>\n<ion-row>\n  <ion-col col-6>\n  <button id="menu-button15" ion-button color="stable" block class="action-button" on-click="goToMoodJournal()">\n    mood journal\n  </button>\n</ion-col>\n<ion-col col-6>\n  <button id="menu-button16" ion-button color="stable" block class="action-button"  on-click="goToRelaxSpace()">\n    relax space\n  </button>\n</ion-col>\n</ion-row>\n</ion-grid>\n</ion-content>'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/menu/menu.html"*/
+        selector: 'page-menu',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/menu/menu.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page1">\n  <form id="menu-form1">\n    <div id="menu-markdown1" class="show-list-numbers-and-dots">\n      <p style="color:#464646;">\n        hey, how are you?\n      </p>\n	  <div></div>\n	  <p>\n		dawn is here to help ...\n	  </p>\n    </div>\n  </form>\n<ion-grid>\n  <ion-row>\n    <ion-col col-6>\n  <button ion-button  class="menu-button action-button" on-click="goToSelfHelp()">\n    self help\n  </button>\n</ion-col>\n<ion-col col-6>\n  <button ion-button class="menu-button action-button" on-click="goToAdviceServices()">\n    advice & services\n  </button>\n</ion-col>\n</ion-row>\n<ion-row>\n  <ion-col col-6>\n  <button ion-button class="menu-button action-button" on-click="goToMoodJournal()">\n    mood journal\n  </button>\n</ion-col>\n<ion-col col-6>\n  <button ion-button class="menu-button action-button"  on-click="goToRelaxSpace()">\n    relax space\n  </button>\n</ion-col>\n</ion-row>\n</ion-grid>\n</ion-content>'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/menu/menu.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
 ], MenuPage);
@@ -1154,6 +1154,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var MoodJournalPage = (function () {
     function MoodJournalPage(navCtrl, modalCtrl, alertCtrl, databaseprovider) {
+        var _this = this;
         this.navCtrl = navCtrl;
         this.modalCtrl = modalCtrl;
         this.alertCtrl = alertCtrl;
@@ -1190,13 +1191,14 @@ var MoodJournalPage = (function () {
                 }
             }
         };
-        this.createDb();
-        this.getData();
+        setTimeout(function () {
+            _this.createDb().then(function () { return _this.getData(); }).catch(function (e) { return console.log(JSON.stringify(e)); });
+            ;
+        }, 500);
     }
     MoodJournalPage.prototype.createDb = function () {
-        this.databaseprovider.connection().executeSql('CREATE TABLE IF NOT EXISTS mood_journal_entries (id INTEGER PRIMARY KEY, date_from DATETIME, date_until DATETIME, all_day BOOL, mood VARCHAR(4), entry TEXT);', {})
-            .then(function () { return console.log('🛠 Create if table doesnt exist'); })
-            .catch(function (e) { return console.log(e); });
+        return this.databaseprovider.connection().executeSql('CREATE TABLE IF NOT EXISTS mood_journal_entries (id INTEGER PRIMARY KEY, date_from DATETIME, date_until DATETIME, all_day BOOL, mood VARCHAR(4), entry TEXT);', {})
+            .then(function () { return console.log('🛠 Create if table doesnt exist'); });
     };
     MoodJournalPage.prototype.getData = function () {
         var _this = this;
@@ -1224,7 +1226,7 @@ var MoodJournalPage = (function () {
             // wait for a ms before assigning the event array created above to the eventsource (which is picked up by the calendar).
             // the timeout is forcing the calendar to recognise a change in data because when it is first rendered on page load, it is opening the blank array
             setTimeout(function () { return _this.eventSource = events; });
-        });
+        }).catch(function (e) { return console.error(JSON.stringify(e)); });
     };
     MoodJournalPage.prototype.addEvent = function () {
         var _this = this;
@@ -1254,11 +1256,12 @@ var MoodJournalPage = (function () {
 }());
 MoodJournalPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-mood-journal',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-journal/mood-journal.html"*/'<ion-header>\n  <ion-navbar>\n      <ion-buttons end>\n     <button ion-button icon-only (click)="addEvent()">\n      <ion-icon name="add"></ion-icon>\n     </button>\n   </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page39">\n\n    <button ion-button block (click)="addEvent()" class="action-button" >\n     click to add an entry\n    </button>\n    <p style="text-align:center">{{ viewTitle}}\n	</p>\n    <calendar [eventSource]="eventSource"\n      [calendarMode]="calendar.mode"\n      [currentDate]="calendar.currentDate"\n      (onEventSelected)="onEventSelected($event)"\n      (onTitleChanged)="onViewTitleChanged($event)"\n      (onTimeSelected)="onTimeSelected($event)"\n      step="30"\n      class="calendar">\n    </calendar>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-journal/mood-journal.html"*/
+        selector: 'page-mood-journal',template:/*ion-inline-start:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-journal/mood-journal.html"*/'<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page39">\n    <p>would you like to write in your mood journal?</p>\n    <button ion-button block (click)="addEvent()" class="action-button" >\n     add entry\n    </button>\n    <p style="text-align:center">{{ viewTitle}}\n	</p>\n    <calendar [eventSource]="eventSource"\n      [calendarMode]="calendar.mode"\n      [currentDate]="calendar.currentDate"\n      (onEventSelected)="onEventSelected($event)"\n      (onTitleChanged)="onViewTitleChanged($event)"\n      (onTimeSelected)="onTimeSelected($event)"\n      step="30"\n      class="calendar">\n    </calendar>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/jasondeakin/GC02_2017_Team18/src/pages/mood-journal/mood-journal.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3__providers_database_database__["a" /* DatabaseProvider */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__providers_database_database__["a" /* DatabaseProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_database_database__["a" /* DatabaseProvider */]) === "function" && _d || Object])
 ], MoodJournalPage);
 
+var _a, _b, _c, _d;
 //# sourceMappingURL=mood-journal.js.map
 
 /***/ }),

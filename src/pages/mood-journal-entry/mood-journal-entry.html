@@ -5,22 +5,18 @@
                 <ion-icon name="close"></ion-icon>
             </button>
         </ion-buttons>
-        <ion-title id="title">mood journal</ion-title>
     </ion-navbar>
 </ion-header>
-
 <ion-content padding>
      <ion-item>
         <ion-textarea id="myInput" placeholder="write your journal entry here" [(ngModel)]="event.title"></ion-textarea>
-        <!--  <ion-input type="text" placeholder="Title" [(ngModel)]="event.title"></ion-input> -->
     </ion-item>
-
     <ion-item>
         <ion-label>mood</ion-label>
         <ion-select [(ngModel)]="mood">
-            <ion-option value="bad" class="option-bad">bad</ion-option>
-            <ion-option value="ok" class="option-ok">ok</ion-option>
-            <ion-option value="good" class="option-good">good</ion-option>
+            <ion-option value="bad">bad</ion-option>
+            <ion-option value="ok">ok</ion-option>
+            <ion-option value="good">good</ion-option>
         </ion-select>
     </ion-item>
 

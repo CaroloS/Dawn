@@ -17,7 +17,7 @@ calendar.currentDate {
   .event-detail-container {
     margin-top: 20px;
     background-color: rgba(255, 255, 255, 0.2) !important;
-    min-height: auto;
+    min-height: unset !important;
     * {
       background: none;
       color: #464646;

@@ -47,15 +47,16 @@ export class MoodJournalPage {
 
 
     constructor(public navCtrl: NavController, private modalCtrl: ModalController, private alertCtrl: AlertController, private databaseprovider: DatabaseProvider) {
-        this.createDb();
-        this.getData();
+        setTimeout(() => {
+            this.createDb().then(() => this.getData()).catch(e => console.log(JSON.stringify(e)));;
+            }, 500);
     }
 
 
     createDb() {
-        this.databaseprovider.connection().executeSql('CREATE TABLE IF NOT EXISTS mood_journal_entries (id INTEGER PRIMARY KEY, date_from DATETIME, date_until DATETIME, all_day BOOL, mood VARCHAR(4), entry TEXT);', {})
+        return this.databaseprovider.connection().executeSql('CREATE TABLE IF NOT EXISTS mood_journal_entries (id INTEGER PRIMARY KEY, date_from DATETIME, date_until DATETIME, all_day BOOL, mood VARCHAR(4), entry TEXT);', {})
             .then(() => console.log('🛠 Create if table doesnt exist'))
-            .catch(e => console.log(e));
+
     }
 
     getData() {
@@ -91,7 +92,7 @@ export class MoodJournalPage {
             // wait for a ms before assigning the event array created above to the eventsource (which is picked up by the calendar).
             // the timeout is forcing the calendar to recognise a change in data because when it is first rendered on page load, it is opening the blank array
             setTimeout(()=>this.eventSource = events);
-        });
+        }).catch(e => console.error(JSON.stringify(e)));
     }
     
     addEvent() {
