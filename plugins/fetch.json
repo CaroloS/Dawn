@@ -76,5 +76,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-youtube-video-player": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-youtube-video-player"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

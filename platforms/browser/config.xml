@@ -14,6 +14,8 @@
     <allow-navigation href="*" />
     <allow-navigation href="*.pdf" />
     <allow-navigation href="http://192.168.43.195:8109" />
+    <allow-navigation href="http://localhost:8100" />
+    <allow-navigation href="http://192.168.1.3:8100" />
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="16" />
     <preference name="BackupWebStorage" value="none" />

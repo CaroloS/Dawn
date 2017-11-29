@@ -1,9 +1,11 @@
 import {NgModule, ErrorHandler} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
 import {InAppBrowser} from '@ionic-native/in-app-browser';
 import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular';
 import {MyApp} from './app.component';
 import {MenuPage} from '../pages/menu/menu';
+import {YoutubePipe} from '../pipes/youtube/youtube';
 import {SelfHelpPage} from '../pages/self-help/self-help';
 import {WhatIsSelfHelpPage} from '../pages/what-is-self-help/what-is-self-help';
 import {MindfulnessPage} from '../pages/mindfulness/mindfulness';
@@ -86,11 +88,14 @@ import {DatabaseProvider} from "../providers/database/database";
         SocialAnxietyPage,
         SleepingProblemsPage,
         StressPage,
+        YoutubePipe,
         MotivationalQuotesPage
+        
     ],
     imports: [
         NgCalendarModule,
         BrowserModule,
+        HttpModule,
         IonicModule.forRoot(MyApp)
     ],
     bootstrap: [IonicApp],
