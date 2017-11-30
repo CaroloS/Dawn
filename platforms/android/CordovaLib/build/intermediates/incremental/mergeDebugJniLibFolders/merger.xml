@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/jasondeakin/GC02_2017_Team18/platforms/android/CordovaLib/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/jasondeakin/GC02_2017_Team18/platforms/android/CordovaLib/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/carolinesmith/Dropbox/GC02_2017_Team18/platforms/android/CordovaLib/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/carolinesmith/Dropbox/GC02_2017_Team18/platforms/android/CordovaLib/src/debug/jniLibs"/></dataSet></merger>

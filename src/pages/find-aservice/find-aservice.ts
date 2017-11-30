@@ -25,8 +25,7 @@ export class FindAServicePage {
     fullscreen : 'yes',//Windows only
 };
 
-  /*constructor(public navCtrl: NavController) {
-  }*/
+
 
   constructor(private theInAppBrowser: InAppBrowser) {
   }
@@ -35,5 +34,7 @@ export class FindAServicePage {
     let target = "_blank";
     this.theInAppBrowser.create(url,target,this.options);
   }
+
+
 
 }
