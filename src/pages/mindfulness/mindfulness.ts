@@ -22,7 +22,7 @@ export class MindfulnessPage {
   exerciseAlert(event) {
       let alert = this.alertCtrl.create({
           title: 'Eat Well and Exercise',
-          subTitle: 'Mindful eating involved paying full attention to the experience of eating and drinking, both inside and outside the body. Pay attention to the colors, smells, textures and flavours. Pay attention to the experience of the body. Avoid sitting for extended periods and move your body more.  ',
+          subTitle: 'Mindful eating involves paying full attention to the experience of eating and drinking, both inside and outside the body. Pay attention to the colors, smells, textures and flavours. Pay attention to the experience of the body. Avoid sitting for extended periods and move regularly during the day.  ',
           buttons: ['OK']
       })
       alert.present();
@@ -31,7 +31,7 @@ export class MindfulnessPage {
   noticeAlert(event) {
       let alert = this.alertCtrl.create({
           title: 'Notice and Listen',
-          subTitle: 'Be present in the moment; allow your mind to let go and simply notice what\'s around you. Listen to what others are saying, attempt to avoid judgements and focus on the content of what they\'re saying ',
+          subTitle: 'Be present in the moment. Allow your mind to let go and simply notice what\'s around you. Listen to what others are saying, attempt to avoid judgements and focus on the content of what they\'re saying ',
           buttons: ['OK']
       })
       alert.present();
