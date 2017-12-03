@@ -12,7 +12,7 @@ export class SleepingProblemsPage {
   channelId ='UCsT0YIqwnpJCM-mx7-gSA4Q';
 	maxResults ='10';
 	googleToken ='AIzaSyDlv0u0m3vplNVUrxIXGlKAGrN3lIAY8b8';
-	search:string='sleeping problems';
+	search:string='sleep';
 	posts:any=[];
 
 
