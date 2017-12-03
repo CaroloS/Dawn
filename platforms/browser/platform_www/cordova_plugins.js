@@ -76,6 +76,15 @@ module.exports = [
         "clobbers": [
             "YoutubeVideoPlayer"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-document-viewer/www/sitewaertsdocumentviewer.js",
+        "id": "cordova-plugin-document-viewer.SitewaertsDocumentViewer",
+        "pluginId": "cordova-plugin-document-viewer",
+        "clobbers": [
+            "cordova.plugins.SitewaertsDocumentViewer",
+            "SitewaertsDocumentViewer"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -90,7 +99,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.3.1",
     "ionic-plugin-keyboard": "2.2.1",
     "cordova-sqlite-storage": "2.1.2",
-    "cordova-plugin-youtube-video-player": "1.0.6"
+    "cordova-plugin-youtube-video-player": "1.0.6",
+    "cordova-plugin-document-viewer": "0.9.7"
 }
 // BOTTOM OF METADATA
 });

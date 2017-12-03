@@ -35,6 +35,9 @@
     },
     "cordova-plugin-youtube-video-player": {
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-document-viewer": {
+      "PACKAGE_NAME": "io.ionic.starter"
     }
   },
   "dependent_plugins": {

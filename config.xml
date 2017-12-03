@@ -97,4 +97,5 @@
     <plugin name="cordova-plugin-inappbrowser" spec="^1.7.2" />
     <plugin name="cordova-sqlite-storage" spec="^2.1.2" />
     <plugin name="cordova-plugin-youtube-video-player" spec="^1.0.6" />
+    <plugin name="cordova-plugin-document-viewer" spec="^0.9.7" />
 </widget>

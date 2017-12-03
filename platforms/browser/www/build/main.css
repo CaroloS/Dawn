@@ -25788,9 +25788,109 @@ page-menu .menu-button {
   width: 150px;
 }
 
+page-mindfulness {
+  /*Bar Style*/
+  /*Animations*/
+  /*Toggle*/
+}
+
 page-mindfulness #mindfulness-markdown6 {
   color: #464646;
   font-size: 20px;
+}
+
+page-mindfulness * {
+  margin: 0;
+  padding: 0;
+}
+
+page-mindfulness .clear {
+  clear: both;
+}
+
+page-mindfulness .slide-toggle {
+  display: none;
+}
+
+page-mindfulness .slidemenu {
+  font-family: arial, sans-serif;
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+page-mindfulness .slidemenu label {
+  width: 25%;
+  text-align: center;
+  display: block;
+  float: left;
+  color: #333;
+  opacity: 0.2;
+}
+
+page-mindfulness .slidemenu label:hover {
+  cursor: pointer;
+  color: #666;
+}
+
+page-mindfulness .slidemenu label span {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+}
+
+page-mindfulness .slidemenu label .icon {
+  font-size: 20px;
+  border: solid 2px #333;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+page-mindfulness .slider {
+  width: 100%;
+  height: 5px;
+  display: block;
+  background: #ccc;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+page-mindfulness .slider .bar {
+  width: 25%;
+  height: 5px;
+  background: #333;
+  border-radius: 5px;
+}
+
+page-mindfulness .slidemenu label, page-mindfulness .slider .bar {
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+}
+
+page-mindfulness .slidemenu .slide-toggle:checked + label {
+  opacity: 1;
+}
+
+page-mindfulness .slidemenu #slide-item-1:checked ~ .slider .bar {
+  margin-left: 0;
+}
+
+page-mindfulness .slidemenu #slide-item-2:checked ~ .slider .bar {
+  margin-left: 25%;
+}
+
+page-mindfulness .slidemenu #slide-item-3:checked ~ .slider .bar {
+  margin-left: 50%;
+}
+
+page-mindfulness .slidemenu #slide-item-4:checked ~ .slider .bar {
+  margin-left: 75%;
 }
 
 page-mood-journal calendar {

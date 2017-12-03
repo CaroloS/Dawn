@@ -48,6 +48,9 @@
     <feature name="YoutubeVideoPlayer">
         <param name="ios-package" value="YoutubeVideoPlayer" />
     </feature>
+    <feature name="SitewaertsDocumentViewer">
+        <param name="ios-package" value="SitewaertsDocumentViewer" />
+    </feature>
     <name>MyApp</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>

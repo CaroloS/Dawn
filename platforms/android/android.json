@@ -31,6 +31,10 @@
             {
               "xml": "<feature name=\"SQLitePlugin\"><param name=\"android-package\" value=\"io.sqlc.SQLitePlugin\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"SitewaertsDocumentViewer\"><param name=\"android-package\" value=\"de.sitewaerts.cordova.documentviewer.DocumentViewerPlugin\" /></feature>",
+              "count": 1
             }
           ],
           "widget": [
@@ -87,6 +91,10 @@
             {
               "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
               "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
+              "count": 1
             }
           ],
           "/manifest/application": [
@@ -96,6 +104,10 @@
             },
             {
               "xml": "<activity android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:label=\"@string/activity_name\" android:launchMode=\"singleTop\" android:name=\"com.bunkerpalace.cordova.YouTubeActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\" android:windowSoftInputMode=\"adjustResize\" />",
+              "count": 1
+            },
+            {
+              "xml": "<provider android:authorities=\"io.ionic.starter.DocumentViewerPlugin.fileprovider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"de.sitewaerts.cordova.documentviewer.FileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/documentviewer_file_paths\" /></provider>",
               "count": 1
             }
           ]
@@ -137,6 +149,9 @@
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-youtube-video-player": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-document-viewer": {
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },
@@ -200,6 +215,15 @@
       "clobbers": [
         "YoutubeVideoPlayer"
       ]
+    },
+    {
+      "id": "cordova-plugin-document-viewer.SitewaertsDocumentViewer",
+      "file": "plugins/cordova-plugin-document-viewer/www/sitewaertsdocumentviewer.js",
+      "pluginId": "cordova-plugin-document-viewer",
+      "clobbers": [
+        "cordova.plugins.SitewaertsDocumentViewer",
+        "SitewaertsDocumentViewer"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -212,6 +236,7 @@
     "cordova-plugin-ionic-webview": "1.1.16",
     "cordova-plugin-inappbrowser": "1.7.2",
     "cordova-sqlite-storage": "2.1.2",
-    "cordova-plugin-youtube-video-player": "1.0.6"
+    "cordova-plugin-youtube-video-player": "1.0.6",
+    "cordova-plugin-document-viewer": "0.9.7"
   }
 }
