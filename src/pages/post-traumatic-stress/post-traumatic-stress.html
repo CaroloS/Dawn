@@ -1,26 +1,17 @@
 <ion-header>
   <ion-navbar>
-  </ion-navbar>
+  <ion-title>
+  ptsd </ion-title>
+</ion-navbar>
 </ion-header>
-<ion-content padding id="page10">
-  <form id="postTraumaticStress-form45">
-    <ion-item id="postTraumaticStress-textarea37" class="video-title">
-    	<ion-label>
-		uderstanding ptsd's effects on brain, body, and emotions
-		</ion-label>
-    </ion-item>
-    <div style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="postTraumaticStress-video37">
-      <iframe src="https://www.youtube.com/embed/BEHDQeIRTgs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-    </div>
-  </form>
-  <form id="postTraumaticStress-form46">
-    <ion-item id="postTraumaticStress-textarea38" class="video-title">
-      <ion-label>
-        return from chaos: treating ptsd
-      </ion-label>
-    </ion-item>
-    <div style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="postTraumaticStress-video38">
-      <iframe src="https://www.youtube.com/embed/ORs3-tRokGU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-    </div>
-  </form>
+
+<ion-content padding>
+  <ion-card *ngFor = "let item of posts">
+    <ion-card-title>
+      {{item.snippet.title}}
+    </ion-card-title>
+    <ion-card-content>
+      <iframe width="290" height="163" [src]="item.id.videoId | youtube" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

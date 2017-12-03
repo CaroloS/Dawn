@@ -1,26 +1,17 @@
 <ion-header>
   <ion-navbar>
-  </ion-navbar>
+  <ion-title>
+  eating disorders </ion-title>
+</ion-navbar>
 </ion-header>
-<ion-content padding id="page25">
-  <form id="eatingDisorders-form35">
-    <ion-item id="eatingDisorders-textarea27" class="video-title">
-    	<ion-label>
-		after anorexia: life's too short to weigh your cornflakes
-		</ion-label>
-    </ion-item>
-    <div style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="eatingDisorders-video27">
-      <iframe src="https://www.youtube.com/embed/gZpcTVqpaPw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-    </div>
-  </form>
-  <form id="eatingDisorders-form36">
-    <ion-item id="eatingDisorders-textarea28" class="video-title">
-      <ion-label>
-        eating disorders have no face
-      </ion-label>
-    </ion-item>
-    <div style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="eatingDisorders-video28">
-      <iframe src="https://www.youtube.com/embed/5rmQqT1YDAE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-    </div>
-  </form>
+
+<ion-content padding>
+  <ion-card *ngFor = "let item of posts">
+    <ion-card-title>
+      {{item.snippet.title}}
+    </ion-card-title>
+    <ion-card-content>
+      <iframe width="290" height="163" [src]="item.id.videoId | youtube" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

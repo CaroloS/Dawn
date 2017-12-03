@@ -3,7 +3,6 @@ import { NavController } from 'ionic-angular';
 import {Http} from '@angular/http';
 import 'rxjs/add/operator/map';
 
-
 @Component({
   selector: 'page-abuse',
   templateUrl: 'abuse.html'

@@ -1,26 +1,17 @@
 <ion-header>
   <ion-navbar>
-  </ion-navbar>
+  <ion-title>
+  hearing voices and disturbing beliefs </ion-title>
+</ion-navbar>
 </ion-header>
-<ion-content padding id="page4">
-  <form id="hearingVoicesAndDisturbingBeliefs-form39">
-    <ion-item id="hearingVoicesAndDisturbingBeliefs-textarea31" class="video-title">
-      <ion-label>
-        the voices in my head
-      </ion-label>
-    </ion-item>
-    <div style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="hearingVoicesAndDisturbingBeliefs-video31">
-      <iframe src="https://www.youtube.com/embed/syjEN3peCJw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-    </div>
-  </form>
-  <form id="hearingVoicesAndDisturbingBeliefs-form40">
-    <ion-item id="hearingVoicesAndDisturbingBeliefs-textarea32" class="video-title">
-      <ion-label>
-        i am not a monster
-      </ion-label>
-    </ion-item>
-    <div style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="hearingVoicesAndDisturbingBeliefs-video32">
-      <iframe src="https://www.youtube.com/embed/xbagFzcyNiM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-    </div>
-  </form>
+
+<ion-content padding>
+  <ion-card *ngFor = "let item of posts">
+    <ion-card-title>
+      {{item.snippet.title}}
+    </ion-card-title>
+    <ion-card-content>
+      <iframe width="290" height="163" [src]="item.id.videoId | youtube" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

@@ -1,37 +1,18 @@
 <ion-header>
   <ion-navbar>
-  </ion-navbar>
+  <ion-title>
+  alcohol and you 
+</ion-title>
+</ion-navbar>
 </ion-header>
-<ion-content padding id="page33">
-  <form id="alcoholAndYou-form23">
-	<ion-item id="alcoholAndYou-textarea14" class="video-title">
-	<ion-label>
-		changing the world's relationship with alcohol
-	</ion-label>
-	</ion-item>
-    <div style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="alcoholAndYou-video14">
-      <iframe src="https://www.youtube.com/embed/DJSLZGJaQdc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-    </div>
-  </form>
-  
-  <form id="alcoholAndYou-form24">
-    <ion-item id="alcoholAndYou-textarea16" class="video-title">
-      <ion-label>
-        drinking and how it changed my life
-      </ion-label>
-    </ion-item>
-    <div style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="alcoholAndYou-video16">
-      <iframe src="https://www.youtube.com/embed/LqtZjpI1oVQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-    </div>
-  </form>
-  <form id="alcoholAndYou-form57">
-    <ion-item id="alcoholAndYou-textarea49" class="video-title">
-      <ion-label>
-        does safe alcohol use exist?
-      </ion-label>
-    </ion-item>
-    <div style="position:relative;overflow:hidden;padding-bottom:56.25%;height:0;" id="alcoholAndYou-video49">
-      <iframe src="https://www.youtube.com/embed/uyHb4XsqABQ&t=30s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width="560" height="315" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-    </div>
-  </form>
+
+<ion-content padding>
+  <ion-card *ngFor = "let item of posts">
+    <ion-card-title>
+      {{item.snippet.title}}
+    </ion-card-title>
+    <ion-card-content>
+      <iframe width="290" height="163" [src]="item.id.videoId | youtube" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
