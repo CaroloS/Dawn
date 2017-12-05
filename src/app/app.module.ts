@@ -49,7 +49,6 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {NgCalendarModule} from 'ionic2-calendar';
 import {SQLite} from '@ionic-native/sqlite';
 import {DatabaseProvider} from "../providers/database/database";
-import { DocumentViewer } from '@ionic-native/document-viewer';
 
 
 @NgModule({
