@@ -1,6 +1,6 @@
 {
-  "name": "Dawnapp",
-  "app_id": "7f93b7bf",
+  "name": "new_Dawn",
+  "app_id": "783bdea2",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
