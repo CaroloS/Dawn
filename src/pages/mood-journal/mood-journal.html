@@ -7,6 +7,10 @@
     <button ion-button block (click)="addEvent()" class="action-button" >
      add entry
     </button>
+
+    <h2>my mood</h2>
+            <canvas #doughnutCanvas style="height:300px;"></canvas>
+
     <p style="text-align:center">{{ viewTitle}}
 	</p>
     <calendar [eventSource]="eventSource"

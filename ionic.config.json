@@ -1,6 +1,6 @@
 {
   "name": "Dawnapp",
-  "app_id": "01439147",
+  "app_id": "7f93b7bf",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
