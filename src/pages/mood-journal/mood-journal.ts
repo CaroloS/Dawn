@@ -71,7 +71,7 @@ export class MoodJournalPage {
               labels: ["Bad", "Good", "OK"],
               datasets: [{
                   label: '# of Votes',
-                  data: [12, 19, 3],
+                  data: [1, 1, 1],
                   backgroundColor: [
                       'rgba(255, 99, 132, 0.2)',
                       'rgba(54, 162, 235, 0.2)',
