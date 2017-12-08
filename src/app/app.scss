@@ -64,14 +64,19 @@ ion-content {
     background-color: rgba(0, 0, 0, 0.3) !important;
     border-radius: 16px;
     margin-bottom:20px;
+    display:list-item;
+    .li {
+      list-style-type: circle;
+      displays: inline;
+    }
   }
 
 a {
-  color: rgb(255, 186, 95) !important;
+  color: rgb(255, 168, 37) !important;
 }
 
 ion-card {
-  background: rgba(255, 110, 64, 0.4) !important;
+  background: rgba(0, 0, 0, 0.3) !important;
   border-radius: 16px !important;
 }
 
@@ -79,14 +84,18 @@ ion-card-header {
   font-weight: bold !important;
 }
 
+
+ion-card-title {
+  padding-left: 15px !important;
+  padding-top: 15px !important;
+  padding-right: 15px !important;
+
+}
+
 //revisit to change alert button and make consistent
 .alert-head {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
-
-//.button-inner {
-//  background-color: rgba(0, 0, 0, 0.3) !important;
-//}
 
 .alert-message {
   background-color: rgba(0, 0, 0, 0.3) !important;
@@ -94,4 +103,8 @@ ion-card-header {
 
 .alert-button {
   background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.slidebar {
+  font-size: 10px !important;
 }
