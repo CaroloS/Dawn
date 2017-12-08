@@ -1,8 +1,11 @@
 *{
-font-family: Fredorka One;
-text-transform: lowercase;
-font-size: 25px;
-color: #464646;
+font-family: Helvetica;
+&:first-letter {
+	text-transform: uppercase;
+}
+font-size: 30px;
+font-weight: bold;
+color: white;
 white-space: normal !important;
 }
 
@@ -18,8 +21,7 @@ ion-content {
 }
 
 @font-face {
-  font-family: Fredorka One;
-  src: url('../assets/fonts/Fredorka One');
+  font-family: Arial;
 }
 
 .service-title {
@@ -38,7 +40,7 @@ ion-content {
 
 .action-button {
     background-color: rgba(255,255,255,0.2) !important;
-    color: #464646;
+    color: white;
     font-size: 25px;
 	border-radius:16px;
 	min-height: 90px;
@@ -59,4 +61,8 @@ ion-content {
 	&:not(:last-child){
 		margin-bottom: 15px;
 	}
+}
+
+.ion-navbar {
+	color: black;
 }
