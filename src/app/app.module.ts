@@ -42,6 +42,8 @@ import {SleepingProblemsPage} from '../pages/sleeping-problems/sleeping-problems
 import {StressPage} from '../pages/stress/stress';
 import {MotivationalQuotesPage} from '../pages/motivational-quotes/motivational-quotes';
 
+import {SearchFilterPipe} from './filter.pipe';
+
 
 import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
@@ -91,8 +93,9 @@ import { DocumentViewer } from '@ionic-native/document-viewer';
         SleepingProblemsPage,
         StressPage,
         YoutubePipe,
-        MotivationalQuotesPage
-        
+        MotivationalQuotesPage,
+        SearchFilterPipe
+
     ],
     imports: [
         NgCalendarModule,
