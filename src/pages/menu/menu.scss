@@ -10,6 +10,9 @@ page-menu {
     width: 150px;
     opacity: 0;
     animation: menu-transition 1s ease 0s forwards;
+    img {
+      height:45px;
+    }
   }
 
   @keyframes menu-transition {
