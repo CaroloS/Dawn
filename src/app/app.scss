@@ -21,25 +21,16 @@ ion-content {
 	background-size: cover;
 }
 
-.service-title {
-	background-color: rgba(0,0,0,0.15) !important;
-	color: none;
-}
-
-.service-information {
-	background-color: rgba(0,0,0,0.15) !important;
-	color: none;
-}
-
-.video-title {
-	background-color: rgba(0,0,0,0.15) !important;
-}
-
 .action-button {
-  background-color: rgba(0,0,0,0.15) !important;
+  background-color: rgba(104,104,104,0.3) !important;
 	border-radius:16px;
 	min-height: 90px;
 	width: 100%;
+  transition: border 0.3s ease-in-out;
+  border: 2px solid transparent !important;
+  &:active, &:hover {
+    border: 2px solid rgb(255, 168, 37) !important;
+  }
 	.block-item {
 		:not(:last-child)
 		{
@@ -47,12 +38,7 @@ ion-content {
 			padding: 10px;
 		}
 	}
-	&.item-block {
-		border: none !important;
-			.item-inner {
-				border: none !important;
-	}
-}
+
 	&:not(:last-child){
 		margin-bottom: 15px;
 	}
@@ -61,10 +47,9 @@ ion-content {
 .paragraph {
     font-size: 30px !important;
     color: white !important;
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: rgba(104,104,104,0.3) !important;
     border-radius: 16px;
     margin-bottom:20px;
-    display:list-item;
     .li {
       list-style-type: circle;
       displays: inline;
@@ -92,19 +77,23 @@ ion-card-title {
 
 }
 
-//revisit to change alert button and make consistent
-.alert-head {
-  background-color: rgba(0, 0, 0, 0.3) !important;
-}
-
-.alert-message {
-  background-color: rgba(0, 0, 0, 0.3) !important;
-}
-
-.alert-button {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+.alert-wrapper {
+  background-color: rgba(72, 72, 72, 0.95) !important;
 }
 
 .slidebar {
   font-size: 10px !important;
 }
+
+.item-block .item-inner {
+  border-bottom: none !important;
+}
+
+ion-icon {
+  min-height: auto !important;
+}
+
+.item-block {
+  border: none !important;
+}
+
