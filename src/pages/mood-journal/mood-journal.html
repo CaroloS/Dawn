@@ -2,26 +2,36 @@
   <ion-navbar>
   </ion-navbar>
 </ion-header>
+
 <ion-content padding id="page39">
-    <p>Would you like to write in your mood journal?</p>
-    <button ion-button block (click)="addEvent()" class="action-button" >
-     Add entry
-    </button>
 
-    <h2>my mood</h2>
-            <canvas #doughnutCanvas style="height:300px;"></canvas>
+  <p>Would you like to write in your mood journal?</p>
+  <button block (click)="addEvent()" class="action-button">
+    Add entry
+  </button>
 
-    <p style="text-align:center">{{ viewTitle}}
-	</p>
-    <calendar [eventSource]="eventSource"
-      [calendarMode]="calendar.mode"
-      [currentDate]="calendar.currentDate"
-      (onEventSelected)="onEventSelected($event)"
-      (onTitleChanged)="onViewTitleChanged($event)"
-      (onTimeSelected)="onTimeSelected($event)"
-      step="30"
-      class="calendar">
-    </calendar>
+  <!--This paragraph displays the current month and year-->
+  <p style="text-align:center">{{ viewTitle}}</p>
 
+  <h2>My mood</h2>
+  <canvas #doughnutCanvas style="height:300px;"></canvas>
+
+  <!--
+  eventSource contains calendar data
+  calenderMode sets the calendar into month view
+  currentDate sets the current date to be highlighted on load
+  onEventSelected passes the date selected to the function
+  onTitleChanged this updates the displayed month and year when a user selects a different month
+  onTimeSelected this updates the time selected for a given day's entry into the mood journal
+  -->
+
+  <calendar [eventSource]="eventSource"
+            [calendarMode]="calendar.mode"
+            [currentDate]="calendar.currentDate"
+            (onEventSelected)="onEventSelected($event)"
+            (onTitleChanged)="onViewTitleChanged($event)"
+            (onTimeSelected)="onTimeSelected($event)"
+            class="calendar">
+  </calendar>
 
 </ion-content>
