@@ -12,7 +12,7 @@ export class MindfulnessPage {
 
   breatheAlert(event) {
       let alert = this.alertCtrl.create({
-          title: 'Breathe deeply',
+          title: '1. Breathe deeply<br><br>',
           subTitle: 'Meditation revolves around breathing. It\'s a great way to relax and centre yourself\. To begin practising, inhale for 3 seconds and exhale for 3 seconds. As you practice more, increase the amount of seconds\. ',
           buttons: ['x']
       })
@@ -21,8 +21,8 @@ export class MindfulnessPage {
 
   exerciseAlert(event) {
       let alert = this.alertCtrl.create({
-          title: 'Eat well and exercise',
-          subTitle: 'Mindful eating involves paying full attention to the experience of eating and drinking, both inside and outside the body. Pay attention to the colors, smells, textures and flavours. Pay attention to the experience of the body.  ',
+          title: '2. Eat well and exercise<br><br>',
+          subTitle: 'Mindful eating involves paying full attention to the experience of eating and drinking, both inside and outside the body. Pay attention to the colors, smells, textures and flavours. Pay attention to the experience.  ',
           buttons: ['x']
       })
       alert.present();
@@ -30,7 +30,7 @@ export class MindfulnessPage {
 
   noticeAlert(event) {
       let alert = this.alertCtrl.create({
-          title: 'Notice and listen',
+          title: '3. Notice and listen<br><br>',
           subTitle: 'Be present in the moment. Allow your mind to let go and simply notice what\'s around you. Listen to what others are saying, attempt to avoid judgements and focus on the content of what they\'re saying ',
           buttons: ['x']
       })
@@ -39,8 +39,8 @@ export class MindfulnessPage {
 
   gratitudeAlert(event) {
       let alert = this.alertCtrl.create({
-          title: 'Practice gratitude',
-          subTitle: 'Being grateful is important habit to form. It reminds us to enjoy what we have, rather than desiring what we don\'t. Write down 3 things you\'re grateful for when you wake up and be specific.',
+          title: '4. Practice gratitude<br><br>',
+          subTitle: 'Being grateful is an important habit to form. It reminds us to enjoy what you have, rather than desiring what you don\'t. Write down 3 things you\'re grateful for when you wake up and be specific.',
           buttons: ['x']
       })
       alert.present();
