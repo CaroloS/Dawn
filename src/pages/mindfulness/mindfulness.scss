@@ -1,9 +1,11 @@
 page-mindfulness {
-
   .clear {
     clear: both;
   }
 
+  .slide-item-1 {
+    padding-top: 10px;
+  }
   .slide-toggle {
     display: none;
     &:checked + label * {
@@ -65,5 +67,8 @@ page-mindfulness {
 
   .slidemenu .slide-toggle:checked + label {
     opacity: 1;
+  }
+  .ion-icon {
+    padding-top: 30px;
   }
 }
