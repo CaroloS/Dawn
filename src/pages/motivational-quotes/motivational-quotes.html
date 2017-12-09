@@ -3,102 +3,13 @@
   </ion-navbar>
 </ion-header>
 <ion-content padding id="page29">
-<p>This page includes great quotes can be inspirational and motivational. You can use quotes to help guide your decisions in life, work and love. Here are 50 of the best inspirational quotes to motivate you.</p>
-       <a class="first-item" href="#" (click)="openWithInAppBrowser('https://www.entrepreneur.com/article/247213')" id="hyperlink1">
-                Click here for more motivational quotes
-            </a>
-  <ion-list id="inspirationalVideos-list5">
-    <ion-item class="paragraph">
-	Nothing is impossible, the word itself says 'I’m possible'! <br>— Audrey Hepburn
-    </ion-item>
-    <ion-item class="paragraph">
-	I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. <br>— Maya Angelou
-    </ion-item>
-    <ion-item class="paragraph">
-	Whether you think you can or you think you can’t, you’re right. <br>— Henry Ford
-    </ion-item>
-    <ion-item class="paragraph">
-	Perfection is not attainable, but if we chase perfection we can catch excellence. <br>— Vince Lombardi
-    </ion-item>
-    <ion-item class="paragraph">
-	Life is 10% what happens to me and 90% of how I react to it. <br>— Charles Swindoll
-    </ion-item>
-    <ion-item class="paragraph">
-	If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough. <br>— Oprah Winfrey
-    </ion-item>
-    <ion-item class="paragraph">
-	Remember no one can make you feel inferior without your consent. <br>— Eleanor Roosevelt
-    </ion-item>
-    <ion-item class="paragraph">
-	I can’t change the direction of the wind, but I can adjust my sails to always reach my destination. <br>— Jimmy Dean
-    </ion-item>
-	  <ion-item class="paragraph">
-	Believe you can and you’re halfway there. <br>— Theodore Roosevelt
-	  </ion-item>
-	  <ion-item class="paragraph">
-	To handle yourself, use your head; to handle others, use your heart. <br>— Eleanor Roosevelt
-	  </ion-item>
-	  <ion-item class="paragraph">
-	Too many of us are not living our dreams because we are living our fears. <br>— Les Brown
-	  </ion-item>
-	  <ion-item class="paragraph">
-	Do or do not. There is no try. <br>— Yoda
-	  </ion-item>
-	  <ion-item class="paragraph">
-	Whatever the mind of man can conceive and believe, it can achieve. <br>— Napoleon Hill
-	  </ion-item>
-	  <ion-item class="paragraph">
-	Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, dream, discover. <br>— Mark Twain
-	  </ion-item>
-	  <ion-item class="paragraph">
-	I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed. <br>— Michael Jordan
-	  </ion-item>
-	  <ion-item class="paragraph">
-	Strive not to be a success, but rather to be of value. <br>— Albert Einstein
-	</ion-item>
-	<ion-item class="paragraph">
-	I am not a product of my circumstances. I am a product of my decisions. <br>— Stephen Covey
-  	</ion-item>
-	  <ion-item class="paragraph">
-	When everything seems to be going against you, remember that the airplane takes off against the wind, not with it. <br>— Henry Ford
-	  </ion-item>
-	  <ion-item class="paragraph">
-	The most common way people give up their power is by thinking they don’t have any. <br>— Alice Walker
-	  </ion-item>
-	  <ion-item class="paragraph">
-	The most difficult thing is the decision to act, the rest is merely tenacity. <br>— Amelia Earhart
-	  </ion-item>
-	  <ion-item class="paragraph">
-	It is during our darkest moments that we must focus to see the light. <br>— Aristotle onassis
-	  </ion-item>
-	  <ion-item class="paragraph">
-	Don’t judge each day by the harvest you reap but by the seeds that you plant. <br>— Robert Louis Stevenson
-	  </ion-item>
-	  <ion-item class="paragraph">
-	The only way to do great work is to love what you do. <br>— Steve Jobs
-	  </ion-item>
-	  <ion-item class="paragraph">
-	Change your thoughts and you change your world. <br>— Norman Vincent Peale
-	  </ion-item>
-	  <ion-item class="paragraph">
-	The question isn’t who is going to let me; it’s who is going to stop me. <br>— Ayn Rand
-	  </ion-item>
-	  <ion-item class="paragraph">
-	If you hear a voice within you say "you cannot paint" then by all means paint and that voice will be silenced. <br>— Vincent Van Gogh
-	  </ion-item>
-	  <ion-item class="paragraph">
-	Build your own dreams, or someone else will hire you to build theirs. <br>— Farrah Gray
-	  </ion-item>
-	  <ion-item class="paragraph">
-	Remember that not getting what you want is sometimes a wonderful stroke of luck. <br>— Dalai Lama
-	  </ion-item>
-	  <ion-item class="paragraph">
-	You can’t use up creativity. The more you use, the more you have. <br>— Maya Angelou
-	  </ion-item>
-	  <ion-item class="paragraph">
-	I have learned over the years that when one’s mind is made up, this diminishes fear. <br>— Rosa Parks
-  	</ion-item>
-   </ion-list>
+  <button class="action-button" on-click="this.randomQuote()">
+    New quote
+  </button>
+  <br><br>
+  <ion-item class="paragraph">
+    {{quoteText}}<br><br>––{{quoteName}}
+  </ion-item>
 </ion-content>
 
 

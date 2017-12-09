@@ -1,3 +1,20 @@
 page-inspirational-videos {
 
+  .action-button {
+    background-color: rgba(104, 104, 104, 0.3) !important;
+    border-radius: 16px;
+    min-height: 90px;
+    width: 100%;
+    transition: border 0.3s ease-in-out;
+    border: 2px solid transparent !important;
+    &:active, &:hover {
+      border: 2px solid rgb(255, 168, 37) !important;
+    }
+    .block-item {
+      :not(:last-child) {
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    }
+  }
 }
