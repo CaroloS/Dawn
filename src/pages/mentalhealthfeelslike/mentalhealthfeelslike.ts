@@ -28,4 +28,8 @@ export class MentalhealthfeelslikePage {
 //   {img src = "assets/img/DhIGBJ8R0mgH93QlOldg_15.jpeg"}
 //   {img src = "assets/img/kWyGS92WQumQvj8uqZsm_13.jpg"}
 //   {img src = "assets/img/sIJchlTTF2nlvceE45JS_16.jpg"}
-// ]
+// // ]
+//
+// randomMeme(){
+//   let meme = this.Memes[Math.floor(Math.random()*this.Quotes.length)];
+//   this.quoteText = quote.quote;
