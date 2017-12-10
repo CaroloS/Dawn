@@ -45,7 +45,7 @@ export class MotivationalQuotesPage {
     {quote:"When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.", name:"Henry Ford"},
     {quote:"The most common way people give up their power is by thinking they don’t have any.", name:"Alice Walker"},
     {quote:"The most difficult thing is the decision to act, the rest is merely tenacity.", name:"Amelia Earhart"},
-    {quote:"It is during our darkest moments that we must focus to see the light.", name:"Aristotle onassis"},
+    {quote:"It is during our darkest moments that we must focus to see the light.", name:"Aristotle Onassis"},
     {quote:"Don’t judge each day by the harvest you reap but by the seeds that you plant.", name:"Robert Louis Stevenson"},
     {quote:"The only way to do great work is to love what you do.", name:"Steve Jobs"},
     {quote:"Change your thoughts and you change your world.", name:"Norman Vincent Peale"},
