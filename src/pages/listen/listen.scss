@@ -1,14 +1,9 @@
 page-listen {
 
-.video-title {
-	font-size: 25px;
-	background-color: rgba(255,255,255,0.2);
-}
-
-.video {
-	position:relative; 
-	overflow:hidden; 
-	padding-bottom:56.25%;
-}
+  .paragraph {
+    //position:relative;
+    overflow:hidden;
+    min-height: unset !important;
+  }
 
 }

@@ -1,3 +1,14 @@
 page-carer-support {
 
+  ion-thumbnail {
+    text-align: center !important;
+    img {
+      display: inline-block !important;
+      padding-top: 8px;
+    }
+  }
+
+  .paragraph:last-child {
+    padding-top: 0px;
+  }
 }
