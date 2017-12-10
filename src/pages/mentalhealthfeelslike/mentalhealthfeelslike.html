@@ -6,13 +6,16 @@
   <ion-item class="paragraph">
     <p>Difficulty putting it into words? You might relate to some of the #MentalHealthFeelsLike memes.</p>
   </ion-item>
+  <button class="action-button" on-click="this.randomMeme()">
+    New meme
+  </button>
   <ion-item class="paragraph">
-    {{Meme}}
+   <img src="{{imageSource}}">
   </ion-item>
   <ion-item class="paragraph">
     <p>Follow the #MentalHealthFeelsLike campaign <a href="#"
-                                                    onclick="cordova.InAppBrowser.open('http://www.mentalhealthamerica.net/feelslike', '_blank', 'location=yes'); return false;"
-                                                    id="hyperlink1">here</a>.</p>
+                                                     onclick="cordova.InAppBrowser.open('http://www.mentalhealthamerica.net/feelslike', '_blank', 'location=yes'); return false;"
+                                                     id="hyperlink1">here</a>.</p>
   </ion-item>
 
 
