@@ -3,11 +3,17 @@
   </ion-navbar>
 </ion-header>
 <ion-content padding id="page38">
+
+  <!-- Search bar with ID 'search' -->
   <ion-searchbar #search></ion-searchbar>
-  <ion-list  no-lines *ngFor="let section of services">
-    <ion-item class="paragraph">
+
+  <!-- for each key of the section object, filter using our custom pipe searchfilter -->
+  <ion-list  no-lines *ngFor="let section of services|searchfilter: ['links', 'keywords']:search.value">
+    <!-- if the links array within this section is empty, do not display this section -->
+    <ion-item class="paragraph" *ngIf="section.links.length > 0">
       {{section.title}}
-      <a *ngFor="let link of section.links|searchfilter: 'text':search.value" class="item" href="#" (click)="openWithInAppBrowser(link.url)">
+      <!-- for each key of the links array within this section, display a hyperlink -->
+      <a *ngFor="let link of section.links" class="item" href="#" (click)="openWithInAppBrowser(link.url)">
         {{link.text}}
       </a>
     </ion-item>
