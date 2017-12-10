@@ -1,36 +1,45 @@
 page-event-modal {
 
+  h2 {
+    padding-left: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #464646;
+  }
 
-h2 {
-  padding-left: 10px;
-  font-size: 25px;
-  margin-top: 10px;
-  color: #464646;
-}
+  #goodlabel {
+    color: #666600;
+  }
 
-#goodlabel {
-color: #666600;
-}
-
-
-#myInput {
+  #myInput {
     height: 250px;
-}
+  }
 
-#endtime {
-  border-color: rgba(0,0,0,0)
-}
+  #endtime {
+    border-color: rgba(0, 0, 0, 0)
+  }
 
-#submit {
-  background-color: rgba(255, 255, 255, 0.2);
-  width:350px;
-  color: white;
-  border-radius: 10px;
-}
+  #submit {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 350px;
+    color: white;
+    border-radius: 10px;
+  }
 
   .option-bad {
     color: red !important;
   }
 
+ .item * {
+    color: black !important;
+  }
 
+  .button-inner {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  .item-block {
+    min-height: unset !important;
+  }
 }

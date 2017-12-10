@@ -40,7 +40,7 @@ export class MindfulnessPage {
   gratitudeAlert(event) {
       let alert = this.alertCtrl.create({
           title: '4. Practice gratitude<br><br>',
-          subTitle: 'Being grateful is an important habit to form. It reminds us to enjoy what you have, rather than desiring what you don\'t. Write down 3 things you\'re grateful for when you wake up and be specific.',
+          subTitle: 'Being grateful is an important habit to form. It can remind you to enjoy what you have, rather than desiring what you don\'t. Write down 3 things you\'re grateful for when you wake up, try to be specific.',
           buttons: ['x']
       })
       alert.present();
